@@ -1,0 +1,67 @@
+Geld, Bitcoins, Regionalwährungen, 
+
+Kann man sein eigenes Geld machen ? Gibt es so etwas wie open-source Währungen ? Wie funktioniert Geld überhaupt ?
+
+Bevor ich mich an einer näheren Erklärung von Bitcoins versuche zuerst eine Erklärung, was Geld überhaupt ist:
+
+
+Ähnlich wie Zeit, die man zwar gut messen kann, aber die selbst Physiker nicht erklären können ist Geld gar nicht so leicht definierbar. In erster Linie ist Geld eine Verrechnungseinheit, außerdem ein Zahlungsmittel. 
+
+Laut [[https://de.wikipedia.org/wiki/Geld Wikipedia]] ist "Geld ist jedes allgemein anerkannte Tausch- und Zahlungsmittel"
+
+Geld sollte gewisse Eigenschaften erfüllen, um allgemein anerkannt zu sein. Wichtige Funktionen von Geld sind:
+
+ * Zahlungsmittel: nicht beliebig vermehrbar (Fälschungsverbot)
+ * Wertaufbewahrungsmittel: Geld sollte gut haltbar und lagerbar sein. 
+ * gut messbar und gut teilbar in kleinere Einheiten
+ * Wertmaßstab und Recheneinheit. Über die Kaufkraft von Geld sollte allgemeiner Konsens herrschen.
+ * Nicht notwendigerweise hat Geld auch einen direkten Gebrauchswert, z.B. als Nahrung oder Schmuck. 
+
+
+Zur Recheneinheit:
+
+Laut [[http://de.wikipedia.org/wiki/Adam_Smith|Adam Smith]]  hat die Menschheit vor Erfindung von Geld nur Tauschwirtschaft betreiben können, was ziemlich umständlich gewesen sein muss: Wenn ich eine Fass kaufen Bier will und eine Ziege verkaufen kann, und das Bier kostet genau ein Achtel einer Ziege, was mache ich dann mit dem Rest der (7/8) der Ziege ? 
+
+David Graebner behauptet in seinem  Buch [[https://en.wikipedia.org/wiki/Debt:_The_First_5000_Years|Schulden: die ersten 5.000 Jahre]] dass Adam Smith's Theorie zur Geld-losen Zeit die Fähigkeiten der vor-Geld Gesellschaft grob unterschätzt: Ausgehend auf Beobachtungen "Primitver" Gesellschaften kommt er zum Schluss dass Menschen auch ohne Bargeld eine sehr genaue Vorstellung davon wer wem wie viel schuldet. Wobei Schulden mangels Geld nicht in Zahlen sondern in Gefälligkeiten gezählt werden. Dieses "soziale" Verrechnungssystem hat sich bis in die heutige zivilisierte Welt gehalten, ohne dass wir viel darüber nachdenken: Wir wissen dass wir dem Nachbarn einen Gefallen Schulden wenn wir uns seine Bohrmaschine ausborgen, und wir wissen dass die Bekannte uns ein leckeres Essen (und einen Gefallen) schuldet wenn wir ihr helfen beim Umzug die Möbel zu schleppen. Laut Graebner gab es Schulden (im Sinne von Verpflichtungen) lange Zeit bevor es Geld gab. 
+
+Dieses soziale Verrechnungssystem hat gegen Geld so wie wir es kennen einen entscheidenden Nachteil: es setzt voraus dass sich die Leute kennen, bzw. sicher sein können sich später einmal wieder zu treffen um "Schulden begleichen" zu können. Zwischen Fremden (z.B. Soldaten oder Seeleuten auf Durchreise) funktioniert dies Art Geschäfte zu machen schlecht. 
+
+Speziell bewaffnete Soldaten (traditionell mit der Erlaubnis zum Plündern "bezahlt") haben sehr wenig Interesse daran Ihre Opfer später wieder zu sehen. Sie bevorzugen gut transportables, lange haltbares Plündergut welches sich bequem beliebig auftelen und gegen Waren und Dienstleistungen eintauschen lässt. Das sind neben Vieh und Sklaven vor allem Schmuck oder Gegenstände mit hohem Wert pro Masse (um den Transport zu erleichtern) was erklärt warum Gold so beliebt ist. Im Gegensatz zu wesentlich nützlicheren Metallen rostet Gold nicht. Außerdem ist der Einschmelz- und Prägeprozess relativ simpel. Aus der Geschichte ist überliefert dass plündernde Soldaten üblicherweise noch an Ort und Stelle Gold zu Barren einschmolzen.
+
+Gebrauchswert:
+
+Gold ist historische gesehen bei weitem nicht das einzige Zahlungsmittel: Neben anderen Metallen (Silber, Kupfer) variierte das gängige Zahlungsmittel je nach Region. In Teilen Afrikas war die Kauri-Muscheln  sowohl als Schmuck als auch als Zahlungsmittel beliebt und fand ihren Weg (als Schmuck) bis nach Europa, auf manchen Pazifikinseln wurde äußerst unhandliches Steingeld verwendet, in Japan wurde Steuer, Reichtum und Armeesold praktischerweise in Reis verrechnet. In Teilen Europas wurde bis ins 20. Jahrhundert mangels Münzen und Schreibkundigen das Kerbholz zur Aufzeichnung von Schulden verwendet.
+
+
+
+Konsens bezüglich Kaufkraft:
+
+
+Mit Geld können auch Fremde miteinander Geschäfte machen, ein späterer Kontakt nicht mehr notwendig ist. Sofern man sich auf den Wert des Zahlungsmittels (z.B. wieviel Gramm Gold ein Fass Bier wert ist) einigt ist ein Geschäft sofort abgeschlossen und auch bezahlt.
+
+Im Prinzip kann jeder sein eigenes Geld erschaffen: Ein Bäcker kann z.B. (Geschenk)Gutscheine an seine Kunden verkaufen  die dem Wert einer frisch gebackenen Semmel entsprechen, jederzeit einlösbar. Ist der Bäcker im Ort gut bekannt (und steht nicht im Verdacht, plötzlich zu verschwinden) so kann etwas interessantes passieren: Die Kunden des Bäckers können die Gutscheine zur gegenseitigen Bezahlung nutzen, z.B. für Babysitten, Haareschneiden oder andere Dienstleistungen. Das funktioniert sogar dann, wenn nur einer von 2 Geschäftspartnern welche mit Bäckereigutscheinen bezahlen ein persönlicher Kunde des Bäckers ist. Alles was den Wert der "Währung Bäckergutschein" ist das Vertrauen darin, dass der Gutschein jederzeit in der Bäckerei einlösbar ist. Wenn der Ruf des Bäckers gut genug ist können sogar Menschen mittels Bäckereigutscheine Geschäfte machen, obwohl keiner von beiden selbst Kunde des Bäckers ist. Wichtig ist, dass beide Geschäftspartner genug Leute kennen welche die Bäckereigutscheine als Zahlungsmittel akzeptieren.
+
+
+
+Bitcoins 
+
+
+Bitcoins, open-source Geld ?
+
+Zu dem Zeitpunkt wo ich diese Zeilen (8. Dez. 2013) schreibe habe ich insgesamt um vielleicht 200 Euros Bitcoins gekauft. Viele davon vernichtete ich bei einem schlecht verlaufenem Festplatten Backup. Laut der Anzeige meiner Bitcoin Wallet auf meinem Smartphone besitze ich gerade 3,86076004 Bitcoins. Laut Tauschbörse Bitcoin.de hätte ich dafür am 30.11.2013 genau 3.225,- Euros erhalten (1BC=835,37€); inzwischen ist der Kurs gesunken (1BC=640,4€) und meine Bitcoins sind "nur" noch 2.472,- Euros wert. Möglicherweise sind meine Bitcoins schon morgen gar nichts mehr wert, weil sie vom Staat verboten werden, aus einem anderen Grund keiner mehr damit handeln will oder weil eine neue, viel bessere Währung im Internet entsteht. Sehr wahrscheinlich sinkt der Kurs noch weiter. Und vielleicht steigt der Bitcoin Kurs danach irgendwann wieder, vielleicht sogar über das derzeitige "All-time-high" 900 US$).
+
+Kurzum, Bitcoins sind nichts für Leute mit schwachen Nerven.
+
+Nehmen wir an ich hätte Bitcoins um 200 Euro vor 2 Jahren gekauft (was nicht stimmt, ich kaufte immer wieder kleine Beträge) und würde jetzt verkaufen (was ich nicht vorhabe): Dann hätte ich eine effektive Verzinsung von 251,6% Jahreszinsen gehabt. (Mein Bank gibt mir auf einem ungebundenen Sparbuch derzeit 0,062% Zinsen). Ich hätte auf einem Sparbuch in 2 Jahren aus den 200 Euros ganze 200 Euros und 25 Cent gemacht (Zinseszins Rechnung exclusive Kest, Gebühren etc., in der Praxis bekomme ich eher 9 Cent.) . Zum Vergleich: die [[http://de.inflation.eu/inflationsraten/osterreich/historische-inflation/vpi-inflation-osterreich-2013.aspx|Inflationsrate in Österreich lag 2013]] bei 2.08% ... so viel Zinsen hätte ich auf meinem Sparbuch bekommen müssen um kein Geld zu verlieren.
+
+Eine Verzinsung von 251,6% bekommt man auf keiner Bank der Welt, und schon gar nicht durch ehrliche Arbeit. Was mache ich mit meinem erspekuliertem Bitcoin Vermögen ? 
+
+Gestern habe ich mir [[http://www.fightforthefuture.org/|ein T-Shirt gekauft]] (0,0301 BC) sowie [[https://www.humblebundle.com/|Software]] (0,026 BC). Auerdem freue ich mich wenn Organisationen [[http://go-bitcoin.com/2012-12-17-nachgereicht-worpresscom-und-bund-nehmen-bitcoin|Spenden oder Bezahlung]] per Bitcoins akzeptieren. Und ich warte darauf dass ich meinen ersten [[http://spielend-programmieren.at|Computerkurs]] in Bitcoins bezahlt bekomme. Bis jetzt rufen mich nur Leute an die "im Internet" gelesen habe dass ich "mit Bitcoins handle". Meist sind sie dann sehr enttäuscht wenn ich erkläre dass ich Bitcoin als Zahlungsmittel (für von mir angebotene Schulungen und Dienstleistungen) aktzeptiere, aber nicht mit Bitcoins handle.
+
+Kurzum, ich versuche Bitcoins in den Waren- und Wertschöpfungskreislauf einzubringen, als Ergänzung zum Euro und anderen Währungen.
+
+Was sind jetzt Bitcoins, und was haben sie mit freier Software / open source zu tun ?
+
+Bitcoins sind eine Art elektronisches Geld, basierend auf freier Software ... der Quellcode der Bitcoin Software ist für jedermann einsehbar. 
+
+

@@ -1,0 +1,22 @@
+==== Das Ziegenproblem --- Matherätsel ====
+TODO: ausbauen
+
+**Die Aufgabenstellung:** \\
+Sagen wir mal so, du bist der Kandidat in einer Quizshow und ich bin der Moderator \\
+Zu gewinnen gibt es ein Auto (wertvoll) oder eine Ziege (nicht so wertvoll) \\
+Insgesamt gibt es 3 Türen, hinter zwei davon sind Ziegen und hinter einer das heiß ersehnte Auto\\
+Du wählst z.B. Türe 1, ich als Moderator öffne eine Türe, die du nicht ausgewählt hast und zum Vorschein\\
+kommt eine Ziege; ich frage dich nun: willst du bei deiner Entscheidung bleiben oder doch lieber die\\
+andere Türe wählen? \\
+
+**Die Lösung:** \\
+Es gibt insgesamt drei  Versuchsausgänge, \\
+  * Fall 1: Das Auto ist hinter Türe 1, du wählst auch Tür 1, der Moderator fragt dich, ob du bei der Wahl bleiben willst oder doch lieber ändern willst (und öffnet Türe 2 oder 3), du bleibst bei deiner Entscheidung und gewinnst das Auto! \\  
+
+  * Fall 2: Das Auto ist hinter Türe 2, du wählst auch Tür 1, der Moderator fragt dich, ob du bei der Wahl bleiben willst oder doch lieber ändern willst (und öffnet Türe 3), du bleibst bei deiner Entscheidung und verlierst und bekommst die Ziege! \\  
+
+  * Fall 3: Das Auto ist hinter Türe 3, du wählst auch Tür 1, der Moderator fragt dich, ob du bei der Wahl bleiben willst oder doch lieber ändern willst (und öffnet Türe 2), du bleibst bei deiner Entscheidung und verlierst und bekommst die Ziege! \\  
+
+Demnach gibt es zwei Fälle, wo du gewinnen würdest, wenn du deine Entscheidung änderst und einen Fall, wo du das Auto doch nicht gewinnst! Demnach ist es besser wenn du änderst, weil du in zwei von drei Fällen das Auto gewinnst!
+
+//Dieses Problem wurde 1990 von Steve Selvin vorgestellt

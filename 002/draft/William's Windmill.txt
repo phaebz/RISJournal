@@ -1,0 +1,32 @@
+William Kamkwamba
+
+
+<note important>Todo: Aufräumen, kürzen, wikimedia-Bilder verweende</note>
+[{{ http://images.ted.com/images/ted/117463_254x191.jpg |William Kamkwamba, Bildquelle: [[http://www.ted.com/speakers/william_kamkwamba.html|TED.com]]}}]
+[{{ :de:ris:2013:001:600px-william_kamkwamba_at_ted_in_2007.jpg?250 |William Kamkwamba beim TED-2007 Vortrag. Bildquelle: [[http://commons.wikimedia.org/wiki/File:William_Kamkwamba_at_TED_in_2007.jpg|Wikiimedia]] Lizenz: [[http://creativecommons.org/licenses/by/2.0/deed.en|cc-by-sa]]}}]
+[{{ :de:ris:2013:001:800px-kamkwamba_and_mealer.jpg?250 ||William Kamkwamba und Co-Autor Bryan Mealer beim Buchsignieren. Bildquelle: [[http://commons.wikimedia.org/wiki/File:Kamkwamba_and_Mealer.jpg|Wikimedia]]. Bildrechte: [[http://en.wikipedia.org/wiki/en:public_domain|Public Domain]]}}]
+[{{ :de:ris:2013:001:william_kamkwambas_old_windmill.jpg?250 |William's altes Windkraftwerk. Bildquelle: [[http://commons.wikimedia.org/wiki/File:William_Kamkwambas_old_windmill.jpg|Wikimedia]] Bildrechte: [[http://creativecommons.org/licenses/by/2.0/deed.en|cc-by]]}}]
+[{{ :de:ris:2013:001:william_kamkwambas_new_windmill.jpg?250 |William's neues Windkraftwerk. Bildquelle: [[http://commons.wikimedia.org/wiki/File:William_Kamkwambas_new_windmill.jpg|Wikimedia]]. Bildrechte: [[http://creativecommons.org/licenses/by/2.0/deed.en|cc-by]]}}]
+
+<html><div style="float:left; padding:10px;"><a href="http://www.amazon.de/gp/product/3424150436/ref=as_li_ss_il?ie=UTF8&camp=1638&creative=19454&creativeASIN=3424150436&linkCode=as2&tag=spielendprogr-21"><img border="0" src="http://ws.assoc-amazon.de/widgets/q?_encoding=UTF8&ASIN=3424150436&Format=_SL160_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=spielendprogr-21" title="Amazon-Link"><br>Amazon-Link</a></div></html>
+
+[[http://de.wikipedia.org/wiki/William_Kamkwamba|William Kamkwamba]]((http://de.wikipedia.org/wiki/William_Kamkwamba)) erzählt (mit Co-Author [[http://www.bryanmealer.com/|Bryan Mealer]])((http://www.bryanmealer.com/)) seine Geschichte im Buch [[http://www.amazon.de/gp/product/3424150436/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3424150436&linkCode=as2&tag=spielendprogr-21|Der Junge, der den Wind einfing: Eine afrikanische Heldengeschichte]]: William wuchs auf in der elterlichen Maisfarm in [[wpde>Malawi]] (Ostafrika). Bereits 2002, mit 14 Jahren, musste er die Schule verlassen da seine Eltern aufgrund einer Hungersnot verschuldet waren und kein Schulgeld mehr hatten. In der örtlichen Bücherei sah er in den englischen Büchern "using energy" und "explaining physics" das Bild eines Windrades. Da er nur sehr schlecht englisch lesen konnte brachte er sich so viel wie möglich über durch die Bilder und Zeichnungen in den Büchern selbst bei. Während seine reicheren Mitschüler weiterhin zur Schule gehen durften durchsuchte William Autowracks auf Schrottplätzen nach verwertbaren Teilen ab und schmolz alte Plastikrohre ein umd daraus Rotorenblätter zu machen. Schließlich bastelte er sein erstes funktionierendes Windkraftwerk aus einem selsbt gebautem Holzturm, Schrottteilen und einem Fahrrad mit Dynamo zusammen. Mit der elektrischen Energie des Windrades konnte seine Familie 4 Glühbirnen betreiben (und dadurch Geld für Petroleum und Batterien sparen) sowie Radio hören. Nachbarn kamen um ihre Handys aufzuladen. William baute Lichtschalter aus alten Schuhen und eine Sicherung. An seiner ehemaligen Schule wurde er eingeladen ein Windrad für die Schüler zu bauen. Dieses Windrad fiel Schulinspektoren auf, die wiederum Journalisten darauf aufmerksam machten. Die Zeitungsmeldungen wurden 2006 von Bloggern ( z.B. [[http://www.vdomck.org/2006/11/malawian-windmill.html|Hacktivate]]((http://www.vdomck.org/2006/11/malawian-windmill.html)) und [[http://www.afrigadget.com/2006/12/18/homemade-windmill-in-malawi/|AfriGadget]]((http://www.afrigadget.com/2006/12/18/homemade-windmill-in-malawi/)) ) verbreitet und William (damals 19) wurde 2007 auf eine [[http://www.ted.com/talks/william_kamkwamba_on_building_a_windmill.html|TED-Konferenz]]((http://www.ted.com/talks/william_kamkwamba_on_building_a_windmill.html)) in Tansania eingeladen wo er sein Projekt mit folgenden Worten vorstellte:
+
+''"I wanted to build a windmill...After i drop out from school, i went to a library and i read a book "using energy"
+i get information about windmill... and i try and i made it"''
+
+Die Szene wird nicht nur in seinem Buch beschrieben, sie ist auch auf [[http://www.youtube.com/watch?v=G8yKFVPOD6o|Youtube]] und [[http://www.ted.com/talks/william_kamkwamba_on_building_a_windmill.html|TED]] zu sehen:
+
+{{ youtube>G8yKFVPOD6o }} 
+
+Williams Leben hat sich seither sehr verändert, er bekam von Freunden eine sehr gute Schulausbildung spendiert, und er betreibt zusammen mit seinem Co-Autor einen [[http://williamkamkwamba.typepad.com/williamkamkwamba/archives.html|eigenen Blog]]((http://williamkamkwamba.typepad.com/williamkamkwamba/archives.html)). Sein Leben / seine Ideen [[http://movingwindmills.org/documentary|werden gerade verfilmt]]. Der Film [[http://movingwindmills.org/documentary|soll 2013 fertig sein]]((http://movingwindmills.org/documentary)), ein Kurzfilm existiert schon länger:
+
+{{ youtube>arD374MFk4w }}
+
+Außerdem gibt es schon einen Trailer für den Dokumentarfilm über ihn [[http://williamandthewindmill.com/|"William and the Windmill"]]:
+
+{{youtube>muxqfmwJ2Z8}}
+
+William's [[http://changeobserver.designobserver.com/entry.html?entry=10707|Ideen für die Zukunft]]((http://changeobserver.designobserver.com/entry.html?entry=10707)) entsprechen den Zielen der Energieautonomie, sind sehr inspirierend und hören keineswegs bei Windrädern auf - angeregt durch die zahlreichen Erfinder, NGO-Aktivisten und Mitschüler denkt er zur Zeit über solarbetriebene Dampfgeneratoren für Afrika nach und möchte sobald wie möglich eine Firma gründen die billige, umweltschonende regional erzeugte (Wind)Energie für ganz Afrika bereitstellt. 
+
+{{ youtube>lZHvmqwwrkw }}

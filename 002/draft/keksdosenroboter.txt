@@ -1,0 +1,79 @@
+==== Keksdosenroboter =====
+=== Einkaufsliste ===
+[{{ http://osdwiki.open-entry.com/lib/exe/fetch.php/de:ideen:merkur.png|Merkur Breakoutboard}}]
+  * 1 x Keksdose oder ähnliches
+  * 2 x Modellbauservos, z.B. FUTABA HS 3003 (~ 14,- €) oder Hightech HS300 (~ 11,- €)
+  * 1 x Modellbauakku 
+  * 1 x Merkur-breakoutboard von OSDoomotics: http://osdwiki.open-entry.com/doku.php/de:projekte:merkur 
+  * 2 x Rad z.B. Kaffedosendeckel
+  * 2 x Gummireifen für Rad, z.B. aus Motorradschlauch ausgeschnitten oder anderes Material
+  * 1 x Lochrasterplatine (Europakarte) (~ 1,- €)
+  * 1 meter Isolierdraht (schwarz)
+  * 1 meter Isolierdraht (rot)
+  * 1 x Stiftleiste
+  * 2 x Mikroschalter (à 1,- €)
+  * 2 x Federstahldrath oder ähnliches für die Fühler 
+  * 2 x Kunststoffperle oder ähnliches Kugerl für die Fühlerspitze 
+  * 4 x Schrauben und Muttern für Servos
+  * 4 x Schrauben und Muttern für Fühler
+  * 1 x Ping-Pong-Ball
+  * 1 x Klettband
+  * 1 x Kippschalter
+
+=== Werkzeug ===
+  * Lötzinn und Lötkolben
+  * Seitenschneider
+  * Stanely-Messer
+  * Bohrmaschine 
+
+
+
+=== Umbau eines Servos zum Roboterantriebsmotor === 
+
+Normalerweise wird ein Servo als Rudermaschine benutzt (z.B. das Verstellen des Höhenruders bei einem Flugzeug). Durch Umbau des Servos kann daraus ein Getriebemotor als Antrieb für einen Keksdosenroboter gemacht werden. http://www.forphys.de/Website/intface/umbau.html
+
+=== Fühler bauen ===
+
+Fühlerstangen mit Mikroschalter verbinden ( Kleben und Schrumpfschlauch )
+=== Bauanleitung ===
+
+  - Befestigungslöcher für Servoachse auf Dose anzeichnen und bohren (Servo soll auf Innenseite von Dosenboden aufliegen)
+  - Befestigungslöcher für Servohalterung auf Dosen anzeichnen
+  - Befestigungslöcher für Servohalterung bohren
+  - Loch für Kippschalter in Dose bohren
+  - Kabel auf Kippschalter 
+  - Servos mit doppelseitigem Klebeband auf Dosenboden ankleben, Serbos anschrauben mit Schrauben und Muttern ( Muttern sollen innen sein in Keksdose)
+  - Ein Loch für die Kabeldurchführung in den Dosenboden bohren
+  - Beide Mikroschalter von unten an Dosenboden halten und Befestigungslöcher anzeichnen
+  - Befestigungslöcher für Mikroschalter in Dosenboden bohren
+  - Mikroschalter mit Schrauben und Muttern anschrauben, Muttern sollen innen in Dose sein
+  - 4 x 15 cm schwarz Isolierdraht abschneiden ( 2 Kabel pro Mikroschalter )
+  - 2 x 15 cm roter Isolierdraht abschneiden ( für Kippschalter )
+  - Auf jedem Draht auf beiden Enden 5 mm abisolieren mit Staenlymesser (nicht mit den Zähnen!) 
+  - Kabelenden verzinnen 
+  - die Kontakte der Mikroschalters verzinnen
+  - die Kontakte des Kippschalters verzinnen
+  - Die Drähte an der richtigen Stelle der Mikroschalter anlöten (siehe Bild: Abstand Mikroschalter welches Harald noch schickt)
+  - Drähte durch das Loch in Dosenboden durchführen 
+  - Drähte von unten, außen an Dosenboden ankleben mit Superkleber damit sie nicht wegstehen
+  - Elektronik-print löten ( Lochrasterprint löten) (Harald schickt Schaltplanbild)
+  - Akku mit Klettband in Dose befestigen, sodass man ihn später leicht wechseln kann.
+  - Stecker auf Mikroschalterkabel auflöten, damit sie später auf anderen Steckplatz am Lochrasterplatine gesteckt werden können
+  - Elektronikprint im Dosengehäuse befestigen damit es nicht wackelt. Z.B. mit Holz oder Karton oder ähnlichem. NICHT Lochraster direkt auf Metall kleben -> Kurzschlussgefahr !
+  - Servomotorenkabel auf Lochrasterplatte draufstecken
+  - Mikroschalterkabel auf Lochrasterplatte draufstecken
+  - 2 rote Drähte auf Kippschalter drauflöten
+  - Auf Kippschalterdrähte einen Stecker drauflöten
+  - Kippschalter in Dose montieren sodass man ihn von außen bedienen kann, Kippschalter darf direkt Metall berühren.
+  - Kippschalterstecker auf Lochrasterplatine aufstecken
+  - Schalter auf AUS stellen
+  - den Akku mit Lochrasterplatine verbinden
+  - Schalter auf EIN schalten (Roboter sollte fahren)
+
+
+[{{https://lh4.googleusercontent.com/-p1FNsDDL8J4/URNi6h220FI/AAAAAAAAOuo/yBkPJ4Do4lE/s912/IMG_20121217_220007.jpg?400|Harald Pichler}}]
+[{{https://lh5.googleusercontent.com/-cbtxDB44m0o/URNi6vf3_oI/AAAAAAAAOuk/nDDD30_OZrk/s912/IMG_20130203_203332.jpg?400|Keksi Unterseite mit Fühlern}}]
+[{{https://lh5.googleusercontent.com/-JhAvWHNm5dE/URNi6uvHyjI/AAAAAAAAOuk/U9NXi41lj1E/s640/IMG_20130203_201137.jpg?250|Bauteile}}]
+[{{https://lh6.googleusercontent.com/-M15HTcuW_tE/URNi6ibIE9I/AAAAAAAAOuk/wDv_F-vZYFE/s912/IMG_20130203_200840.jpg?400|unaufgeräumtes Innenleben}}]
+[{{https://lh6.googleusercontent.com/-TP4YkzFf7Zk/URNi6rSkNKI/AAAAAAAAOuk/YKLxdrFEbTE/s912/IMG_20130203_200819.jpg?400|Vorderansicht mit Fühlern}}]
+[{{https://lh3.googleusercontent.com/-NOngIyUgfKg/URNi6u31QTI/AAAAAAAAOuk/wDWiupeot2E/s912/IMG_20130203_200802.jpg?400|Hinteransicht mit Ping-Pong-Ball als 3. Rad}}]

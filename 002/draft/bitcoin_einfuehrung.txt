@@ -1,0 +1,149 @@
+===== Bitcoins  =====
+
+
+<WRAP center round info 60%>
+[{{ :de:ris:2013:001:marcoholmer.jpg|[[http://go-bitcoin.com/|Marco Holmer]]}}]Die folgenden Artikel stammen (bis auf den Android-Teil) von [[http://go-bitcoin.com/|Marco Holmer]], welcher nicht nur auf http://go-bitcoin.com/ eine exzellente Bitcoin-Website betreibt (mit Videos!) sondern auch alle seine Inhalte [[http://creativecommons.org/licenses/by-sa/3.0/at/deed.en|Creative-Commons-Share-alike]] lizensiert, weshalb sie hier ungefragt(!) abgedruckt werden dürfen. \\
+Original-Artikel:
+  * http://go-bitcoin.com/2010-12-28-was-ist-bitcoin
+  * http://go-bitcoin.com/2011-01-09-bitcoin-einf%C3%BChrung 
+
+Lizenz: [[http://creativecommons.org/licenses/by-sa/3.0/at/deed.en|Creative-Commons-Attribution-Share-Alike]] \\ [[http://creativecommons.org/licenses/by-sa/3.0/at/deed.en|{{:de:ris:ccbysa88x31.png|cc-by-sa}}]]
+</WRAP>
+
+
+<WRAP column col2>
+<wrap em>Was ist Bitcoin?</wrap>
+
+kurz: Bitcoin ist elektronisches Bargeld für das Internetzeitalter.
+
+Andere Kurzbeschreibungen:
+
+{{:de:ris:2013:001:bc_coin_100.jpg |Bitcoin-Symbol}}
+  * Bitcoin ist  freies Geld, mit vielen Vorteilen traditionell stabiler Werte wie Edelmetalle kombiniert mit den Errungenschaften moderner Technik
+  * Bitcoin ist ein Kommunikationsmittel, für den Austausch von Werten mit anderen Menschen
+  * Was Email für Briefwechsel war, ist Bitcoin für Geld.
+
+Täglich tauschen wir Waren, Dienstleistungen und Werte aus und benutzen ganz selbstverständlich Geld. Auch im Internet ist das für die meisten mittlerweile üblich. Doch bislang gab es immer noch Gebühren und Hindernisse, lange Wartezeiten bei Banküberweisungen und andere Dinge, die im Zeitalter von blitzschneller Datenübertragung und beliebig verfügbarem Speicherplatz wie Relikte einer vergangen Zeit anmuten.
+
+Eine ganze Reihe elektronischer Währungen und Bezahlsystem haben versucht, einige dieser Probleme zu lösen. Bitcoin ist nicht einfach nur ein weiteres dieser System, sondern es ist grundlegend neu und anders. Nach meiner Einschätzung würde ich sogar soweit gehen zu sagen: Mit Bitcoin wird nichts wird mehr so sein wie es war. Es ist eine neue digitale Ware, die sich nur im Besitz eines einzigen Bitcoin-Teilnehmers befinden kann. Das stellt das gesamte Netzwerk sicher. So funktioniert es als Warengeld und eignet sich nicht nur zum Bezahlen, sondern auch für Investitionen, als eine Devise, als ein Wertaufbewahrungsmittel, als eine Mittlerwährung oder einfach als das, was es jetzt schon ist: ein Dienst für kostenlose Überweisungen innerhalb von Sekunden.
+
+Bitcoin ist neues, feies Geld. Als solches verlangt Bitcoin, bis zum Ursprung zurückzudenken und wirft grundlegende Fragen ganz neu auf: Wissen Sie was Geld eigentlich ist? Bitcoin hilft dabei, diese und andere Fragen klar zu stellen und manchmal überraschend neu zu beantworten. Dabei werden uralte wirtschaftliche Wahrheiten bewahrt und mit modernsten Möglichkeiten ausgestattet in unsere heutige Zeite eingebettet.
+
+Bitcoin hat einen frischen Charakter, nicht nur im Vergleich zu bisherigen Bezahlsystemen im Internet, sondern auch zu den meisten anderen heute üblichen Formen von Geld:
+
+  * es ist frei, es gibt keine Inhaber, Ausgabestellen, Zentralbanken, usw.
+  * dezentral, praktisch unangreifbares Peer-to-Peer Konzept ohne einzelne Schwachstelle
+  * einfach und zugänglich, Sie können es wortwörtlich innerhalb von Sekunden benutzen, sowohl zum Bezahlen als auch um Zahlungen zu erhalten. Einfacher als Email.
+  * offen, nicht nur die Software ist offen (quelloffen/Open-Source), der Zugang ist offen und kostenlos, alle automatisch ablaufende Kommunikation im Netzwerk ist offen und wird automatisch unzählige Male überprüft
+  * anonym, so anonym wie Bargeld
+  * sicher, durch die stärksten bekannten Verschlüsselungsverfahren, durch eingebaute, automatische gegenseitige  Überprüfung der Teilnehmer
+  * limitiert, vergleichbar zu Ressourcen wie z.B. Edelmetallen; nicht beliebig vermehrbar.
+  * schnell, Überweisungen werden innerhalb von Sekunden übertragen und nach und nach sichtbar automatisch überprüft und validiert
+  * stets verfügbar, Serverausfälle oder ähnliche Fehler sind ausgeschlossen
+
+----
+<wrap em>Bitcoin installieren</wrap>
+
+<wrap em>Bitcoin am Android</wrap>
+
+Wer kleinere Bitcoin-Beträge immer griffbereit haben will, kann sich Bitcoin -anlaog zu einer Geldbörse- bequem auf jedem Android-Smartphone installieren: 
+[{{ :de:ris:2013:001:bitcoinwalletscreenshot2.png|[[https://play.google.com/store/apps/details?id=de.schildbach.wallet|Bitcoin-Wallet App]]. Bildquelle: Google Play Store}}]
+  * Einfach die App [[https://play.google.com/store/apps/details?id=de.schildbach.wallet|Bitcoin-Wallet]]((https://play.google.com/store/apps/details?id=de.schildbach.wallet)) mit dem Google Play Store installieren. Danach jemanden finden, der Bitcoins überweist (z.B. auf einem lokalen Bitcoin-Treffen) und man kann loslegen. Die App erlaubt sowohl das Senden als auch das Empfangen von Bitcoins und kann auch QR-Codes generieren und lesen, um das umständliche Eintippen einer Bitcoin-Adresse zu ersparen. Allerdings gilt: wer sein Smartphone verliert, hat auch seine Bitcoins verloren ! Um Verlust oder Diebstahl vorzubeugen empfehlen sich regelmäßige Backups oder regelmäßig durchgeführte Überweisungen von überschüssigen Bitcoins vom Smartphone auf einen sichereren Account, wie z.B. der PC. Eine autmatische Funktion für soch einen [[http://de.wikipedia.org/wiki/Absch%C3%B6pfungsauftrag|Abschöpfungsauftrag]] fehlt (noch).
+
+
+----
+
+<wrap em>Bitcoin am Computer</wrap>
+
+ 
+**1. Installieren**
+
+
+[[http://sourceforge.net/projects/bitcoin/files/Bitcoin/|Bitcoin-Software herunterladen]]((http://sourceforge.net/projects/bitcoin/files/Bitcoin/))
+
+Die Installation funktioniert unter Windows sehr einfach, wie üblich mit einem Installationsprogramm. Auf Linux einfach entpacken (Kommando: tar -xvzf bitcoin-x.y.z-linux.tar.gz), es braucht nicht weiter installiert werden, denn alles bleibt im selben Verzeichnis. Dazu entweder ein Bitcoin-Verzeichnis im eigenen Benutzerverzeichnis anlegen (etwa ~/bin/bitcoin) oder systemweit am besten im "/opt"-Bereich unterbringen. Eine Mac-Installation sollte entsprechend einfach sein.
+
+**2. Erstes Starten**
+
+Beim ersten Starten verbindet sich die Bitcoin-Software mit anderen laufenden Programmen (Knoten). Ist das gelungen, startet eine längere Phase intensiven Herunterladens der bisherigen Block-Kette. Je nach Internetverbindung kann das bis zu mehreren Stunden dauern.
+
+An Sie adressierte Überweisungen erscheinen erst als bestätigt, wenn der entsprechende Block heruntergeladen wurde. Dieser Verwaltungsaufwand der verteilten Block-Kette ist notwendig für die Sicherheit im Peer-to-Peer-System. Jedes teilnehmende Programm überprüft die Korrektheit der Transaktionen und deren Signaturen. Die Blöcke bilden eine Signaturenkette, d.h. um den neuesten Block überprüfen zu können und absolute sicher gegen Veränderungen und Manipulation zu sein, müssen zuerst alle Blöcke seit Beginn des Systems einmal überprüft worden sein. Obwohl das beim ersten Mal recht aufwendig erscheint, ist das nur einmal nötig. Im normalen Betrieb ist das Programm recht genügsam und verbraucht wenig Ressourcen. Auf Windows zieht es sich beim Minimieren auch optisch unauffällig in den Infobereich der Taskleiste zurück.
+
+{{ :de:ris:2013:001:btc-systray.png |}}
+
+ Ein Bildschirmfoto der laufenden Software:
+
+{{ :de:ris:2013:001:btc-client.png?320 |}}
+
+
+Je ein Knopf für eine Ansicht und gezielte Aktion: Übersicht, Überweisen, Empfangen, Transaktionen, Adreßbuch.
+
+Unten in der Statusleiste werden Übersichtsinformationen angezeigt: Anzahl der Verbindungen zu anderen Bitcoin-Teilnehmern (typischerweise 8) und die Anzahl der bereits heruntergeladenen Blöcke. Ein kleines Symbol zeigt an, ob die Blockkette aktuell ist oder noch synchronisiert wird.
+
+
+**3. Erste Transaktion** - geschenkte Bitcoins
+Unter folgender Adresse gibt es tatsächlich geschenkte Bitcoins für alle Neulinge: [[https://freebitcoins.appspot.com/|Free Bitcoins]]((https://freebitcoins.appspot.com/)) Einfach die eigene Bitcoin-Adresse kopieren und dort einfügen. Ein paar Minuten später erscheinen ein paar Bitcoin-Cents in den Gutschriften.
+
+<note tip>Die Seite scheint mittlerweile nicht mehr zu funktionieren.</note>
+
+Eine eigene Adresse bekommt man bei der Ansicht "Bitcoins empfangen". Dort kann eine Adresse in die Zwischenablage kopiert werden.
+
+Es wird empfohlen für jeden Empfang eine neue Adresse zu erzeugen und diese dem jeweiligen Partner zukommen zu lassen. Eine nur einmalig verwendete Adresse bietet höchstmögliche Privatheit. Wird eine Adresse mehrfach verwendet, kann jeder, der diese Adresse kennt nachsehen, wieviele Zahlungen an diese Adresse eingegangen sind. 
+
+
+**4. Erste Überweisung**
+
+Für den Test können Sie die erhaltenen Bitcoin-Bruchteile gleich wieder an den Betreiber der Freebitcoin-Seite zurücksenden, oder auch an eine andere Adresse. Auf "Überweisen" klicken und im Überweisungsfenster die Adresse und den Betrag eintragen. Senden - Fertig. Einfacher als jedes Online-Banking. 
+
+{{ :de:ris:2013:001:btc-ueberweisung.png?320 |}}
+
+**5. Ein paar Details**
+
+Der Geldbeutel
+Das ist eine spezielle Datei. Dorthin werden Ihre Bitcoin-Adressen und damit indirekt auch ihr Guthaben gespeichert. Die sog. wallet.dat liegt im privaten Teil ihres Benutzerverzeichnisses.
+
+Windows XP C:\Dokumente und Einstellungen\Benutzer\Anwendungsdaten\Bitcoin\wallet.dat
+
+Windows Vista und 7 C:\Users\Benutzername\Appdata\Roaming\BitCoin
+
+Linux ~/.bitcoin/wallet.dat
+
+Mac ~/Library/Application Support/Bitcoin/
+
+Diese Datei kann auch gesichert und auf andere Rechner oder Speichermedien (z.B. USB-Stick) kopiert werden.
+
+Da jeder mit Zugriff auf dieser Datei Ihre Bitcoins verwenden kann, sollte ähnlich gut darauf aufgepaßt werden wie auf eine echte Brieftasche. Am besten ist es, die Datei zu verschlüsseln. Diese Funktion hat die Bitcoin-Software seit Version 0.4. Sie kann im Menü aktiviert werden unter [Einstellungen] &rarr; [Brieftasche verschlüsseln].
+
+Einstellungen
+
+{{ :de:ris:2013:001:btc-cfg-dlg.png?320 |}}
+
+Die meisten Optionen sind selbsterklärend bis auf die beiden letzten: Ein SOCKS4-Proxy ist im Normalbetrieb nicht notwendig. Mit dieser Option kann ein Anwendungs-Proxy eingestellt werden, über den der Datenverkehr laufen soll. Das kann nötig sein bei internen Netzwerken, die mit einer Firewall geschützt sind und externen Verkehr nur kontrolliert über einen SOCKS-Proxy erlauben. Der andere Anwendungsfall dafür ist eine Installation des Tor-Systems, das Internetverkehr über ein P2P-Netzwerk anonymisiert. Meistens wird dieser Proxy auf dem eigenen Rechner installiert, deswegen lautet die Voreinstellung: 127.0.0.1 für die Standard-Rückkoppelungs-Adresse.
+
+Außerdem läßt sich noch eine Transaktions-Gebühr einstellen. Zuvor wurde gesagt, Bitcoin-Überweisungen seien kostenlos. Das stimmt auch. Jedoch kann es sein, daß Transaktionen mit einer Gebühr schneller verarbeitet werden, insbesondere zu Zeiten mit hohem Verkehrsaufkommen (momentan ist das Netzwerk aber noch weit von solchem Datenverkehr entfernt.) Diese Option dient vor allem für die Zeit, wenn keine Münzen mehr erzeugt werden, damit weiter ein Anreiz besteht, um Blocks mit signierten Transaktionen zu lösen. Ein guter Wert ist 0,01 Bitcoin pro Überweisungs bzw. Kilobyte.
+
+**6. Wie komme ich an Bitcoins?**
+
+Am besten indem Sie Ihre Waren oder Dienstleistungen gegen Bitcoins anbieten. Das stärkt die Bitcoin-Wirtschaft, die derzeit gerade im Entstehen ist. Sie können sofort teilhaben an dieser neuen Entwicklung. Sehr geeignet sind Bitcoins v.a. für Internetgeschäfte und digitale Waren, E-Books, Software, Dienstleistungen, usw. Es gibt zunehmend auch Internetshops die handfeste Produkte verkaufen. Wenn Sie ein Geschäft betreiben und Bitcoins akzeptieren können Sie sich kostenlos in der [[http://go-bitcoin.com/seite/annahmestellen|Liste von Annamestellen]]((http://go-bitcoin.com/seite/annahmestellen)) eintragen.
+
+Außer über Einnahmen können Sie Bitcoin auch auch auf speziellen Märkten im Tausch gegen andere digitale und staatliche Währungen kaufen bzw. verkaufen. Die Funktionsweise ist unterschiedlich. Manche Märkte funktionieren ähnlich wie Forex-Handel mehr oder weniger automatisiert, andere vermitteln Käufer und Verkäufer direkt, wieder andere funktionieren vergleichbar mit Wechselstuben. siehe die [[http://go-bitcoin.com/seite/annahmestellen/Wechsel|Liste von Wechselstellen]]((http://go-bitcoin.com/seite/annahmestellen/Wechsel)).
+
+Erzeugen: Grundsätzlich können Bitcoin auch "erzeugt" werden. In den frühen Versionen der Software gab es dazu noch eine Option.
+
+{{ :de:ris:2013:001:btc-menu-cfg.png?320 |}}
+
+Das wurde aber entfernt, bzw. tief in manuelle Konfiguration vergraben, weil es sich nicht mehr lohnt. Das Programm versucht, eine rechenaufwendige Lösung für ein Problem (sog. Proof-of-Work) zu finden, um als erstes einen Block von Transaktionen signieren zu dürfen. Dabei wird der Prozessor voll ausgelastet. Als Belohnung für diese harte Aufgabe winken 50 Bitcoins. Mit dieser Aufgabe wird die Integrität der Transaktionen und somit die Sicherheit für aller Teilnehmer sichergestellt. Doch um wieder nüchtern zu werden angesichts solcher Aussichten, "Geld zu erzeugen": Mit einem durchschnittlichen PC besteht so gut wie keine Chance, die Belohnung zu erhalten. Professionelle "Miner" ("Bergbauarbeiter" entsprechend der Gold-Analogie) haben bereits rechenmächtige Grafikkartenchips auf die Aufgabe angesetzt. Die beste Art Geld zu verdienen ist auch bei Bitcoin: Wertschöpfung.
+
+Wer es trotzdem mit dem sog. Mining versuchen möchte, findet im Internet dazu genügend technische Anleitungen und spezielle Software.
+
+Fertig für den Einsatz!
+
+Jetzt haben Sie schon alles, um Bitcoin zu verwenden.
+
+**Hinweis zur Privatsphäre**
+
+Die Bitcoin-Adresse ist rein zufällig und hat nichts zu tun mit Ihnen, Ihrem Computer oder Ihrer Internetadresse. Tatsächlich ist es der öffentliche Schlüssel eines Schlüsselpaars (s. [[http://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem|Asymmetrische Verschlüsselung]]((http://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem)) bei Wikipedia) Wie schon erwähnt werden alle Transaktionen von anderen Bitcoin-Programmen gegengeprüft. Dazu werden sie im Netzwerk verteilt und veröffentlicht. Es gibt auch eine Internet-Oberfläche, um das einzusehen unter [[http://blockexplorer.com/|blockexplorer.com]]((http://blockexplorer.com/)).Wenn Sie dort die Adresse aus der ersten Transaktion einfügen, können Sie diese einsehen. Das bedeutet: Jeder, der eine Bitcoin-Adresse von Ihnen kennt, kann alle Beträge einsehen, die auf diese Adresse eingezahlt wurden. Soll das nicht möglich sein, erzeugen Sie einfach eine neue Adresse. Das Erzeugen von Adressen hat noch einen weiteren Vorteil: Jeder Adresse kann eine Notiz beigefügt werden. Damit läßt sich z.B. auf einfache Weise der Eingang erwarteter Zahlungen kontrollieren. Für jeden ausgehenden Bezahlvorgang verwendet das Programm immer automatisch eine neue Adresse. Zwei Anwendungsfälle: Ein öffentlicher Spendenaufruf könnte eine einzige Bitcoin-Adresse veröffentlichen und damit gleichzeitig für jeden offenlegen, wieviel dort eingezahlt wurde.Ein Händler kann dagegen jedem einzelnen Bezahlvorgang eine neue Adresse zuweisen, damit die Zahlungen von außen nicht rekonstruiert werden können. Er könnte aber auch jedem Kunden eine eigene Adresse geben. Damit könnte der Kunde und auch der Kaufmann sofort das insgesamte Handelsvolumen eines Kunden ermitteln und evtl. Rabatte vereinbaren. Das System ist also einfach zu handhaben, sehr flexibel und so anonym, wie Sie es einsetzen.
+
+
+
+</WRAP>
