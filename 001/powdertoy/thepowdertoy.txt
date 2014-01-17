@@ -1,0 +1,67 @@
+====== Pulverspielchen ======
+
+Dieser Artikel behandelt das freie, **gpl**-lizensierte Computerspiel [[http://powdertoy.co.uk/|The-Powder-Toy]]. Neuigkeiten, Download, Diskussionsforum und Wiki zu The-Powder-Toy finden Sie im Internet unter der URL http://powdertoy.co.uk/
+[{{ :de:schulen:powdertoy.jpg?400 |Screenshot [[http://powdertoy.co.uk/|The-Powder-Toy]] }}]
+<WRAP column 60%>
+</WRAP>
+<WRAP column 30%>
+</WRAP>
+
+**1. Installation**
+
+The-Powder-Toy muss lokal am PC installiert werden. Download - Links  für Mac, PC und Linux (sowie Links zum **SourceCode**) finden Sie auf der [[http://powdertoy.co.uk/Download/Platforms.html|der Pwodertoy.co.uk Website]]((http://powdertoy.co.uk/Download/Platforms.html)). Unter **Ubuntu Linux** geht die Installation besonders einfach, indem Sie diese 3 Befehle in ein Terminal tippen:
+
+<code>
+sudo add-apt-repository ppa:kroq-gar78/ppa 
+sudo apt-get update
+sudo apt-get install the-powder-toy
+</code> 
+
+Dadurch wird sichergestellt dass Ubuntu immer die neuste Version von The-Powder-Toy verwendet.
+
+**2. Spiel starten**
+
+Wer das Spiel startet (''powder-toy'') ist wahrscheinlich erst einmal enttäuscht: man sieht ein sehr kleines terminalfenster mit unleserlicher Schrift. Durch Blick auf die **Manpage** (oder durch Ausprobieren) erfährt man dass es mehrere Grafikmodi gibt, unter anderem einen augenfreundlichen Vollbildmodus. Zwischen den einzelnen Anzeigemodi kann im Spiel umschalten, mit der kleinen Options-Schaltfläche (Häkchen im Kreis) die dritte von rechts unten.
+
+Ab jetzt bieten sich 2 Vorgehensweisen an:
+
+  * Wild drauflosklicken
+  * Sich im [[http://powdertoy.co.uk/Wiki/W/Main_Page.html|Wiki]]((http://powdertoy.co.uk/Wiki/W/Main_Page.html)), auf Youtube etc. mit dem Spiel vertraut machen und sinnvolle Experimente vorbereiten. 
+
+Der Rest dieses Artikels beschäftigt sich mit der ersten Option. Wenn man im Spiel mit der Maus am Bildschirm "malt" (Maus bewegen und linke Maustaste gedrückt halten) rieselt "Sand" vom Mauszeiger runter. Interessanter wird es, wenn man die Maus zum "malen" fester Strukturen verwendet. Das Spiel bietet dafür eine Reihe von Werkzeugen an (am rechten Bildschirmrand). 
+
+[{{ :de:ris:2013:001:pulverelemente.jpg?400 | Die verschiedenen Pinsel lassen sich in Gruppen unterteilen }}]
+
+Um einen festen Untergrund für zukünftige explosive Experimente zu malen, wähle ich den "Walls" Pinsel aus (rechter Bildschirmrand, mitte) und bekommen am unteren Bildschirmrand verschiedene Mauersorten angezeigt. Wichtig: 
+  * Mit der Erase-Wall kann ich zuvor gemalte Mauern löschen. 
+  * Mit dem Mausrad kann ich die Pinselgröße verändern (Pinselform verändern mit STRG + ALT + Mausrad)
+  * Um gerade Linien zu malen die SHIFT Taste gedrückt halten
+
+Ich zeichne eine Art Experimentiertisch.
+[{{ :de:ris:2013:001:pulver-tisch.jpg?400 | Ein unzerstörbarer Experimentiertisch und ein paar schiefe Flächen um Pulver runterrieseln zu lassen. Der rote Detektor erzeugt Elektrizität wenn er von Partikeln berührt wird.}}]
+
+Im Gegensatz zu ''Walls'' sind die ''Solid'' Elemente leichter zu zerstörten: Ich bastle einen Baum aus leicht entflammbaren Holz der links und rechts 2 Kletterplanzen (Vines) besitzt, die an ihm hochwuchern sollen. In seiner Nachbarschaft plaziere ich grüne Pflanzen die bei Wasserkontakt wachsen. Außerdem verteile ich rutschige Eisflächen.
+
+[{{ :de:ris:2013:001:pulver-baum.jpg?400 | toter Holzbaum mit lebendigem Grünzeug}}]
+
+Erster Test: Unter ''Fluids'' normales Wasser auswählen (''Water'') und per Maus "malen"... feinste Wassertropfen regnen herunter. Die Simulation ist jederzeit mit dem Pause-Icon in der rechten unternen Ecke anhaltbar, man kann aber genauso die laufende Simulation beeinflussen. Meine linke Kletterranke begrünt planmäßig den Baum, nur die rechte Ranke will nicht. Vielleicht Wassermangel ? Die 4 kleinen Pflanzen haben sich in kürzester Zeit zu einer Algenplage entwickelt:
+
+[{{ :de:ris:2013:001:pulver-wachstum.jpg?400 | Pflanzenwachstum dank Wasser}}]
+
+Jetzt ist es Zeit für ein Feuerwerk: Unter ''Explosives'', ''Powders'' oder gar ''Radioactives''  gibt es eine große Auswahl von Elementen mit destruktiven Eigenschaften. Ich entscheide mich für kalten, flüssigen Sauerstoff (blau), gefolgt von flüssiger Lava und kleinen Dosen diverser Pulver.
+
+[{{ :de:ris:2013:001:pulver-eis.jpg?400 |Die brennende Lava (rot) verwandelt das Eis (hellblau) in Wasserdampf (dunkelblau)}}]
+
+Schließlich gelingt es mir meinen Baum abrennen zu lassen:
+
+[{{ :de:ris:2013:001:pulver-feuer.jpg?400 |Geschafft: Mein Baum brennt !}}]
+
+Wer sich auf der ThePowderToy Website kostenlos registriert hat die Möglichkeit direkt vom Spielclient aus Spielscenarien zu durchsuchen und zu bewerten (sowie **upload** und **download**). Die The-Powder-Toy User scheinen ein kreatives Völkchen zu sein:
+
+[{{ :de:ris:2013:001:pulver-online.jpg?400 |Direkt im Spiel lässt sich das Internet nach interessanten Spielszenarien durchsuchen}}]
+
+
+**Fazit**
+
+Gezeigt wurde nur ein klitzekleiner Teil der Möglichkeiten welcher im The-Powder-Toy drinsteckt. Ein ganzer Unterpunkt behandelt **Game-of-Live** Elemente, man kann kleine animierte Strichmännchen Jagd aufeinander machen lassen, man kann elektrische Schaltungen bauen, mit Schwerkraft spielen, mit Hilfe der Programmiersprache **LUA** das Spiel beinflussen , Spielwelten offline und online abspeichern und tauschen oder direkt auf **Github** ThePodwerToy weiterentwickeln.
+

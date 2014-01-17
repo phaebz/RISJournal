@@ -1,0 +1,51 @@
+====== Zahnbürstenroboter ======
+
+<WRAP center round box 60%>
+[{{ :de:ris:2013:001:evilmadscientist.jpg?100|[[http://www.evilmadscientist.com/about/|Evil Mad Chief Scientist]] Windell H. Oskay, Ph.D.}}]
+Der Original-Artikel dieser Übersetzung ist copyright-geschützt von Windell Oskay, [[http://www.evilmadscientist.com/|Evil Mad Scientist Laboratories]]((http://www.evilmadscientist.com/)). \\ Original-Artikel: http://www.evilmadscientist.com/go/bristlebot. \\
+Erstmals publiziert am: 19-12-2007  \\
+Übersetzung aus dem Amerikanischen durch Horst JENS mit freundlicher Genehmigung von Windell Oskay. \\
+Lizenz der deutschen Übersetzung: [[http://creativecommons.org/licenses/by-sa/3.0/deed.en_US|cc-by-share-alike]]((http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)) \\ [[http://creativecommons.org/licenses/by-sa/3.0/deed.en_US|{{:de:ris:ccbysa88x31.png|}}]] 
+
+</WRAP>
+
+Der Zahnbürstenroboter (BristleBot) ist ein einfacher kleiner, emsiger Roboter. Zutaten: Eine Zahnbürste, eine Batterie, und ein pager Motor. Spaßiges Resultat:
+
+{{youtube>rUSTXUis_ys }}
+[{{:de:ris:2013:001:bristlebot1.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot2.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot3.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot4.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot5.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot6.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot7.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot8.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot9.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot10.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot11.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot12.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+[{{:de:ris:2013:001:bristlebot13.jpg?250|Bristlebot. © Bildrechte: [[http://www.evilmadscientist.com/2007/bristlebot-a-tiny-directional-vibrobot/|Windell Oskay]]}}]
+
+<WRAP clear></WRAP>
+
+Der BristleBot ist unser Versuch einen Vibrobot (von Vibrations-Roboter) zu bauen: primitive Roboter die durch einen einzigen Vibrations(Exzentrik)-Motor bewegt werden. Sehenswerte Varianten davon sind z.B. der mint-tin (siehe Make Magazin) und der kid's art bot: ein Vibrobot mit Beinen aus Bleistiften.
+\\ \\
+Zu Anfang steht naturgemäß die Zahnbürste. Wir brauchen eine Zahnbürste deren Borsten alle mehr oder weniger schief geneigt sind (nicht senkrecht). Möglicherweise funktioniert auch ein Bristlebot mit senkrechten Borsten die man von Hand biegt, aber ich habe es nicht versucht. Wenn die Borsten unterschiedlich lang sind ( wie auf den Fotos) brauchen wir vielleicht eine Schere um alle Borsten gleich lang zu stutzen.
+\\ \\
+Schneide den Griff der Zahnbürste ab, sodaß nur eine kleine Roboterplattform übrigbleibt.
+\\ \\
+Nächster Punkt: Wir brauchen einen Virbrationsmotor oder einen anderen winzigen Moter mit einer Unwucht an der Drehachse. Wenn Du einen genügend kleinen Motor findest kannst du das Gewicht der Unwucht notfalls selbst dran montieren. Man findet solche Motoren z.B. für Pager in allen möglichen Größen. Ich habe meinen für ein paar Dollar auf Ebay bekommen, schau mal dort nach.
+\\ \\
+Der Motor den ich bekommen habe lief zufrieden mit fast jeder herkömmlichen Spannung von 1 bis 9 Volt. Als Stromquelle funktionieren Alkaline oder Lithium-Batterien (Uhr-Batterien) mit 1,5 Volt oder 3 Volt. Um den Motor an die Batterie anzuschließen habe ich einen Lötkolben benutzt und etwas Kupferdraht an die Motordrähte gelötet.
+\\ \\
+Außerdem brauchen wir Doppelklebeband. Gib einen kleinen Streifen davon auf die Oberseite der Zahnbürste (die Roboterplattform) auf welcher der Motor aufliegt.
+\\ \\ 
+Klebe den Motor auf das Klebeband. Das Klebeband sorgt für Abstand damit das Unwucht-Gewicht nicht auf die Zahnbürste hämmert. Außerdem sorgt das Klebeband für eine starke, flexible Verbindung welche die starken Vibrationen des Roboters aushält. Eine erste Verbindung zur Batterie ist möglich indem man die Batterie einfach draufstellt - das ist allerdings nicht sehr stabil und sie wird bald runterfallen.
+\\ \\
+Eine bessere Methode ist es einen der Drähte runterzubiegen zum Klebeband, sodaß man die Batterie draufkleben kann und trotzdem eine elektrisch leitende Verbindung schafft. Mit dem anderen Draht die andere Seite der Batterie berühren und es kann los gehen.
+\\ \\
+Der vollendete BristleBot, aktionsbereit. Wenn Du einen Bristlebot laufen lässt merkst Du dass er eine Tendenz hat nach rechts oder links zu steueren. Das wird beeinflusst durch Borstenlänge (z.B. eine einzelne lange Borste), die Position von Motor und Batterie und auf welcher Seite man die Batterie anschliesst. Drehe die Batterie einmal um wenn der Bristlebot nicht vernünftig läuft.
+\\  \\
+Nur zur Erinnerung: Dies ist einer von vielen verschiedenen Arten von Vibrobots - da draußen gibt es viele andere Varianten wenn du nur suchst. Wir haben viele andere Varianten gesehen oder davon gehört, und wir wissen dass Bürsten mit schiefen Borsten schon zuvor als Antrieb verwendet wurden. Diese spezielle Variante ist vielleicht einzigartig, auf jeden Fall spaßig. Nur wenige Roboter die man selbst so einfach bauen kann sind so belohnend. Mit den richtigen Teilen kannst du einen in ein paar Minuten bauen. Mach eine Horde davon und lass sie um die Wette rennen !
+
+
