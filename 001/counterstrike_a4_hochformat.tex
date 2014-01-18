@@ -1,0 +1,304 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Three-Column Newsletter
+% LaTeX Template
+% Version 1.0 (11/9/13)
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) 
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,ngerman,twoside]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
+
+%\setlength\topmargin{-80mm} % Top margin
+\setlength\topmargin{-48pt} % Top margin
+\setlength\headheight{0pt} % Header height
+\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+\setlength\oddsidemargin{-30pt} % Left margin
+\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+%\setlength\inner{4cm}
+%\setlenfth\outer{2cm}
+%\usepackage{geometry}
+%\geometry{bindingoffset=20mm}
+%\setlength\bindingoffset{2cm}
+
+\usepackage{charter} % Charter font for main content
+
+\frenchspacing % Reduces space after periods to make text more compact for a three-column layout
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for including images
+\usepackage{amssymb} % Math packages
+\usepackage{amsmath} 
+\usepackage{multicol} % Required for the three-column layout of the document
+\usepackage{url} % Clickable links
+\usepackage{enumitem} % Reduces the amount of space within and between lists with [noitemsep,nolistsep]
+\usepackage{marvosym} % Required for the use of symbols
+\usepackage{wrapfig} % Allows wrapping text around figures
+%\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{datetime} % Required for defining a custom date style
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR} % Set a custom date format
+\usepackage[pdfpagemode=FullScreen, colorlinks=false]{hyperref} % Link colors and PDF behavior in Acrobat
+\usepackage{fancyhdr} % Required to define custom headers/footers
+\usepackage{hyperref} % funktioniert nicht ?
+\pagestyle{fancy} % Enables the custom headers/footers for all pages following this
+
+%-----------------------------------------------------------
+% Header and footer
+\lfoot{\footnotesize % Left footer containing newsletter contact information
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{ccbysa88x31.png} 
+%\end{wrapfigure}
+R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
+\Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
+%\Telefon\ (000) 111-1111 \quad
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}
+}
+
+\cfoot{} % Empty center footer
+
+\rfoot{\footnotesize ~\\ Seite \thepage} % Right footer - page counter
+
+\renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define separators
+\newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
+\newcommand{\SepRule}{\noindent	% Creates a shorter separator rule
+\begin{center}
+\rule{250pt}{1pt} % Page width and rule width
+\end{center}
+}
+\newcommand{\Trenner}{\noindent
+\begin{center}
+\rule{100pt}{1pt}
+\end{center}
+}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define title and article styles
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+\begin{center}
+\Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+#1
+\end{center}	
+\par \normalsize \normalfont}
+
+\newcommand{\JournalIssue}[1]{ % Date and issue number at the top of the newsletter
+%\hfill \textsc{\mydate \today, No #1} % Right-aligned date and issue number
+\hfill \textsc{Jänner 2014, Ausgabe 001}
+\par \normalsize \normalfont}
+
+\newcommand{\NewsItem}[1]{ % News item title
+\usefont{T1}{fvs}{n}{n} % Use the Bera Sans Normal font
+\vspace{24pt}\large #1\vspace{3pt} % Print the title with space around it in a larger font size
+\par \normalsize \normalfont}
+
+\newcommand{\NewsAuthor}[1]{ % Author name under the item title
+\hfill von \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
+\par \normalfont}		
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\JournalIssue{1} % Issue number
+\NewsletterName{R.I.S. Journal} % Newsletter title
+%\begin{center}
+%\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie Journal für Open Source Education
+%\end{center}
+\noindent\HorRule{3pt} \\[-0.75\baselineskip] % Thick horizontal rule
+\HorRule{1pt} % Thin horizontal rule
+
+
+
+%\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
+%\begin{multicols}{3} % Begin the three-column layout
+
+%----------------------------------------------------------------------------------------
+%	OTHER NEWS
+%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
+%
+%-----------------------------------------------------------
+%RIS-Journal Titel (Titelgrafik hier einfügen)
+\begin{multicols}{3}
+\NewsItem{}
+\section*{Beruf: Counterstrike Spieler}
+\label{counterstrike}
+\NewsAuthor{Julian Walter und Horst JENS}
+\begin{center}
+\includegraphics[width=\linewidth]{counterstrike/julian_walter.jpg} \\
+\footnotesize{Julian Walter (im Bild rechts). Bildrechte: [1]}
+\end{center}
+
+\textbf{\href{https://plus.google.com/108488461844417773815/about}{\textit{Julian Walter [1]}} erzählt über seine Zeit als professioneller \textit{Counter-Strike}-\textit{E-Sport}ler und die damit verbundenen Verdienstmöglichkeiten} 
+
+
+
+\subsection*{Interview:}
+\textbf{H:} Servus Julian
+\\ \textbf{J:} Hallo
+\\ \textbf{H:} Julian du hast mir erzählt du warst \textbf{Counterstrike}-Legionär
+\\ \textbf{J:} Das ist soweit korrekt. In meiner Glanzzeit, zwischen 16 und 21 habe ich sehr viel gespielt. Ich war sehr aktiv und habe praktisch alle meine Freizeit in dieses Spiel gesteckt um so gut zu werden wie es möglich ist und hatte viel Spaß dabei.
+\\ \textbf{H:} Kannst du erzählen, hattest du vorher schon irgendeinen Sport oder irgendetwas professionell betrieben ? E-Sport ? Oder hast du aus dem Nichts heraus angefangen ?
+\\ \textbf{J:} Nee, Nein, so kann man das definitiv nicht sagen ich habe angefangen sehr früh mit der ersten Counterstrike Version die damals zu kaufen war.
+\\ \textbf{H:} Nicht mit dem Mod (zu Half-Life) sondern mit dem gekauften Spiel ?
+\\ \textbf{J:} Genau mit dem gekauften (Spiel), da war ich 11 (Jahre alt).
+\\ \textbf{H:} Mit 11 hast du schon herum geballert ?
+\\ \textbf{J:} Genau. Man merkt halt mit der Zeit - durch das public (auf public servern) spielen, dass man besser ist als andere Leute und hat dann angefangen sich Leute zu suchen mit denen man längere Zeit zusammenspielt um dann auf Wettbewerbsebene zu bleiben. So ist das im Prinzip entstanden.
+\\ \textbf{H:} Du hast gemerkt dass du aufgestiegen bist in den Rankings ?
+\\ \textbf{J:} Ja genau. Man wurde immer besser und immer besser und dann kam der Ehrgeiz hinzu. So jung wie man ist macht das dann auch Spaß.
+\\ \textbf{H:} Wie viel Zeit hast du ins Counterstriken investiert ? Hast du tägliche Trainingszeiten gehabt ?
+\\ \textbf{J:} Definitiv. Zu meinen Top-Zeiten, wo ich monatlich bezahlt wurde fürs Spielen,
+\\ \textbf{H:} Das war dann später..
+\\ \textbf{J:} Ja, das war erst später, da war es täglich jeden Abend, 5 x die Woche, (je) 4 bis 5 Stunden. Da hat man dann wirklich schon sein Leben (da)mit verbracht, kann man so sagen.
+\\ \textbf{H:} Und du hast nebenher noch Beruf oder Ausbildung gemacht ?
+\\ \textbf{J:} Genau. Erst Schule, dann Zivildienst, Ausbildung.
+\\ \textbf{H:} Hat deine Ausbildung darunter gelitten ? Hast du gemerkt du hast weniger Zeit für Freundin...
+\\ \textbf{J:} Ja. Definitiv. Ich hatte auch Beziehungen nebenher. Das war natürlich besonders stressig, weil die Freundin hat das dann halt nicht nachvollziehen können dass ich da so viel Zeit hineinstecke. Und das alles unter einen Hut zu kriegen ist sehr schwierig. Meistens - leider Gottes muss ich das sagen - haben die persönlichen Beziehungen darunter gelitten.
+\\ \textbf{H:} Du hast lieber gespielt als dich .. *lacht*
+\\ \textbf{J:} Ja, das war einfach so.
+\\ \textbf{H:} Bist du rekrutiert worden von Clans oder hast du selber einen gegründet ? Wie hat sich deine "Professionalisierung" entwickelt ?
+\\ \textbf{J:} Ich bin durch die Amateur-Series -so hieß das damals- aufgestiegen aus eigenen Kräften mit meinen 4 Freunden quasi in die Pro(fessional)-Series. Nach einer Saison, wo wir uns eigentlich ganz gut gezeigt hatten wurde ich sofort rekrutiert und ...
+\\ \textbf{H:} Nur du oder auch deine Freunde ?
+\\ \textbf{J:} Damals nur ich.
+\\ \textbf{H:} Du wurdest aus deinem Clan herausgerissen sozusagen ?
+\\ \textbf{J:} Genau.
+\\ \textbf{H:} Wie hat der Clan dann reagiert ? Haben sich alle gefreut "Jawoll, du wirst jetzt Profi" ?
+\\ \textbf{J:} Die waren geteilter Meinung. Die einen sagten: "O.K., Du bist ein Arschloch, weil Du hast den Clan verlassen"
+\\ \textbf{H:} "Du lässt Dich kaufen.." [lacht]
+\\ \textbf{J:} Genau, "Du verlässt Deine Freunde..". Anderseits muss man dazu sagen: Will man Erfolg haben muss man letzten Endes egoistisch sein, das hat mir nicht geschadet.
+\\ \textbf{H:} Wie läuft das dann, du bist ja nicht oft physikalisch mit dem neuen Clan zusammen. Oder schon ? Geht man da gemeinsam auf ein Trainingscamp -wie beim Rudersport ?
+\\ \textbf{J:} Kommt ganz drauf an wie mächtig, wie groß der (Clan) ist, wir groß diese Organisation ist. Wenn es eine große Firma ist dann hat man da  Räume gemietet und hat sich da regelmäßig getroffen.
+\\ \textbf{H:} Das heißt ihr wart auch physikalisch zusammen ?
+\\ \textbf{J:} Ja. Ich habe auf jeden Falle alle (vom neuen Clan) kennengelernt.
+\\ \textbf{H:} Meinst du das bringt beim E-Sport etwas, wenn man wirklich physikalisch im selben Raum ist ? Im Gegensatz zu nur online zusammenzuarbeiten...
+\\ \textbf{J:} Für mich: Ja. Es gibt allerdings auch Leute, die nennt man gerne "die Onliner", das sind halt die Leute die halt lieber zu Hause spielen in ihrem Kämmerchen.
+\\ \textbf{H:} Die gehen nicht gerne raus...
+\\ \textbf{J:} Genau. Aber es gibt auch Leute die sind deutlich besser wenn man (physikalisch) zusammen sitzt. Weil auch die Stimmung ganz anders ist.
+\\ \textbf{H:} Macht man dann nachher noch gemeinsam viel, wie beim Sport, dass man sagt wir gehen nachher noch auf ein Bier nach dem Training ? Oder ist das dann eher selten ?
+\\ \textbf{J:} "Nach dem Trainings Bier" das kann man so nicht sagen. Natürlich hat man viel Spaß miteinander. Auf Events, wenn man auf großen Turnieren ist, da geht man dann auch miteinander feiern. Ansonsten...Tja.
+\\ \textbf{H:} Ansonsten spielt es sich so ab dass ihr zusammen sitzt, ihr trainiert, spielt euer Spiel und seid nachher müde ?
+\\ \textbf{J:} Ja. So sieht es aus.
+\\ \textbf{H:} Spielt man dann zum Ausgleich ein anderes Spiel, z.B. ein Grafikadventure, irgendwas ruhiges zum runter kommen ? Oder hat man nebenbei noch einen Zweit-Egoshooter ?
+\\ \textbf{J:} (Zweit-)Egoshooter wäre fatal, das sollte man nicht tun, weil Counterstrike sehr speziell ist, was vor allem das Spielgefühl und so angeht.
+\\ \textbf{H:} Da lernt man dann den "falschen" Egoshooter ? "Du sollst keinen Egoshooter haben neben deinem" ?
+\\ \textbf{J:} Sollte man besser nicht tun. Zum Ausgleich ganz gerne DOTA damals - ein Warcraft3 Mod. Kennst du Hon, LoL, League of Legends ?
+\\ \textbf{H:} Ähhhhh...
+\\ \textbf{J:} Das sind alles Ableger von Dota.
+\\ \textbf{H:} Also ein ganz ein anderes Genre zum Ausgleich.
+\\ \textbf{J:} Ja, aber auch nicht zu viel.
+\\ \textbf{H:} Kannst du zum Finanziellen etwas sagen, also in der Zeit wo du Profi warst, ist das jetzt lange her ?
+\\ \textbf{J:} Das war ein Jahr her, 2011 war meine letzte Top Season.
+\\ \textbf{H:} Was kann man als Professioneller oder als Semi-Professioneller verdienen ?
+\\ \textbf{J:} Kommt drauf an. In Deutschland ist es nicht so hoch.
+\\ \textbf{H:} Du warst damals in Deutschland ?
+\\ \textbf{J:} Klar. In Deutschland sind die Top-Gehälter so bei 1.000,- bis 1.500,- Euro (pro Monat). Es gibt aber nur eine Handvoll (Spieler) maximal (die so viel verdienen). Wenn man ins Ausland guckt, gerade im asiatischen Bereich, da verdienen sie deutlich mehr. Bis 5.000,- , 7.000,- Euro....
+\\ \textbf{H:} Hast du realistisch Chancen als Europäer nach Asien rekrutiert zu werden wenn du so gut bist ?
+\\ \textbf{J:} Das gibt es, ja. Aber selten.
+\\ \textbf{H:} Ich nehme an da leidet das Sozialleben dann noch mehr...
+\\ \textbf{J:} Genau, diesen Schritt hätte ich nicht gewagt.
+\\ \textbf{H:} Du sagst in Deutschland kann eine Handvoll Leute vom Counterstrike spielen leben, ca. 1.000, Euro, toller Verdienst
+\\ \textbf{J:} Es ist ein guter Nebenverdienst.
+\\ \textbf{H:} Man sollte daneben noch einen Job haben ?
+\\ \textbf{J:} Kommt auf die Zeit an. Mit 16, 17 Jahren ist das lustig. Vor allem Geld mit counterstrike zu verdienen macht Spaß, hebt nochmal den Ehrgeiz an... Später dann, wenn man nicht "nur ein Studium" macht, sollte man damit aufhören. Weil das raubt Kraft und das raubt Zeit.
+\\ \textbf{H:} Der durchschnittliche Counterstrike-Verdiener ist  Student oder Schüler ? Oder sind das dann so 40-jährige Arbeitslose ?
+\\ \textbf{J:} Nein, um Gottes Willen. Eigentlich gehört man mit 25 (Jahren) schon zu den Rentnern in diesem Sport, in der Regel sind die nicht älter als 25 und die meisten sind Studenten.
+\\ \textbf{H:} Die haben einfach Zeit...
+\\ \textbf{J:} Genau.
+\\ \textbf{H:} Kannst du sagen was verdient die große Masse der Counterstrike-Verdiener ? Als nicht die Handvoll Top-Leute ?
+\\ \textbf{J:} Mittlerweile hat sich das schon fast erübrigt mit dem Bezahlen, da verdienen -sag ich mal- noch ca. 40 Leute in Deutschland, und auch nicht mehr als 200,- , 300,- Euro..
+\\ \textbf{H:} Die bessern sich ihr Taschengeld auf sozusagen
+\\ \textbf{J:} Ja genau. Und sie machen nur es für den Ehrgeiz, für den Spaß.
+\\ \textbf{H:} Also wenn man es auf die Stunden umrechnet, die man rein steckt, ist es eigentlich blöd...
+\\ \textbf{J:} Rechnet sich auf jeden Fall nicht.
+\\ \textbf{H:} Hast du da Einblick, wie sehr vererbt sich das Hobby Counterstrike ? Der  Generationen-Durchsatz muss ja recht hoch sein wenn die Leute nicht lange im Sport bleiben weil sie zu alt werden.. Wird das immer wieder weitergegeben an die nächste Generation ? Vereinsleben, E-Sport... Könnte es sein das Counterstrike einmal so ein Opi Spiel wird und die Jungen auf ganz etwas Anderes abfahren ?
+\\ \textbf{J:} Das Ur-Counterstrike 1.6, das war eigentlich der Beste E-Sport Titel meiner Meinung nach, das ist dieses Jahr komplett gecancelt worden, es gibt keine Turniere mehr, der Betrieb wurde fast eingestellt.
+\\ \textbf{H:} Von den E-sport-Betreibern aus ? Oder weil du das Game nicht mehr kriegst ?
+\\ \textbf{J:} Natürlich kriegst du das Spiel noch. Es wird eigentlich auch noch gespielt, aber nicht mehr auf Wettbewerbsebene, weil es zu alt ist. Das ist jetzt einfach 11 Jahre alt... Jetzt gibt es den Nachfolger, "Global Offensive", wird jetzt wieder mehr gespielt.. ich denke das andere Genres den Überflieger machen, so wie Leage of Legends und DOTA 2.
+\\ \textbf{H:} Das sind nicht Egoshooter ?
+\\ \textbf{J:} Das sind keine Egoshooter.
+\\ \textbf{H:} Der E-sport verlagert sich... Kannst Du sagen welcher Ego-Shooter ist der mit dem (noch) meisten Esport-Leben ?
+\\ \textbf{J:} Nur Counterstrike.
+\\ \textbf{H:} Die anderen Ego-Shooter ... können da nie richtig dagegen anstinken ?
+\\ \textbf{J:} Battlefield z.B. ist nie wirklich auf Wettbewerbsebene gespielt worden. Damals halt natürlich Quake und Unreal Tournament, aber die sind mittlerweile auch quasi ausgestorben.
+\\ \textbf{H:} Magst du irgendeine (Lebens)Erfahrung mitgeben für jugendliche Hörer von unserem Podcast die sich denken "Ja, ich werde mein Geld mit Videospielen verdienen..." ?
+\\ \textbf{J:} [lacht] Das ist ein schöner Traum, macht extrem viel Spaß, man lernt viele nette Leute kennen. Wenn man gut ist reist man auch tatsächlich viel um die Welt. Allerdings muss man darauf Acht geben dass man nicht seine persönlichen Beziehungen aufs Spiel setzt. Das passiert einfach schnell, wenn man den Überblick verliert. Das ist schon fast wie eine Sucht. Man muss aufpassen dabei. Und man muss Prioritäten setzten. Definitiv NICHT Counterstrike über die Schule stellen oder über das Studium oder die Ausbildung. Mann muss einfach Prioritäten setzten und dann macht es Spaß, ja.
+\\ \textbf{H:} O.K. Kannst du ein schönes Erlebnis erzählen ?
+\\ \textbf{J:} Mein schönstes Counterstrike Erlebnis war: In Paris wurde ich zu einem Stage-Match, ein Spiel auf der Bühne, eingeladen gegen ein sehr gutes Team. Wir waren die deutschen Underdogs. Wir haben uns sehr gut vorbereitet und haben sie wirklich, wirklich geklatscht \footnote{abgewatscht, besiegt}. Und dieses Gefühl, vor 3.000 Leuten zu stehen die applaudieren weil du gewonnen hast...das ist unvergleichlich.
+\\ \textbf{H:} Und das Publikum ist mitgegangen, oder kriegst du davon eh nichts mit weil du Kopfhörer auf hast..
+\\ \textbf{J:} Man sieht es (das Publikum) nicht (während dem Spiel), nein. Aber (nachher) super Gefühl, unvergleichlich.
+\\ \textbf{H:} O.k. Seltsamstes Erlebnis ?
+\\ \textbf{J:} Leute kennen zu lernen von denen man noch nie Bilder gesehen hat und plötzlich etwas erschrocken sein weil...das Äußere ein wenig ... ungepflegt ist. Drücken wir es mal so aus.
+\\ \textbf{H:} [lacht] Du hättest nichts dagegen gehabt die (Leute) weiterhin nur online zu kennen....
+\\ \textbf{J:} Ja.
+\\ \textbf{H:} Danke Julian !
+
+\subsection*{Fachbegriffe:}
+
+~~~\href{http://de.wikipedia.org/wiki/Counter-Strike}{\textbf{Counterstrike}}: Multiplayer, Team- Ego-Shooter, ('Killerspiel') bei dem 2 Teams aus bis zu je 16 Spielern gegeneinander kämpfen und versuchen eine Aufgabe für ihr Team zu lösen. Counter-Strike enstand 1999 als Mod für das Spiel Half-Life und ist inzwischen ein eigenständig verkauftes Spiel.  \\
+
+\href{http://de.wikipedia.org/wiki/E-Sport}{\textbf{E-Sport}}: Elektronischer Sport, organisiertes Computerspielen mit Wettkämpfen, Meisterschaften Verbänden etc. Besonders populär in Südkoriea. \\
+
+\subsection*{Download:}
+Dieses Interview  wurde am 15. Oktober 2012 von \href{http://spielend-programmieren.at}{\textit{Horst JENS [2]}} aufgenommen und ist im \href{http://spielend-programmieren.at/de:podcast:biertaucher:2012:074}{\textit{Biertaucherpodcast 074 [3]}} zu hören.  
+
+\subsection*{Podcast}
+\begin{wrapfigure}{l}{2cm}
+%\begin{center}
+\includegraphics[width=2cm]{nomad/biertaucherlogo.png}
+\end{wrapfigure}
+%\end{center}
+Dieses Interview  wurde am 15. Oktober 2012 von \href{http://spielend-programmieren.at}{\textit{Horst JENS [2]}} aufgenommen und ist im \href{http://spielend-programmieren.at/de:podcast:biertaucher:2012:074}{\textit{Biertaucherpodcast 074}}: \texttt{goo.gl/50iZE} zu hören.
+
+\subsection*{Download, Feedback:}
+\footnotesize{
+Download: Ordner \texttt{counterstrike} \Mundus\ \href{http://spielend-programmieren.at/risjournal/001}{spielend-programmieren.at/risjournal/001}\\
+Startseite:\\
+\href{http://spielend-programmieren.at/de:ris:001:start}{spielend-programmieren.at/de:ris:001:start}\\ 
+\Letter\: stefan.reinalter@molecular-matters.com\\}
+\normalsize 
+
+\subsection*{Lizenz, Quellen:}
+
+\begin{wrapfigure}{l}{2.0cm}
+\includegraphics[width=2cm]{counterstrike/ccbysa88x31.png}
+\end{wrapfigure}
+Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie \url{http://creativecommons.org/licenses/by-sa/4.0/deed.de}.
+
+\textbf{Quellen:} \\
+{[}1{]} \href{https://plus.google.com/108488461844417773815/about}{goo.gl/PqQ42q} \\ %julian g+
+{[}2{]} \href{http://spielend-programmieren.at}{spielend-programmieren.at} \\
+%{Biertaucherpodcast 074}
+%[2] taktischer, team-basierter Ego-Shooter für Windows-PC's. Ursprünglich eine Modifikation für das Spiel Half-Life. \\
+%[3] \url{http://spielend-programmieren.at/de:podcast:biertaucher:2012:074} \\
+
+
+
+
+
+
+
+\end{multicols}
+%\SepRule{}
+%-----------------------------------------------------------
+\end{document}

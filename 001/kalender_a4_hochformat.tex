@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Three-Column Newsletter
+% LaTeX Template
+% Version 1.0 (11/9/13)
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) 
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,ngerman,twoside]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
+
+%\setlength\topmargin{-80mm} % Top margin
+\setlength\topmargin{-48pt} % Top margin
+\setlength\headheight{0pt} % Header height
+\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+\setlength\oddsidemargin{-30pt} % Left margin
+\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+%\setlength\inner{4cm}
+%\setlenfth\outer{2cm}
+%\usepackage{geometry}
+%\geometry{bindingoffset=20mm}
+%\setlength\bindingoffset{2cm}
+
+\usepackage{charter} % Charter font for main content
+
+\frenchspacing % Reduces space after periods to make text more compact for a three-column layout
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for including images
+\usepackage{amssymb} % Math packages
+\usepackage{amsmath} 
+\usepackage{multicol} % Required for the three-column layout of the document
+\usepackage{url} % Clickable links
+\usepackage{enumitem} % Reduces the amount of space within and between lists with [noitemsep,nolistsep]
+\usepackage{marvosym} % Required for the use of symbols
+\usepackage{wrapfig} % Allows wrapping text around figures
+%\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{datetime} % Required for defining a custom date style
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR} % Set a custom date format
+\usepackage[pdfpagemode=FullScreen, colorlinks=false]{hyperref} % Link colors and PDF behavior in Acrobat
+\usepackage{fancyhdr} % Required to define custom headers/footers
+\usepackage{hyperref} % funktioniert nicht ?
+\pagestyle{fancy} % Enables the custom headers/footers for all pages following this
+
+%-----------------------------------------------------------
+% Header and footer
+\lfoot{\footnotesize % Left footer containing newsletter contact information
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{ccbysa88x31.png} 
+%\end{wrapfigure}
+R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
+\Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
+%\Telefon\ (000) 111-1111 \quad
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}
+}
+
+\cfoot{} % Empty center footer
+
+\rfoot{\footnotesize ~\\ Seite \thepage} % Right footer - page counter
+
+\renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define separators
+\newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
+\newcommand{\SepRule}{\noindent	% Creates a shorter separator rule
+\begin{center}
+\rule{250pt}{1pt} % Page width and rule width
+\end{center}
+}
+\newcommand{\Trenner}{\noindent
+\begin{center}
+\rule{100pt}{1pt}
+\end{center}
+}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define title and article styles
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+\begin{center}
+\Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+#1
+\end{center}	
+\par \normalsize \normalfont}
+
+\newcommand{\JournalIssue}[1]{ % Date and issue number at the top of the newsletter
+%\hfill \textsc{\mydate \today, No #1} % Right-aligned date and issue number
+\hfill \textsc{Jänner 2014, Ausgabe 001}
+\par \normalsize \normalfont}
+
+\newcommand{\NewsItem}[1]{ % News item title
+\usefont{T1}{fvs}{n}{n} % Use the Bera Sans Normal font
+\vspace{24pt}\large #1\vspace{3pt} % Print the title with space around it in a larger font size
+\par \normalsize \normalfont}
+
+\newcommand{\NewsAuthor}[1]{ % Author name under the item title
+\hfill von \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
+\par \normalfont}		
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\JournalIssue{1} % Issue number
+\NewsletterName{R.I.S. Journal} % Newsletter title
+%\begin{center}
+%\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie Journal für Open Source Education
+%\end{center}
+\noindent\HorRule{3pt} \\[-0.75\baselineskip] % Thick horizontal rule
+\HorRule{1pt} % Thin horizontal rule
+
+
+
+%\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
+%\begin{multicols}{3} % Begin the three-column layout
+
+%----------------------------------------------------------------------------------------
+%	OTHER NEWS
+%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
+%
+%-----------------------------------------------------------
+%RIS-Journal Titel (Titelgrafik hier einfügen)
+\begin{multicols}{3}
+\NewsItem{}
+\section*{Kalender}
+\label{kalender}
+\NewsAuthor{Horst JENS}
+
+\textbf{Die Firma spielend-programmieren (Horst JENS)  bietet Prorammierkurse für Jugendliche sowohl während der Schulzeit als auch während der Ferien an und freut sich 2014 auf folgende Termine:} 
+\begin{center}
+\includegraphics[width=0.9\linewidth]{kalender/tuxstick3.png}\\
+\footnotesize{spielend-programmieren.at}
+\end{center}
+\subsection*{Jänner 2014}
+\textbf{2014-01-17} (Fr) \href{http://fsfe.org}{\textit{fsfe.org}} FSFE Treffen im Metalab Wien\\
+\textbf{2014-01-24} bis 2014-01-26\\ \href{http://austriagamejam.org/}{\textit{austriagamejam.org}} Wien und weltweit
+\textbf{2014-01-31} (Fr) \href{http://subotron.com/veranstaltung/iron-curtain/}{\textit{subotron.com}} Vortrag: Games behind the Iron Curtain: The 1980s Czechoslovak hobby scene, Wien, MQ, quartier21, 19:00\\
+\subsection*{Februar 2014}
+\textbf{2014-02-01 bis 2014-02-02}\\ \href{https://fosdem.org/2014/}{\textit{Fosdem.org/2014}} Brüssel, Belgien
+\textbf{2014-02-02} (So) \href{https://metalab.at/wiki/Lockpicking}{\textit{metalab.at/wiki/Lockpicking}}\\
+\textbf{2014-02-03 bis 2014-02-08}\\ Semesterferien Intensiv Kurse: \href{http://spielend-programmieren.at}{\textit{spielend-programmieren.at}} Mo-Fr, 9:00 bis 12:00 Wien\\ 
+\textbf{2014-02-06} (Do) \href{http://subotron.com/veranstaltung/playstationheartsdevs/}{\textit{subotron.com}} Vortrag: Indies go Playstation. Wien, MQ, quartier21, 19:00\\
+\textbf{2014-02-07} (Fr) \href{http://subotron.com/veranstaltung/emerging-swiss-game-design/}{\textit{subotron.com}} Vortrag: Emerging Swiss Game Design – Pitch Session, Wien, MQ, quartier21, 19:00\\
+\textbf{2014-02-20} (Do) \href{http://subotron.com/veranstaltung/son-of-nor/}{\textit{subotron.com}} Vortrag: Projektanalyse österreichischer Games: 'Son of Nor', Wien, MQ, quartier21, 19:00\\
+\textbf{2014-02-21} (Fr) \href{http://fsfe.org}{\textit{fsfe.org}} FSFE Treffen im Metalab Wien\\
+\textbf{2014-02-28} (fr) \href{http://subotron.com/veranstaltung/local-social-cultural/}{\textit{subotron.com}} Vortrag: Game Development: lokale, soziale \& kulturelle Einflüsse, Wien, MQ, quartier21, 19:00\\
+\subsection*{März 2014}
+\textbf{2014-03-06} (Do) \href{http://subotron.com/veranstaltung/rovio-stars/}{\textit{subotron.com}} Vortrag: Rovio Stars and free-to-play publishing, Wien, MQ, quartier21, 19:00\\
+\textbf{2014-03-07} (Fr) \href{http://www.aec.at/u19/2012/03/08/article-3/}{www.aec.at/u19} Einreichfrist für U19 Programmierwettbewerb\\
+\textbf{2013-03-14} (Fr) \href{http://subotron.com/veranstaltung/sexsim/}{\textit{subotron.com}} Vortrag: Geschlechterrollen und Sexismus in Computerspielen, Wien, MQ, quartier21, 19:00\\
+\textbf{2014-03-15 bis 2014-03-16}\\ \href{http://chemnitzer.linux-tage.de/2014/de/info/}{\textit{chemnitzer.linux-tage.de/}} TU Chemnitz, Deutschland\\
+\textbf{2014-03-20} (Do) \href{http://subotron.com/veranstaltung/ausbildung-2014/}{\textit{subotron.com}} Roundtable: Ausbildungsmöglichkeiten für die Gamesindustrie 2014, Wien, MQ, quartier21, 19:00\\
+\textbf{2014-03-21} (Fr) \href{http://fsfe.org}{\textit{fsfe.org}} FSFE Treffen im Metalab Wien, 19:00\\ 
+\textbf{2014-03-26} (Mi) \href{http://www.documentfreedom.org/}{\textit{documentfreedom.org}} weltweit\\
+\textbf{2014-03-28} (Fr) \href{http://subotron.com/veranstaltung/virtual-other/}{\textit{subotron.com}} Vortrag: Das Spiel mit dem 'Virtual Other in Mind' , Wien, MQ, quartier21, 19:00\\
+\subsection*{April 2014}
+\textbf{2014-04-03} (Do) \href{http://subotron.com/veranstaltung/bildungstour-2/}{\textit{subotron.com}} Ausflug: Bildungs-Tour in Wiener Game-Developer-Studios. Treffpunkt: 19:00h: Fernkorngasse 10, 1100 Wien, Anmeldung erwünscht\\
+\textbf{2014-04-04 bis 2014-04-05}\\ \href{http://linuxtage.at/}{\textit{LinuxTage.at}} Graz, FH Joanneum\\
+\textbf{2014-04-12 bis 2014-04-22}\\ Osterferien Kurse \href{http://spielend-programmieren.at}{\textit{spielend-programmieren.at}} Mo-Fr, 9:00 bis 12:00 Wien\\
+\textbf{2014-04-18} (Fr) \href{http://fsfe.org}{\textit{fsfe.org}} FSFE Treffen im Metalab Wien, 19:00\\
+\subsection*{Mai 2014}
+\textbf{2014-05-16} (Fr) \href{http://fsfe.org}{\textit{fsfe.org}} FSFE Treffen im Metalab Wien, 19:00\\
+\textbf{2014-05-20 bis 2014-05-21} \href{http://www.opencommons.linz.at/}{\textit{opencommons.linz.at}} Linz\\
+\subsection*{Juni 2014}
+\textbf{2014-06-20} (Fr) \href{http://fsfe.org}{\textit{fsfe.org}} FSFE Treffen im Metalab Wien, 19:00\\
+\textbf{2014-06-28} bis 2014-08-30\\ Sommerferien Intensiv Kurse: \href{http://spielend-programmieren.at}{\textit{spielend-programmieren.at}} Mo-Fr, 9:00 bis 12:00 Wien\\
+\subsection*{Juli 2014}
+\textbf{2014-07-07 bis 2014-07-09}\\ \href{http://d4e.at/schulungen/}{\textit{d4e.at/schulungen}} Open Source for Education, BRG Weiz (Steiermark)\\
+\textbf{2014-07-21 bis 2014-07-27}\\ \href{https://ep2014.europython.eu/en/}{\textit{ep2014.eurpython.eu}} Europython Konferenz, Berlin\\
+\subsection*{August 2014}
+\textbf{2014-08-28 bis 2014-08-30}\\ \href{http://d4e.at/schulungen/}{\textit{d4e.at/schulungen}} Weizer Knoppixtage, BRG Weiz (Steiermark)\\
+\end{multicols}
+%\SepRule
+%-----------------------------------------------------------
+\end{document}

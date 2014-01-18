@@ -1,0 +1,310 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Three-Column Newsletter
+% LaTeX Template
+% Version 1.0 (11/9/13)
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) 
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,ngerman,twoside]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
+
+%\setlength\topmargin{-80mm} % Top margin
+\setlength\topmargin{-48pt} % Top margin
+\setlength\headheight{0pt} % Header height
+\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+\setlength\oddsidemargin{-30pt} % Left margin
+\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+%\setlength\inner{4cm}
+%\setlenfth\outer{2cm}
+%\usepackage{geometry}
+%\geometry{bindingoffset=20mm}
+%\setlength\bindingoffset{2cm}
+
+\usepackage{charter} % Charter font for main content
+
+\frenchspacing % Reduces space after periods to make text more compact for a three-column layout
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for including images
+\usepackage{amssymb} % Math packages
+\usepackage{amsmath} 
+\usepackage{multicol} % Required for the three-column layout of the document
+\usepackage{url} % Clickable links
+\usepackage{enumitem} % Reduces the amount of space within and between lists with [noitemsep,nolistsep]
+\usepackage{marvosym} % Required for the use of symbols
+\usepackage{wrapfig} % Allows wrapping text around figures
+%\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{datetime} % Required for defining a custom date style
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR} % Set a custom date format
+\usepackage[pdfpagemode=FullScreen, colorlinks=false]{hyperref} % Link colors and PDF behavior in Acrobat
+\usepackage{fancyhdr} % Required to define custom headers/footers
+\usepackage{hyperref} % funktioniert nicht ?
+\pagestyle{fancy} % Enables the custom headers/footers for all pages following this
+
+%-----------------------------------------------------------
+% Header and footer
+\lfoot{\footnotesize % Left footer containing newsletter contact information
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{ccbysa88x31.png} 
+%\end{wrapfigure}
+R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
+\Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
+%\Telefon\ (000) 111-1111 \quad
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}
+}
+
+\cfoot{} % Empty center footer
+
+\rfoot{\footnotesize ~\\ Seite \thepage} % Right footer - page counter
+
+\renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define separators
+\newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
+\newcommand{\SepRule}{\noindent	% Creates a shorter separator rule
+\begin{center}
+\rule{250pt}{1pt} % Page width and rule width
+\end{center}
+}
+\newcommand{\Trenner}{\noindent
+\begin{center}
+\rule{100pt}{1pt}
+\end{center}
+}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define title and article styles
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+\begin{center}
+\Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+#1
+\end{center}	
+\par \normalsize \normalfont}
+
+\newcommand{\JournalIssue}[1]{ % Date and issue number at the top of the newsletter
+%\hfill \textsc{\mydate \today, No #1} % Right-aligned date and issue number
+\hfill \textsc{Jänner 2014, Ausgabe 001}
+\par \normalsize \normalfont}
+
+\newcommand{\NewsItem}[1]{ % News item title
+\usefont{T1}{fvs}{n}{n} % Use the Bera Sans Normal font
+\vspace{24pt}\large #1\vspace{3pt} % Print the title with space around it in a larger font size
+\par \normalsize \normalfont}
+
+\newcommand{\NewsAuthor}[1]{ % Author name under the item title
+\hfill von \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
+\par \normalfont}		
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\JournalIssue{1} % Issue number
+\NewsletterName{R.I.S. Journal} % Newsletter title
+%\begin{center}
+%\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie Journal für Open Source Education
+%\end{center}
+\noindent\HorRule{3pt} \\[-0.75\baselineskip] % Thick horizontal rule
+\HorRule{1pt} % Thin horizontal rule
+
+
+
+%\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
+%\begin{multicols}{3} % Begin the three-column layout
+
+%----------------------------------------------------------------------------------------
+%	OTHER NEWS
+%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
+%
+%-----------------------------------------------------------
+%RIS-Journal Titel (Titelgrafik hier einfügen)
+\begin{multicols}{3}
+\NewsItem{}
+\section*{Ein Jahr danach: Westcliff High School for Girls migriert zu Linux} 
+\label{westcliff}
+\NewsAuthor{Stu JARVIS und Malcolm MOORE}
+
+\textbf{Im Sommer 2012 begann die \href{http://www.whsg.info/index.php/extracurricular/it-and-software/open-source-software}{\textit{Westcliff High Shool for Girls Academy (WHSG) [1]}} im Südosten Englands ihre Schülercomputer auf Linux (\textit{KDE Desktop}) umzustellen. Der Netzwerk-Manager der Schule, Malcom Moore, kontaktierte \href{http://dot.kde.org/}{\textit{dot.kde.org}}) damals. Ein Jahr danach führte \href{http://dot.kde.org/users/stuart-jarvis}{\textit{Stuart Jarvis [2]}} folgendes Interveiw mit Schuladministrator Malcolm Moore um herauszufinden wie es ihm und den Studentinnen geht in einer Welt ohne Windows.}
+
+\begin{center}
+\includegraphics[width=0.5\linewidth]{westcliff/westcliff-stu.jpg}\\
+\footnotesize{Stu Jarvis [2]}
+\end{center}
+
+Dieser Artikel von \href{http://www.asinen.org/about/}{\textit{Stu Jarvis [3]}} erschien am 4. Juli 2013 auf \href{http://dot.kde.org/2013/07/04/year-linux-desktop}{\textit{dot.kde.org [4]}} und wurde am 31. Juli 2013 auf \href{http://opensource.com/education/13/7/linux-westcliff-high-school}{\textit{opensource.com [5]}} unter einer creative-commons Lizenz republiziert. Übersetzung von \href{http://spielend-programmieren.at}{\textit{Horst JENS [6]}}, mit freundlicher Genehmigung des Autors.
+
+(Beignn der Übersetzung)
+
+\subsection*{Interview}
+\textbf{Stu:} Hallo Malcom, danke für deine Bereitschaft zu diesem Interview. Kannst du uns ein wenig über die Schule und deinen Job erzählen ?
+
+\textbf{Malcolm:} Die Westcliff High School for Girls Academy ist  eine \textit{selective Grammar School}\footnote{entspricht ungefähr einem Gymnasium} mit einer 6. Schulform mit ungefähr 340 Schülerinnen. Gegründet 1920 als eine gemischte Schule (Burschen und Mädchen) in der Victoria Avenue / Southend, zog sie auf 1931 auf den heutigen Platz und unterrichtet derzeit 1.095 Mädchen.
+
+Der IT Support besteht aus drei Angestellten: ich selbst, Paul Anonelli und Jenny Lidbury. Meine Rolle ist die des Netzwerk-Managers. Der IT Support ist zuständig für die Wartung und Anschaffung von allem was in der Schule mit Computern zu tun hat. Dazu zählen 200 Lehrer-Computer, über 400 Schüler-Computer, 33 IMacs, über 100 Laptops und ein paar Android Tablets. Wir warten auch alle Multimedia-Geräte wie Beamer, interaktive Whiteboards, Fernsehgeräte etc.
+
+\textbf{Stu:} Wessen Idee war es die Computer auf Linux umzustellen? Was waren die Gründe dafür ?
+
+\textbf{Malcolm:} Wir haben schon länger Linux benutzt als das Betriebssystem für unseren Email Server, für unser VLE (Virtual Learning Enviroment) und für unsere Homepage und ich hatte schon in meinem vorigen Job in der Finanzindustrie Linux verwendet. 
+
+Es war meine Idee die Schüler Computer auf Linux umszustellen denn es wurde mehr und mehr klar dass die Größe, Komplexität und Kosten der IT exponentiell wuchsen. Etwas musste getan werden und mein Stolz verbietet mir bei der Qualität der Maschinen die wir warten zu sparen. 
+
+Wir begannen zu testen mit einer kleinen Gruppe von 60 Computer, bekamen Rückmeldungen von den Schülerinnen, machten notwendige Adjustierungen, testcheten erneut und so weiter. Nachdem wir diesen Test-Zyklus mehrmals wiederholt hatten mit Red Hat / Fedora und mit Suse/OpenSusue Konfigurationen und damit zufrieden waren reichte ich meinen Vorschlag beim Schulträger (Senior Leadership Team) ein.
+
+Die Motivation dafür war ursprünglich sowohl Kosten als auch Philosophie: Selbst in einer ausgezeichneten Schule ist das Budget immer limitiert (Politiker kapieren einfach nicht die Volksweisheit: Wenn du glaubst Bildung ist teuer, probier Ignoranz). Die Kosten Windows zu benutzen sind hoch aber nicht immer klar ersichtliche. Windows bringt einen Haufen Gepäck mit sich was die Kosten gegenüber einem Linux System deutlich in die Höhe treibt. Die philosophische Motivation war wahrscheinlich die Philosophie des Pragmatismus.
+
+Wir wollten das bestmögliche IT System und die bestmögliche Bildung mit dem vorhandenen Budget anbieten. Anstatt Geld aus zu geben um im Endeffekt bei den Schülern Werbung für Microsoft Windows und Microsoft Office zu machen geben wir das Geld lieber für altmodische Dinge wie Lehrkräfte und echte Bildung aus.
+
+Glücklicherweise verwarf um diese Zeit die Regierung von Großritannieren den EDV-Lehrplan (welcher hauptsächlich daraus bestand den Schülern beizubringen wie man Microsoft Office verwendet) und sagte den Schulen sie sollen einen mehr Computerstudien-basierten Lehrplan (go for a more computer studied-based syllabus) verwenden. Wir rannten sozusagen offene Türen ein.
+
+\textbf{Stu:} Gab es Widerstände gegen die Linux-Migration und wie bist du damit umgegangen ?
+
+\textbf{Malcolm:} Überraschenderweise sehr wenig. Das Schulträger-Komitee "verhörte" mich zwei langen Sitzungen, das war ein Spaß ! 
+
+Sobald du einen Schritt zurückgehst von der falschen Vorstellung Computer = Windows und beginnst ernsthaft nachzudenken überwiegen die Vorteile glasklar die Nachteile. Die Welt ändert sich sehr schnell. Da gibt es eine Studie aus dem Jahr 2000 die besagt dass 97\% der Computer weltweit Windows installiert haben. Aber heutzutage, mit Tablets, Smartphones etc. ist der Windows-Anteil auf nur noch 20\% geschrumpft. In der Welt von \textit{Big Iron}, Linux herrscht unangefochten. Wir als Schule  sind spezialisiert auf Wissenschaft und Technik und möchten dass unsere Schülerinnen später Großes bewirken, wie das nächste Google gründen oder das Universum von \textit{CERN} zum Einsturz zu bringen. In diesen Umgebungen werden die Schülerinnen Wissen über Linux brauchen.
+
+\textbf{Stu:} Was für eine Wahl hast du bezüglich Software getroffen und warum ? Musste neue Hardware gekauft werden ?
+
+\textbf{Malcolm:} Wir überlegten und dass die Schülerinnen das Interface mögen müssen also war "pretty is a feature" eine Bedingung für die Schülercomputer. Für uns von der IT Abteilung, Stabilität ist das Wichtigste für die Server. Obwohl ich weiß dass viele Leute da draußen sind die unterschiedliche Linux-Distributionen mögen, kenne ich selbst mich eigentlich nur mit den \textbf{RPM} basierten aus. Hätten wir die Resourcen gehabt hätten wir uns andere Distributionen genauer angeschaut, aber wir probierten nur Red HAT / Fedora und Suse / openSuse. Am Schluss hat Suse/openSuse gewonnen wegen deren KDE Software Support. Zuerst wollten wir nicht den Schülerinnen zu viele Änderungen zumuten und KDE's \textbf{Plasma} kann so hergerichtet werden dass er sehr ähnlich ausschaut wie (von Windows?) gwohnt. Danach, wärhend der Test-Phase, forderten wir die Schülerinnen auf sowohl KDE Plasma als auch \textbf{GNOME} auszuprobieren. Plasma gewann mit Abstand bei der Beliebtheit. Die endgültige Entscheidung für Software war openSUSUE 12.2 und Plasma Desktop 4.10.
+
+Was die Workstations (Schüler-PC's?) angeht war keine neue Hardware notwendig. Einer der Hauptgründe warum wir Linux wollten war weil Linux gut auf älteren PC's läuft. Die übliche Zirkus, 400 Schüler-PC's alle drei oder vier Jahre zu ersetzen verursacht horrende Kosten.
+-
+Viele Schulen können sich das in Zeiten der Krise nicht erlauben. Mit der Performanz die wir jetzt haben will ich unsere Maschinen so lange laufen lassen bis sie auseinanderfallen ! Ich rate aber jedem sicherzustellen dass sie ein gutes Netzwerk haben befor auf Linux umgestellt wird.
+
+\textbf{Stu:} Wie war die Umstellung ? Gab es technische Probleme und wie wurden sie gelöst ?
+
+\textbf{Malcolm:} Die Umstellung auf Linux erfolgte während der Sommerferien 2012. Zu diesem Zeitpunkt rannten wir in keine signifikanten technischen Probleme, aber das soll nicht heissen das wir nicht später welche bekamen!
+
+\textbf{Stu:} Gab es im Vergleich zum alten System Software die ihr vermisst habt ?
+
+\textbf{Malcolm:} Zur Zeit arbeiten unsere Schülerinnen mit Linux und die Lehrkräfte mit Windows7. Gäbe es bei uns einen SIMS (Schools Information Management System) Client für Linux dann wäre die Umstellung der ganzen Schule einfach zu bewältigen. So wie es jetzt ist hätten wir damit über das Ziel hinausgeschossen. Im Educational Software Bereich fehlt uns bei Linux nichts, aber wir haben ein paar Windows Programme die wir unter \textbf{WINE} laufen lassen damit die Schülerinnen ihre laufenden Projekte in Ruhe abschließen können und dann langsam auf andere Software umsteigen können.
+
+Erwähnenswert ist dier Einsatz von \textbf{Raspberry Pi} und ähnlichen Geräten in Schulen. Das Raspberry Pi team sagt dass ein Vorteil beim Einsatz ihres Computers ist dass die Studenten damit experimentieren können ohne den PC der Schule (bzw. -den der Eltern) kaputt zu machen. Dank Linux können die Studenten herumexperimentieren. 
+
+Unser ICT department bietet bereits Programmierunterricht für Schüler ab 11 Jahren an, und mit unserem System ist das Schlimmste was passieren kann dass sich die Kinder den eigenen Account kapput machen. Selbst wenn sie den komplett zerstören kann er innerhalb von Minuten wiederhergestellt werden und die nächste Person die an dem selben Computer arbeitet wird davon nicht tangiert. 
+
+\textbf{Stu:} Hast Du KDE oder openSuse wegen Unterstützung kontaktiert ? Wie war die Reaktion ? 
+
+
+\textbf{Malcolm:} Ich habe häufig die \textbf{Foren} sowohl von KDE als auch von openSuse benutzt sowie die \textbf{Bugzilla} Seiten; beide waren sehr hilfreich. Die OpenSUSUE Foren können manchmal ein bischen ruppig sein wenn Leute dort finden dass eine Frage schlecht formuliert ist und nicht ganz durchdacht. Dies ist zum Glück bei den KDE Foren nicht so, dort ist jeder sehr hilfreich und höflich. Bei OpenSUSE muss man dazu sagen dass manche der Fragen die ich dort gepostet hatte nicht klar formuliert waren. Leider gibt es wie gesagt nur drei Leute in unserer Abteilung und \textbf{RTFM} ist keine realistische Option für uns. Ein Tag hat einfach nicht genug Stunden. Wenn ich etwas posten kann -selbst wenn es für manche dumm klingt- dann ist das eine großartige Hilfe. Wenn wir alles über Linux erst lernen müssten dann würde es dieses Migrationsprojekt niemals geben, wir würden immer noch \textbf{RTFM}!
+
+Obwohl ich manchmal als idiot beschimpft wurde bekam ich gute, brauchbare Antworten auf alle meine Fragen, sodass ich die Foren jedermann empfehlen kann. Manchmal ist es notwendig nicht allzu dünnhäutig zu sein.
+
+\textbf{Stu:} Wie denken Schülerinnen, Eltern und Lehrer über den Wechsel zu Linux ?
+
+
+\textbf{Malcolm:} Jüngere Schülerinnen akzeptieren es als normal. Ältere Schülerinnen sind etwas weniger flexibel. Es gibt ein paar wenige die sich an Microsoft Word klammern. Lehrer sind genau so -überraschenderweise hat es nichts mit dem Alter zu tun. Manche finden es in Ordnung und manche hassen es. Dies gesagt habend, eine gleich große Anzahl Lehrer hasste Windows 7 und kein einziger Lehrer mochte Windows 8. Ich denke das grundlegende Problem ist das Windows XP ein Opfer des eigenen Erfolgs wurde. Es funktioniert ausreichend gut vom Benutzerstandpunkt aus betrachtet und es ist schon seit ewigen Zeiten da. Außerdem mögen die Leute generell keine Veränderungen, seltsamerweise auch manche Schülerinnen nicht. 
+
+Sobald wir und entschieden hatten die Umstellung auf Linux zu beginnen sendeten wir einen Rundbrief an alle Eltern. Wir haben vielleicht weniger als ein halbes Dutzend Schreiben erhalten von Eltern die nicht einverstanden waren und meinten dass Office Skills nützliche Skills wären. Ich akzeptiere deren Ansichten, aber ich argumentiere dass eine heute 11 Jahre alte Schülerin die im September 2014 bei uns anfängt wird den Arbeitsmarkt nicht vor 2024 betreten. Wie wird Office 2024 ausschauen ? \emph{Your guess is as good as mine}. Gute Grundlagenkenntnisse und ein logischer und analytischer Umgang mit Computern werden lebenslang nützliche Fähigkeiten sein.
+
+\textbf{Stu:} Im Rückblick ein Jahr danach, was hat funktioniert und was hat nicht geklappt ? Was würdest du anders machen oder anderen Schulen raten anders zu machen ?
+
+\textbf{Malcolm:} Es wäre schön wenn ich sagen könnte alles hat perfekt geklappt, aber so war es nicht. Das erste Halbjahr nach der Umstellung war fürchterlich. Das Hauptproblem war (mangelnde) Geschwindigkeit des Systems und das es zu lange dauerte sich in KDE Plasma einzuloggen. Unsere Tests rannten mit nur 60 Maschinen denn es war schwierig so viele Schülerinnen während der Mittagspause aufzutreiben um das System so schlimm wie möglich zu testen. Außerdem hatten wir während dieser Test-Phase noch 400 Schülerinnen PC'S mit Windows XP zu betreuen.
+
+Zusammenfassung: Linux rennt sehr gut auch auf alten Kisten, aber wenn man \textbf{LDAP authentication} und \textbf{NFS home directories} haben will - so wie in jeder besseren Schule oder in einer mittleren Firma - dann braucht man ein gigabit Netzwerk. Mit nur 100Mb funktioniert es gerade noch, aber es ist eine unbefriedigende Erfahrung wie wir zu unserem Leidwesen feststellen mussten. Schließlich mussten wir acht \textbf{Netzwerk-Switches} ersetzen um das gesamte Netzwerk auf Gigabit Bandreite zu verbessern. Die Ersetzung der Switches war zwar sowieso geplant, aber ich hätte das gerne ohne Zeitdruck später gemacht.
+
+Außerdem kooperieren manche Dinge im KDE nicht von selbst mit NFS home directories - ich weiß dass dieses Problem bei späteren Versionen zu einem gewissen Grad gelöst wurde. Wir haben mehrere Skripts gemacht die auf unseren Servern rennen und die gewisse KDE Optionen erzwingen um das Netzwerk zu entlasten. Nachdem wir das geschafft hatten wärhend der Semesterferien beruhigte sich die Situation dankenswerterweise.
+
+\textbf{Stu:} Was könnte KDE tun um so eine Umstellung einfacher zu machen ?
+
+\textbf{Malcolm:} Dokumentation ! Man kann KDE über das \textbf{GUI} unglaublich genau konfigurieren, aber Admins müssen Defauls (Vorgabewerte) für alle User setzen. Die openSUSE Defautlts sind o.k. für Einzelplatzrechner, aber sie müssen angepasst werden für einen Schulbetrieb. Wir machten dies indem wir uns einen Rechner nahmen, Änderungen machten und dann durch alle dot Dateien durchgingen um zu sehen welcher davon betroffen war. Außerdem löcherten wir Ben Cooksley im KDE Forum mit Fragen. Es war harte Arbeit ! Das Problem hierbei - und ich glaube es gibt keine einfache Lösung dafür - ist dass mit Linux, und teils auch mit Windows - die Technologie sich in manchen Fällen so schnell weiterentwickelt dass die Dokumentation veraltet ist noch bevor sie überhaupt ausgedruckt wurde.
+ 
+\textbf{Stu:} Welche Programme (KDE und andere) waren beeindruckend? Wo fehlt noch was ?
+
+\textbf{Malcolm:} Ausgenommen ein halbes Dutzend Schülerinnen die \textbf{GNOME} benzten: Jeder ist begeistert von der Möglichkeit Desktop und Programme selbst zu konfigurieren. Die meisten Admins sperren dieses Feature bei Windows weil sich User - speziell Studenten - damit recht schnell das System kaputtkonfigurieren können. Wir sind der Ansicht dass wir zurück wollen zum Begriff des persönlichen Computers (PC). Wenn Schülerinnen ihren PC konfigurieren können so viel sie wollen gibt ihnen dies ein Gefühl von Eigentum über ihren Desktop. Wir haben Restriktionen gemacht damit man eine Maschine nicht unbenutzbar machen kann. Die Schülerinnen bekommen generell (wenn sie sich verkonfiguriert haben) einen Desktop Reset bevor es "ein Gespräch" gibt. So viel Freiheit zuzulassen ist ein ungewohnte Idee für Schulen. Am Anfang wurden manche Desktops wahrlich kaputtkonfiguriert. Nachdem dies den Reiz des Neuen verloren hat schauen die Desktops vernünftiger aus, und wir mussten schon monatelang keinen Reset mehr machen. In dieser Hinsicht ist es ein großer Erfolg dass die Schülerinnen nun Verantwortung für ihre eigene Arbeitsumgebung übernehmen und dass sie solche Aufgaben erledigen anstatt gesagt zu bekommen: "Da hast du Windows und Office. Benutze es!"
+
+\textbf{Stu:} Andere Kommentare, Beobachtungen oder Erfahrungen ? 
+
+\textbf{Malcolm:} Hatte ich schlaflose Nächte ? Ja. Wurde ich fast wahnsinnig ? Ja. Würde ich es nochmal machen ? Sofort! 
+
+\textbf{Stu:} Vielen Dank und auch in Zukunft viel Erfolg !
+
+
+
+\subsection*{Zusammenfassung}
+
+Das Beispiel der Westcliff High School for Girsl Academy gibt uns viel zum Nachdenken. Linux, mit KDE Software, kann klar in solch einer Umgebung arbeiten, aber es gibt noch Schwierigkeiten beim Einsatz und bei der Gewöhnung an dien neues System. Die Erfahrungen von Malcolm unterstreichen die Bedeutung der KDE Foren im Bereich wilkommen heißen und Unterstützen neuer Mitglieder um freie Software zu größerem Publikum zu verhelfen.
+
+(Ende der Übersetzung)
+
+\subsection*{Fachbegriffe}
+~~~\href{http://de.wikipedia.org/wiki/Windows_XP}{\textbf{Windows XP}}[x] existiert seit 2001 am Markt. 
+
+\href{http://de.wikipedia.org/wiki/Kde}{\textbf{KDE}} K Desktop Enviroment, eine Sammlung verschiedenster, gut zusammenpassender Linux Software inklusive eines Desktops. 
+
+\href{http://de.wikipedia.org/wiki/Cern}{\textbf{C.E.R.N}} Europäisches Kernforschungszentrum für physikalische Grundlagenforschung in der Nähe von Genf. Bekannt durch den \href{http://de.wikipedia.org/wiki/Large_Hadron_Collider}{riesigen Teilchenbeschleuniger}. 
+
+\href{http://de.wikipedia.org/wiki/RPM_Package_Manager}{\textbf{RPM}} stand für RedHat Package Manager und ist heute ein über mehrere Linuxdistributionen verbreiteter Standard zur Bereitstellung von Linux-Software. Libre-Office oder andere Software für Linux wird z.B. direkt auf der entsprechenden Homepage angeboten als rpm-Paket angeboten, was Download und Installation für rpm-baiserte Linuxdistributionen (Redhat, Suse, Fedora..) erleichtert. 
+
+\href{http://de.wikipedia.org/wiki/KDE_Plasma_Workspaces}{\textbf{Plasma}}: Eigentlich KDE Plasma Workspaces ist eine Weiterentwicklung von KDE. 
+
+\href{http://de.wikipedia.org/wiki/Gnome}{\textbf{Gnome}} Softwaresammlung für Linux inklusive Desktop. Steht in Konkurrenz zu KDE und anderen, "leichteren" Desktops. Bei jeder Linuxdistribution ist es mögliche sich entweder beim Start für einen installierten Desktop (z.B. Gnome oder KDE) zu entscheiden bzw. die Programme gemischt einzusetzen, z.B. einen KDE-Testeditor in einem Gnome-Desktop zu verwenden. \\
+\href{http://de.wikipedia.org/wiki/Wine}{\textbf{Wine}} steht für "Wine Is No Emulator" und bietet eine Laufzeitumgebung unter Linux an mit der es möglich ist viele Windows-Programme direkt aus Linux heraus zu starten, wo sie dann in einem Fenster laufen. 
+
+\href{http://de.wikipedia.org/wiki/Raspberry_Pi}{\textbf{Raspberry Pi}} sehr billiger Computer (ca. 30 Euro) welcher extra für den Schulunterricht entwickelt wurde und unter Linux läuft. Wegen dem geringen Preis, kleinen Abmessungen (ungefähr so groß wie eine Zigarettenschachtel) und den niedrigem Stromverbrauch sehr beliebt bei Bastlern und Do-it-Yourself Projekten. Wird unter anderem bei \href{http://spielend-programmieren.at}{\textit{Programmierkursen der Firma spielend programmieren}} eingesetzt. 
+
+\href{http://de.wikipedia.org/wiki/Webforum}{\textbf{(Web)Forum}} Diskussionsforum im Internet, die das öffentliche posten von Nachrichten erlauben sowie das ebenfalls öffentliche Antworten auf ein Posting. 
+
+\href{http://de.wikipedia.org/wiki/Bugzilla}{\textbf{Bugzilla}} Eine Webbasierte Fehlerverwaltungs-Software (Issue Tracker) bei der man Programmfehler (engl.: bugs) eintragen und verwalten kann, z.B. um herauszufinden ob jemand schon eine Lösung für ein bestimmtes Problem gefunden hat oder daran arbeitet. 
+
+\href{https://en.wikipedia.org/wiki/Rtfm}{\textbf{RTFM}} speziell in Webforen gebräuchliche Abkürzung. Wörtlich: \textit{Read the fucking Manual} (schau im Handbuch nach). 
+
+\href{http://en.wikipedia.org/wiki/Ldap}{\textbf{LDAP}} steht für "Lightweight Directory Access Protocol" Gemeint ist ein über das Web erreichbarer Verzeichnisdienst der es z.B. ermöglicht Email-Adressbücher, Telefonverzeichnisse und ähnliches zentral zu verwalten. Ist in größeren Firmen und Institutionen üblich, damit nicht jeder Mitarbeiter selbst eine Datenbank aller internen Telefonnummern pflegen muss. Die im Artikel erwähnte authentication bezieht sich darauf dass jede Schülerin per Webbrowser auf diese Verzeichnisse zugreifen kann. Dazu muss sie sich üblicherweise mit Username und passwort anmelden, was vom LDAP-Server ermöglicht werden muss. 
+
+\href{http://de.wikipedia.org/wiki/Network_File_System}{\textbf{NFS home directories}} steht für "Network File System" Heimatverzeichnisse (manche Begriffe sollte man erst gar nicht übersetzen). Gemeint ist dass jede Schülerin ein "home-directory" hat auf der sie ihre eigenen Dateien abspeichern kann. Dieses Verzeichnis ist für sie immmer an der gleicen Stelle erreichbar, egal von welchem der 400 Schulcomputer sie sich anmeldet (bzw. auch wenn sie sich von zu Hause aus anmeldet). Das Verzeichnis liegt in Wirklichkeit auf einem Schul-Server, zu welchem sich die Schülerin beim Anmelden am Computer verbindet. Der Service ist ähnlich, aber nicht identisch mit Cloud-Computing wie z.B. Google Drive oder Dropbbox. 
+
+\href{http://de.wikipedia.org/wiki/Switch_(Netzwerktechnik)}{\textbf{Netzwerk-Switch}}: Eine Art Verteilerkasten für Netzwerk-Kabel. Ähnlich einer Mehrfachsteckdose, nur eben nicht für Strom sondern für Lan-Kabel. 
+
+\href{http://en.wikipedia.org/wiki/Graphical_user_interface}{\textbf{GUI}} bedeutet "Graphical User Interface", grafische Benuzter-Schnittstelle und umfasst alles was man mit Maus (bzw Touch) bedienen kann, anklicken und verschieben von Icons und Fenstern etc.
+
+\subsection*{Spenden}
+Stu möchte selbst keine Spenden bekommen aber empfiehlt folgende Webseiten:
+\href{http://jointhegame.kde.org}{jointhegame.kde.org} und \href{http://www.kde.org/community/donations/index.php}{kde.org/community/donations}
+
+\subsection*{Download, Feedback:}
+\footnotesize{
+Download: Ordner \texttt{westcliff} \Mundus\ \href{http://spielend-programmieren.at/risjournal/001}{spielend-programmieren.at/risjournal/001}\\
+Startseite:\\
+\href{http://spielend-programmieren.at/de:ris:001:start}{spielend-programmieren.at/de:ris:001:start}\\ 
+\Letter\: stuart.jarvis@gmail.com (Englisch)\\}
+\normalsize
+ 
+\subsection*{Lizenz, Quellen}
+\begin{wrapfigure}{l}{2.0cm}
+\includegraphics[width=2cm]{ccbysa88x31.png} \\ 
+\end{wrapfigure}
+Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie \url{http://creativecommons.org/licenses/by-sa/4.0/deed.de}.
+
+\textbf{Quellen:} \\
+{[}1{]} \href{http://www.whsg.info}{www.whsg.info} \\
+{[}2{]} \href{http://dot.kde.org/users/stuart-jarvis}{dot.kde.org/users/stuart-jarvis} \\
+{[}3{]} \href{http://www.asinen.org/about/}{www.asinen.org/about} \\
+{[}4{]} \href{http://goo.gl/4paq3n}{goo.gl/4paq3n} \\
+{[}5{]} \href{http://goo.gl/Je8Hx1}{goo.gl/Je8Hx1} \\
+{[}6{]} \href{http://spielend-programmieren.at}{spielend-programmieren}
+
+\end{multicols}
+%\SepRule
+%-----------------------------------------------------------
+\end{document}

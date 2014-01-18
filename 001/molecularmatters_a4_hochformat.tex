@@ -1,0 +1,235 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Three-Column Newsletter
+% LaTeX Template
+% Version 1.0 (11/9/13)
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) 
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,ngerman,twoside]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
+
+%\setlength\topmargin{-80mm} % Top margin
+\setlength\topmargin{-48pt} % Top margin
+\setlength\headheight{0pt} % Header height
+\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+\setlength\oddsidemargin{-30pt} % Left margin
+\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+%\setlength\inner{4cm}
+%\setlenfth\outer{2cm}
+%\usepackage{geometry}
+%\geometry{bindingoffset=20mm}
+%\setlength\bindingoffset{2cm}
+
+\usepackage{charter} % Charter font for main content
+
+\frenchspacing % Reduces space after periods to make text more compact for a three-column layout
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for including images
+\usepackage{amssymb} % Math packages
+\usepackage{amsmath} 
+\usepackage{multicol} % Required for the three-column layout of the document
+\usepackage{url} % Clickable links
+\usepackage{enumitem} % Reduces the amount of space within and between lists with [noitemsep,nolistsep]
+\usepackage{marvosym} % Required for the use of symbols
+\usepackage{wrapfig} % Allows wrapping text around figures
+%\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{datetime} % Required for defining a custom date style
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR} % Set a custom date format
+\usepackage[pdfpagemode=FullScreen, colorlinks=false]{hyperref} % Link colors and PDF behavior in Acrobat
+\usepackage{fancyhdr} % Required to define custom headers/footers
+\usepackage{hyperref} % funktioniert nicht ?
+\pagestyle{fancy} % Enables the custom headers/footers for all pages following this
+
+%-----------------------------------------------------------
+% Header and footer
+\lfoot{\footnotesize % Left footer containing newsletter contact information
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{ccbysa88x31.png} 
+%\end{wrapfigure}
+R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
+\Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
+%\Telefon\ (000) 111-1111 \quad
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}
+}
+
+\cfoot{} % Empty center footer
+
+\rfoot{\footnotesize ~\\ Seite \thepage} % Right footer - page counter
+
+\renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define separators
+\newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
+\newcommand{\SepRule}{\noindent	% Creates a shorter separator rule
+\begin{center}
+\rule{250pt}{1pt} % Page width and rule width
+\end{center}
+}
+\newcommand{\Trenner}{\noindent
+\begin{center}
+\rule{100pt}{1pt}
+\end{center}
+}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define title and article styles
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+\begin{center}
+\Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+#1
+\end{center}	
+\par \normalsize \normalfont}
+
+\newcommand{\JournalIssue}[1]{ % Date and issue number at the top of the newsletter
+%\hfill \textsc{\mydate \today, No #1} % Right-aligned date and issue number
+\hfill \textsc{Jänner 2014, Ausgabe 001}
+\par \normalsize \normalfont}
+
+\newcommand{\NewsItem}[1]{ % News item title
+\usefont{T1}{fvs}{n}{n} % Use the Bera Sans Normal font
+\vspace{24pt}\large #1\vspace{3pt} % Print the title with space around it in a larger font size
+\par \normalsize \normalfont}
+
+\newcommand{\NewsAuthor}[1]{ % Author name under the item title
+\hfill von \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
+\par \normalfont}		
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\JournalIssue{1} % Issue number
+\NewsletterName{R.I.S. Journal} % Newsletter title
+%\begin{center}
+%\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie Journal für Open Source Education
+%\end{center}
+\noindent\HorRule{3pt} \\[-0.75\baselineskip] % Thick horizontal rule
+\HorRule{1pt} % Thin horizontal rule
+
+
+
+%\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
+%\begin{multicols}{3} % Begin the three-column layout
+
+%----------------------------------------------------------------------------------------
+%	OTHER NEWS
+%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
+%
+%-----------------------------------------------------------
+%RIS-Journal Titel (Titelgrafik hier einfügen)
+\begin{multicols}{3} 
+\NewsItem{}
+\section*{Molecular Matters}
+\label{molecularmatters}
+\NewsAuthor{Stefan Reinalter und Christian Haumer}
+
+%\begin{wrapfigure}{r}{2.0cm}
+%\begin{center}
+%\includegraphics[width=2cm]{molecularmatters/molecularmatters-christian-haumer.jpg} 
+%\footnotesize{Christian HAUMER. [1], \href{http://creativecommons.org/licenses/by-sa/3.0/}{cc-by-sa}}
+%\end{center}
+%\end{wrapfigure}
+\textbf{Christian Haumer  war für seinen Blog \href{http://projectdev.humepage.at/}{\textit{project:DEV [1]}} beim österreichischen Game-Dev Veteranen Stefan Reinalter zu Besuch: dabei wurde über Stefans Werdegang und die Gründung seiner Firma \href{http://www.molecular-matters.com/company/company.html}{\textit{Molecular Matters [2]}} geplaudert.} 
+\begin{center}
+\includegraphics[width=\linewidth]{molecularmatters/molecularmatters.png} 
+\footnotesize{Molecular Matters Firmenlogo. Bildrechte: \href{http://www.molecular-matters.com}{Molecular Matters}} \\
+\end{center}
+
+Dieses Interview erschien am 22. Mai 2013 im \href{http://projectdev.humepage.at/1419}{\textit{GameDev Blog von Christian Haumer [3]}}
+
+\subsection*{Interview:}
+\textbf{C:}Hallo! Kannst Du dich und Molecular Matters bitte kurz vorstellen? \\
+\textbf{S:}Mein Name ist Stefan Reinalter und ich bin jetzt schon seit etwa zehn Jahren in der Industrie tätig. Vor zwei Jahren habe ich mich selbstständig gemacht und dann das Unternehmen \textit{Molecular Matters} gegründet, mit dem ich Middleware für die Computerspiel-Industrie herstellen und verkaufen möchte. Daneben lehre ich an der FH Technikum Wien die Gegenstände \textit{Objektorientierte Programmierung in C++},  \textit{Game Development}, \textit{Game Engine Design} und \textit{fortgeschrittene Konsolen-Programmierung}. \\
+\textbf{C:}Was ist deine Vorgeschichte, was hast Du bisher gemacht? \\
+\textbf{S:}Ich habe vor etwa zehn Jahren bei Rabcat als Programmierer angefangen, als sie noch ein internes Programmierer-Team hatten und an einem eigenen Projekt gearbeitet haben. Nachdem dieses Projekt leider nicht fertiggestellt werden konnte, bin ich ein paar Monate später zu \href{http://www.sproing.com}{\textit{Sproing}} gewechselt, wo ich dann über sechs Jahre lang gearbeitet habe. Ja, und vor kurzem habe ich mich dazu entschlossen, mich selbstständig zu machen um mich voll und ganz dem widmen zu können, von dem ich glaube, dass ich es gut kann – also die Entwicklung einer neuen, eigenen Engine von Grund auf. \\
+\textbf{C:}Wann war das genau? \\
+\textbf{S:}Molecular Matters gibt es jetzt seit September 2012. \\
+\textbf{C:}Wie hat eigentlich alles begonnen, wie entstand die Idee, ein eigenes Unternehmen und eine eigene Game Engine zu entwickeln? \\
+\textbf{S:} Das Entwickeln von Technologie war schon immer das, was mir am meisten Spaß gemacht hat. Ich wollte mich schon immer voll und ganz auf das Entwickeln einer Technologie konzentrieren, ohne nebenbei an ein Projekt oder an eine tatsächliche Entwicklung gebunden zu sein, die in 9-12 Monaten fertig gestellt sein muss. Mich hat einfach interessiert, was man technisch auf die Beine stellen kann, wenn man die Zeit dafür hat, und an keine externen Deadlines gebunden ist. Daraus ist über die Zeit diese Idee entstanden, die mich letztendlich zur Gründung meines eigenen Unternehmens bewegt hat. \\
+\textbf{C:} Wie lang dauerte es ungefähr vom Aufkommen der Idee bis zum tatsächlichen Schritt der Selbstständigkeit? \\
+\textbf{S:} Eigentlich gar nicht so lange. Ich habe eh schon immer daheim viel herumgebastelt und Ideen ausprobiert. Aber so drei bis vier Monate vor der tatsächlichen Gründung war mir diesmal klar, dass ich den Schritt wagen und endlich meine eigene Engine realisieren werde.\\
+\textbf{C:} Wie verlief der Schritt zum Unternehmen? \\
+\textbf{S:} Ehrlich gesagt, am Anfang wusste ich überhaupt nicht, was mich erwartet. Ich habe versucht mich so gut es geht auf diversen Webseiten darüber zu informieren, und habe dann über Freunde und Bekannte erfahren, dass es beim AMS das \href{http://www.ams.at/sfa/14081_10435.html}{\textit{Unternehmensgründungsprogramm (UGP) [4]}} gibt.
+
+Nachdem ich auch arbeitslos gemeldet war, habe ich mich relativ bald für das UGP beworben und bin auch aufgenommen worden. Dann bekam ich von einer Consulting Firma einen Betreuer zugeteilt, der mir durch die ganze Bürokratie geholfen hat. Er sagte mir, welche Schritte ich in welcher Reihenfolge erledigen soll, wies mich auf die \href{https://www.gruenderservice.at/Content.Node/gruenden/Jungunternehmerfoerderungen.html}{\textit{Jungunternehmerförderung [5]}} hin und half mir bei so gut wie allen Fragen zur Unternehmensgründung weiter. Das ganze hat etwa zwei bis drei Monate in Anspruch genommen, weil man auch seine Geschäftsidee ausgearbeitet haben und einen Businessplan und einen Finanzplan vorlegen muss. Die tatsächliche Gründung ist dann im September 2012 erfolgt. \\
+\textbf{C:} Wann wurde der Name für das Unternehmen und die Engine gefunden – und wie aufwändig war die Namenssuche? \\
+\textbf{S:} Das muss irgendwann im Sommer 2012 gewesen sein, kurz vor der Gründung. Mir war schnell klar was der \textit{USP} (unique selling point) der Engine sein wird, nämlich dass man einzelne Bauteile kaufen kann, ohne gleich die ganze Engine erwerben zu müssen. Dieser Aspekt des modularen Aufbaus hat dann recht schnell zur Analogie der Atome und Moleküle geführt, und der Name \textit{Molecule Engine} war bald klar. Den Namen für das Unternehmen zu finden hat dann schon länger gedauert. Gemeinsam mit meiner Lebensgefährtin wurde sehr lange gebrainstormt, was mehrere A4 Seiten mit Ideen und Namens- Kandidaten produziert hat. Wir haben darauf geachtet, dass sich der Name gut in ein Logo umsetzen lässt, und dass er Bezug zum Namen der Engine hat. Und daraus ist dann letztendlich \textit{Molecular Matters} entstanden. \\
+\textbf{C:} Bietest Du mit Molecular Matters neben der Engine auch noch andere Produkte oder Services an? \\
+\textbf{S:} Das Hauptaugenmerk liegt auf der Engine, früher oder später soll das Unternehmen natürlich wachsen. Intern entwickle ich mit einigen Partnern auch ein kleines Spiel, damit die Engine auch gleich einen eigenen \textit{Showcase} (Vorführspiel) bekommt der zeigt, was man mit ihr alles machen kann. Ich biete aber auch Consulting und Contract Work an, was ich auch noch länger beibehalten will. Im letzten Jahr habe ich zum Beispiel bei \textit{Mi’pu’mi Games} an der Xbox 360- und Playstation 3-Portierung der \textit{Hitman HD-Trilogy} mitgearbeitet.
+
+Meine Stärken liegen da vor allem in den Bereichen Debugging und Bug-Fixing, Low-Level-Programmierung, sowie Optimierungen jeglicher Art. Bei Hitman habe ich mich vor allem um schwierige Crash-Bugs und Konsolen-spezifische Optimierungen gekümmert. An einem anderen Projekt, zu dem ich im Moment leider noch nichts sagen darf, war ich in den letzten Monaten auch beteiligt. Dabei würde ich gerne etwas darüber erzählen, weil ich auf das Ergebnis wirklich sehr stolz bin. Aber das muss halt leider noch warten. \\
+\textbf{C:} Kommen wir zur \textit{Molecule Engine}. Was kannst Du uns genaueres dazu erzählen? \\
+\textbf{S:} Die Entwicklung der Engine ist schon sehr weit fortgeschritten, aber dauert leider noch etwas an. Im  Moment gibt es zwei fertige Module, die man sich von der Website runterladen kann. Das eine ist das Basis-Modul, das alles abdeckt, was man sich an Basisfunktionalitäten einer Engine erwartet, also Filesystem, Debugging, Memory Management, Task-Scheduler, Profiling, Threading Utilities, Konfigurationsfiles und so weiter. Das zweite Modul ist dazu da, um mit diversen Input-Devices zu kommunizieren. Es supportet Joysticks, Keyboard, Maus, Konsolen-Controller, etc. Diese beiden Module kann man sich wie gesagt jederzeit kostenlos von meiner Website herunterladen und nach Herzenslust ausprobieren und evaluieren.
+
+Richtig ins Detail möchte ich jedoch erst in ein paar Monaten gehen, dann wenn der große Grafikteil fertig ist. Weil heutige Spiele einfach extrem grafiklastig sind, ist dieser Teil eindeutig der aufwändigste Part der Engine. Aber wenn er fertig ist wird es dann auch endlich ausführliches Material zum Herzeigen geben. Und dann kann ich hoffentlich auch schon meinen Anteil an dem besagten, aber noch geheimen Projekt präsentieren. \\
+\textbf{C:} Wann wird das voraussichtlich sein ? \\
+\textbf{S:} Mein Plan ist es, das Grafik-Modul im Oktober/November fertig gestellt zu haben. Dann möchte ich schon verschiedene Tech-Demos und vielleicht einen ersten Showcase vorzeigen können und endlich mit dem eigentlichen Marketing für die Molecule Engine durchstarten. \\
+\textbf{C:} Das klingt ja nach einem perfekten Zeitpunkt für ein weiteres Interview, das sich dann voll und ganz auf die Engine konzentriert, oder? \\
+\textbf{S:} Auf jeden Fall, es würde mich sehr freuen! \\
+\textbf{C:} Wunderbar, dann beenden wir dieses Interview an dieser Stelle und sehen uns später wieder!\\
+\textbf{S:} Abgemacht! \\
+\textbf{C:} Gibt es von deiner Seite noch etwas zu erwähnen? \\
+\textbf{S:} Ja! Zur Entwicklung der Molecule Engine gibt es seit zwei Jahren den Blog \href{http://molecularmusings.wordpress.com/}{\textit{Molecular Musings [6]}}, der tiefe und detaillierte Einblicke in den Prozess und die Engine selbst gibt. Besonders stolz bin ich darauf, dass der Blog inzwischen von richtigen Größen der Entwickler-Szene gelesen wird. Er wird von Leuten von \textit{Blizzard, Crytek, Valve, Ubisoft} und vielen mehr besucht, die sich oft direkt in den Kommentaren zu Wort melden. Inzwischen habe ich über den Blog schon einige sehr interessante Kontakte gemacht. Das gibt dem ganzen dann natürlich einen zusätzlichen Motivations-Schub :) \\
+\textbf{C:}Das kann ich mir vorstellen. Hast du noch abschließende Worte? \\
+\textbf{S:}Hmm. Ich glaube für den Moment ist alles Wichtige gesagt. \\
+\textbf{C:}Na dann vielen Dank für das nette Interview und bis bald! \\
+\textbf{S:}Bitte, gern geschehen, hat mich sehr gefreut! \\
+
+Wer mehr über Stefan Reinalter erfahren will, dem sei neben seinen zahlreichen Artikeln auf \href{http://www.altdevblogaday.com/author/stefan-reinalter/}{\textit{\#AltDevBlog [7]}} besonders der Artikel \href{http://www.altdevblogaday.com/2011/09/27/how-the-austrian-guy-ended-up-working-in-the-games-industry/}{\textit{How the austrian guy ended up working in the games industry [8]}}\footnote{Siehe auch RIS-Journal 001, \texttt{austrianguy}, Seite \pageref{austrianguy}} empfohlen.
+
+\subsection*{Download, Feedback:}
+\footnotesize{
+Download: Ordner \texttt{molecularmatters} \Mundus\ \href{http://spielend-programmieren.at/risjournal/001}{spielend-programmieren.at/risjournal/001}\\
+Startseite:\\
+\href{http://spielend-programmieren.at/de:ris:001:start}{spielend-programmieren.at/de:ris:001:start}\\ 
+\Letter\: stefan.reinalter@molecular-matters.com\\
+\Letter\: ch.haumer@gmail.com\\}
+\normalsize 
+
+\subsection*{Lizenz, Quellen:}
+
+\begin{wrapfigure}{l}{2.0cm}
+\includegraphics[width=2cm]{molecularmatters/ccbysa88x31.png}
+\end{wrapfigure}
+Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie \url{http://creativecommons.org/licenses/by-sa/4.0/deed.de}.
+
+\textbf{Quellen:} \\
+{[}1{]} \href{http://projectdev.humepage.at/}{projectedv.humepage.at} \\
+{[}2{]} \href{http://www.molecular-matters.com/}{molecular-matters.com} \\
+{[}3{]} \href{http://projectdev.humepage.at/1419}{projectdev.humepage.at/1419} \\
+{[}4{]} \href{http://www.ams.at/sfa/14081_10435.html}{www.ams.at/sfa/14081\_10435} \\
+{[}5{]} \href{https://www.gruenderservice.at/Content.Node/gruenden/Jungunternehmerfoerderungen.html}{http://goo.gl/zGU1xy} \\
+{[}6{]} \href{http://molecularmusings.wordpress.com/}{molecularmusings.wordpress.com} \\
+{[}7{]} \href{http://www.altdevblogaday.com/author/stefan-reinalter/}{goo.gl/Zrxf3O} \\
+{[}8{]} \href{http://www.altdevblogaday.com/2011/09/27/how-the-austrian-guy-ended-up-working-in-the-games-industry/}{http://goo.gl/Sv060y} 
+
+
+
+% hat referenz zu austrianguy
+\end{multicols}
+
+%-----------------------------------------------------------
+\end{document}

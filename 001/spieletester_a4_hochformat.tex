@@ -1,0 +1,276 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Three-Column Newsletter
+% LaTeX Template
+% Version 1.0 (11/9/13)
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) 
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,ngerman,twoside]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
+
+%\setlength\topmargin{-80mm} % Top margin
+\setlength\topmargin{-48pt} % Top margin
+\setlength\headheight{0pt} % Header height
+\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+\setlength\oddsidemargin{-30pt} % Left margin
+\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+%\setlength\inner{4cm}
+%\setlenfth\outer{2cm}
+%\usepackage{geometry}
+%\geometry{bindingoffset=20mm}
+%\setlength\bindingoffset{2cm}
+
+\usepackage{charter} % Charter font for main content
+
+\frenchspacing % Reduces space after periods to make text more compact for a three-column layout
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for including images
+\usepackage{amssymb} % Math packages
+\usepackage{amsmath} 
+\usepackage{multicol} % Required for the three-column layout of the document
+\usepackage{url} % Clickable links
+\usepackage{enumitem} % Reduces the amount of space within and between lists with [noitemsep,nolistsep]
+\usepackage{marvosym} % Required for the use of symbols
+\usepackage{wrapfig} % Allows wrapping text around figures
+%\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{datetime} % Required for defining a custom date style
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR} % Set a custom date format
+\usepackage[pdfpagemode=FullScreen, colorlinks=false]{hyperref} % Link colors and PDF behavior in Acrobat
+\usepackage{fancyhdr} % Required to define custom headers/footers
+\usepackage{hyperref} % funktioniert nicht ?
+\pagestyle{fancy} % Enables the custom headers/footers for all pages following this
+
+%-----------------------------------------------------------
+% Header and footer
+\lfoot{\footnotesize % Left footer containing newsletter contact information
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{ccbysa88x31.png} 
+%\end{wrapfigure}
+R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
+\Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
+%\Telefon\ (000) 111-1111 \quad
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}
+}
+
+\cfoot{} % Empty center footer
+
+\rfoot{\footnotesize ~\\ Seite \thepage} % Right footer - page counter
+
+\renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define separators
+\newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
+\newcommand{\SepRule}{\noindent	% Creates a shorter separator rule
+\begin{center}
+\rule{250pt}{1pt} % Page width and rule width
+\end{center}
+}
+\newcommand{\Trenner}{\noindent
+\begin{center}
+\rule{100pt}{1pt}
+\end{center}
+}
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+% Define title and article styles
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+\begin{center}
+\Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+#1
+\end{center}	
+\par \normalsize \normalfont}
+
+\newcommand{\JournalIssue}[1]{ % Date and issue number at the top of the newsletter
+%\hfill \textsc{\mydate \today, No #1} % Right-aligned date and issue number
+\hfill \textsc{Jänner 2014, Ausgabe 001}
+\par \normalsize \normalfont}
+
+\newcommand{\NewsItem}[1]{ % News item title
+\usefont{T1}{fvs}{n}{n} % Use the Bera Sans Normal font
+\vspace{24pt}\large #1\vspace{3pt} % Print the title with space around it in a larger font size
+\par \normalsize \normalfont}
+
+\newcommand{\NewsAuthor}[1]{ % Author name under the item title
+\hfill von \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
+\par \normalfont}		
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\JournalIssue{1} % Issue number
+\NewsletterName{R.I.S. Journal} % Newsletter title
+%\begin{center}
+%\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie Journal für Open Source Education
+%\end{center}
+\noindent\HorRule{3pt} \\[-0.75\baselineskip] % Thick horizontal rule
+\HorRule{1pt} % Thin horizontal rule
+
+
+
+%\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
+%\begin{multicols}{3} % Begin the three-column layout
+
+%----------------------------------------------------------------------------------------
+%	OTHER NEWS
+%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
+%
+%-----------------------------------------------------------
+%RIS-Journal Titel (Titelgrafik hier einfügen)
+\begin{multicols}{3}
+\NewsItem{}
+\section*{Beruf: Spiele-Tester}
+\label{spieletester}
+\NewsAuthor{Christian Haumer und Horst JENS}
+
+
+\textbf{\href{http://spielend-programmieren.at}{\textit{Horst JENS [1]}} interviewte \href{http://www.humepage.at}{\textit{Dipl. Ing. Christian Haumer [2]}}, der in Wien als Tester für Computerspiele  arbeitet. Christian spricht über seinen Werdegang, seinen Beruf und die dafür notwendigen Qualifikationen. Außerdem gibt er Tipps für Bewerbungsschreiben und redet über den Frauenmangel in der Branche}
+
+%\begin{wrapfigure}{r}{2.0cm}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{spieletester/spieletester-christian-haumer.jpg}\\
+\footnotesize{Christian Haumer [2]}
+%\footnotesize{Christian HAUMER. [1], \href{http://creativecommons.org/licenses/by-sa/3.0/}{cc-by-sa}}
+\end{center}
+%\end{wrapfigure}
+
+\subsection*{Interview}
+\textbf{H:} Servus Christian. \\
+\textbf{C:} Grüß Dich! \\
+\textbf{H:} Du hast einen super Job in Wien, du wirst bezahlt fürs Computerspielen. Wie hast Du das geschafft? \\
+\textbf{C:} Ich hab einfach angefangen mich zu informieren. Ich hab einmal geschaut was es in Österreich überhaupt für Firmen gibt. Manche Firmen habe ich schon vom Namen her gekannt, wie z.B. \href{https://www.sproing.at/}{\textit{Sproing [3]}}, die anderen habe ich gegoogelt. Und dann habe ich mich einfach blind beworben. \\
+\textbf{H:} Aus der Diktion deiner Vokale schließe ich dass bist nicht aus Wien bist? \\
+\textbf{C:} Nein, ich bin aus Niederösterreich. \\
+\textbf{H:} Wie alt warst du, als du dich damals zu bewerben begonnen hattest? \\
+\textbf{C:} Ich war schon ein wenig älter, knapp über 30, hatte gerade mein \href{http://www.fhstp.ac.at/studienangebot/bachelor/mt}{\textit{Medientechnik Studium}} an der FH St. Pölten beendet und war auf der Suche nach einem Job. \\
+\textbf{H:} In welchem Bereich arbeitet man da dann üblicherweise? \\
+\textbf{C:} Es war eine sehr breite Ausbildung: Audiotechnik, Videotechnik, Computeranimation, Fotografie und vieles mehr. Arbeiten kann man dann praktisch bei jeder Firma, die mit sowas zu tun hat. \\
+\textbf{H:} Wurden dort auch Spiele-relevante Themen unterrichtet? \\
+\textbf{C:} Computer Spiele haben mich immer schon interessiert, waren in der 
+Ausbildung aber leider nicht dabei. \\
+\textbf{H:} Wie hast Du deinen derzeitigen Job bekommen? \\
+\textbf{C:} Ich hatte halt leider keine direkte Games-Ausbildung. Ich kein Artist, kein Programmierer, kein Projektmanager, kein Level-Designer oder dergleichen. Ich sah aber dann im \href{http://www.makinggames.de/}{Making Games Magazin} eine Praktikums-Ausschreibung von \textit{Sproing} für einen \href{https://de.wikipedia.org/wiki/Quality_Assurance}{\textbf{Q.A.}} Job und hab mich einfach mal beworben. Nach einiger Zeit kam dann eine E-mail, ob ich noch verfügbar wäre und ob ich mal für ein Bewerbungsgespräch vorbeikommen könnte. Das Gespräch war erfolgreich und so bin ich dann dort in der Qualitätssicherung gelandet. Was ich daraus gelernt habe:  Bewerbungen sind extrem wichtig! Auch wenn man nicht gleich eine Antwort oder erst einmal eine Absage erhält: Die Firmen behalten einem im Auge. Wenn später dann doch ein Job frei wird, wird man eventuell kontaktiert. Wenn die Bewerbung gut und aussagekräftig war, versteht sich. \\
+\textbf{H:} War es ein unbezahltes Praktikum? \\
+\textbf{C:} Nein, es war bezahlt, sogar nicht einmal schlecht. Man hört ja immer Geschichten, dass man als Praktikant nichts gezahlt kriegt. Zumindest meiner Erfahrung nach werden Praktika in unserer Branche aber ganz gut bezahlt. \\
+\textbf{H:} Hat es eine Rolle gespielt dass Du schon dein Studium absolviert hattest? \\
+\textbf{C:} Nur indirekt. Q.A. ist ein typischer Quereinsteiger-Job, für den man eigentlich keine spezielle Ausbildung braucht. Es ist aber nicht so leicht wie viele Leute glauben: Man ist mitten drin im Projekt, man begleitet das ganze Projekt, überprüft den Stand des Spiels, pflegt die \href{https://de.wikipedia.org/wiki/Programmfehler}{\textit{Bug}}-Datenbank, weist die \textbf{Bugs} (Programmierfehler) den Programmierern zu und vieles mehr.  \\
+\textbf{H:} Das machst auch Du? \\
+\textbf{C:} Ja, wenn der Programmierer den Bug gefixt (ausgebessert) hat, bekomme ich automatisch eine Meldung. Dann muss ich auf die neue Version des Spiels warten, wo der Fix schon drin ist, und dann kann ich testen, ob der Bug wirklich gefixt ist. Es ist eine recht kleinteilige Arbeit: Bugs reporten, schauen ob der Bug schon in der Datenbank drin ist, schauen ob vielleicht schon von jemand anderem gefixt wurde, doppelt vorhandene Einträge schließen und so weiter. \\
+\textbf{H:} Das Nachtesten ist notwendig? \\
+\textbf{C:} Ja, das ist notwendig. Der Grund warum es Q.A. als Job gibt ist dass (Computer) Spieleprojekte extrem groß und kompliziert sind, und viele Leute daran beteiligt sind. Wenn der Programmierer eine Kleinigkeit ändert, und danach alles testen würde, was  an der Änderung des Programmcodes noch dranhängt, dann kann das  gleich ein paar Stunden dauern. Natürlich würde das möglich sein, aber effizienter ist es, wenn das Testen jemand er anderes macht: Die QA. Ideal ist sowieso eine Mischung aus beidem: Der Programmierer 'checkt seine Änderungen ein', schaut sich dann die unmittelbaren Auswirkungen an (z.B. startet das Spiel noch?), und wir, die Q.A., testen dann im großem Rahmen alles ab, während der Programmierer schon an den nächsten Sachen arbeitet.
+
+Man arbeitet aber nicht nur mit dem Programmierer zusammen sondern auch mit allen anderen Projektmitgliedern, den Designern, den Grafikern, den Projektmanagern, den Musikern und so weiter. Fehler können leider ja quasi überall passieren. \\
+\textbf{H:} Wie sehr kommt es auf die 'Social Skills' an? Ich nehme an du musst jemandem auch diplomatisch sagen können das etwas nicht so toll ist? \\
+\textbf{C:} Das ist wahrscheinlich der Punkt wo sich die Q.A. Spreu vom Weizen trennt. Wir sind diejenigen, die dem Entwickler sagen müssen \emph{Du hast einen Fehler gemacht}. Das muss halt in einer Weise passieren, so dass er nicht beleidigt ist und dann nachher immer noch mit mir redet.
+
+Social Skills sind speziell in einer kleinen Firma extrem wichtig. Bei \textit{Sproing} haben wir Teams von 5 bis 20 Leuten, da hat man mit jedem Mitglied direkten Kontakt. Bei richtig großen Spielen anderer Firmen, wie z.B. \textit{Call of Duty} oder \textit{Gran Turismo} sind wahrscheinlich hunderte Menschen involviert. Dort gibt es dutzende Tester die dann ganz streng Prozessen und Workflows folgen müssen, und kaum direkten Kontakt mit den Programmierern haben. Bei einem  Autorennspiel kann es gleich mal sein, dass  man dann zwei Jahre lang nur das Menü testet, wo man das Auto customizen kann. Da sieht man praktisch nichts vom fertigen Spiel. Ehrlich gesagt, das wäre nichts für mich. Ich persönlich arbeite sehr gerne in einem eher kleinen Team, da sind die Aufgaben viel abwechslungsreicher und interessanter. \\
+\textbf{H:} Wie ist das wenn man 8 Stunden am Tag Spiele testet? Gehst du dann nach Hause und spielst noch Computer, oder fühlt sich das dann nach Arbeit an? \\
+\textbf{C:} (Lacht) Ich probier's! Früher habe ich mehr gespielt, aber jetzt werde ich selektiver. Ich möchte unkomplizierte Spiele zum Entspannen, zum Beispiel Nintendo Spiele. Früher habe ich auch epische Rollenspiele mit dicken Handbüchern gespielt, in die man sich lange einarbeiten muss. Das mache ich jetzt nicht mehr. Wenn sich ein Spiel zu sehr nach Arbeit anfühlt, dann mache ich einen Bogen darum herum. \\
+\textbf{H:} Was wäre rückwirkend ein guter Schwerpunkt in der Schule gewesen für einen Beruf als Spieletester? \\
+\textbf{C:} Hmm. Alles, was mit Social Skills, Projekt-Management und Selbst-Management zu tun hat. Ganz wichtig ist auf jeden Fall eine gewisse Ausdauer und Frust-Resistenz. Es kann z.B. sein dass man zum zehnten Mal über einen speziellen Bug drüber stolpert, der immer wieder auftaucht und schon bereits schon mehrmals gefixt wurde. Man sagt dann dem Programmierer: 'Es tut mir Leid, aber das Problem tritt immer noch auf'. Der Programmierer fixt den Bug dann erneut und man testet wieder. Der Bug scheint weg zu sein, alles ist super. Stunden später, man testet gerade an einer ganz anderen Ecke des Spiels, taucht der Bug dann plötzlich wieder auf. Der Programmierer ist verärgert und meint 'Das kann nicht sein, das kann nicht sein! Ich habe das schon gefixt!' Dann muss man ihm eben ganz genau zeigen, wie man es geschafft hat, dass der Bug wieder auftritt, und er ihn noch einmal fixen kann. Es ist meistens so, dass aus Gründen, die man vorher nie erahnen würde, ein Bugfix ewig braucht. \\
+\textbf{H:} Schreibst Du den Bug einfach in die Datenbank oder versucht Du auch ihn zu reproduzieren? Inwieweit bist du da involviert? \\
+\textbf{C:} Natürlich muss ich den Bug immer reproduzieren, bevor ich ihn reporten kann. Aber damit komme ich zum nächsten Punkt: Man braucht ganz gute schriftliche und kommunikative Skills. Und Englisch ist extrem wichtig! \\
+\textbf{H:} Obwohl Eure Firma in Österreich ist läuft die Bug-Datenbank auf Englisch?  \\
+\textbf{C:} Genau. Bei uns ist die Firmensprache Englisch, weil einfach viele Englisch-Sprechende bei uns sind. Wir haben Leute aus Neuseeland, wir haben Leute aus Island, aus Portugal, wir haben Amerikaner, Engländer etc. Du musst Dich in der Branche unbedingt auf Englisch verständigen können, es muss zum Glück jedoch nicht perfekt sein. Wir haben aber leider schon einmal einen Bewerber abweisen müssen, weil sich beim Bewerbungsgespräch herausgestellt hat, dass sein Englisch nicht gut genug war. Obwohl er ansonsten einen richtig positiven Eindruck gemacht hat. Das war auch für uns bitter. \\
+\textbf{H:} Ist (englische) Schrift oder eher Sprache wichtig? \\
+\textbf{C:} Beides. Ich kann zum Beispiel auch nicht perfekt Englisch, aber ich kann mich ausreichend verständigen. Wichtig ist dass die Leute verstehen was ich schreibe und sage. In kurzen Worten eine genaue Anleitung verfassen, wie man den Bug reproduzieren kann, ist essentiell. Wenn der Programmierer erst einen langen Text lesen muss um zu verstehen worum es überhaupt geht, kostet das zu viel Zeit. Der Entwickler, der den Bugreport zugewiesen bekommt, soll sofort verstehen wo das Problem liegt. \\
+\textbf{H:} Du bist schon länger in der Firma, verstehst Du dich noch immer mit allen Entwicklern gut? Oder bist du verschrien als der Mann, der die schlechten Nachrichten bringt? Gehen die Leute nicht mehr mit dir Bier trinken? \\
+\textbf{C:} (Lacht) Nein, ich verstehe mich mit allen gut. Jeder, der professionell in der Branche arbeitet, weiß dass Fehler passieren. Es ist eigentlich nur die Ausnahme dass sich jemand persönlich angegriffen fühlt. \\
+\textbf{H:} Was sagst du, wie hoch ist der Frauenanteil in deiner Firma / der Branche ? \\
+\textbf{C:} Bei \textit{Sproing} arbeiten fast 90 Leute und ich glaube knapp 15 davon sind Frauen. Das ist für die Branche schon sehr gut, aber insgesamt halt leider doch noch viel zu wenig. \\
+\textbf{H:} Du sprichst jetzt als Mitarbeiter und nicht als Firmenleitung, aber hättet ihr gerne mehr Frauen / Bewerberinnen ? \\
+\textbf{C:} Ja, auf jeden Fall! \textit{Sproing} hat zum Beispiel sogar eine Geschäftsführerin. In der Entwicklung arbeiten eine Programmiererin, ich glaube zwei Grafikerinnen, drei Projekt Managerinnen, eine QA Testerin und der Rest der Damen ist dann (eher klassisch) in der Verwaltung tätig. Wir würden mehr Frauen sicher begrüßen. Und soweit ich weiß gibt es bei \textit{Sproing}, und auch in der Branche bei uns in Österreich keine Vorurteile gegenüber Frauen. Es gibt halt einfach überhaupt keinen Grund, warum ein Mädchen nicht Programmieren studieren, und danach als Programmiererin arbeiten sollte. \\
+\textbf{H:} Hast Du was gehört über schlechtes Betriebsklima, 'Wää, lauter Nerds..' \\
+\textbf{C:} Nein, im Gegenteil! Das sind doch alles eher Klischees. \\
+\textbf{H:} Du selbst hast nie programmieren gelernt? \\
+\textbf{C:} Die Grundlagen hab ich einmal gelernt, aber es ist nie über 'Hello World' hinausgekommen. \\
+\textbf{H:} Hast Du das Gefühl, die Entwickler freuen sich wenn Du als Spieletester etwas vom Programmieren verstehst, oder ist ihnen das eher lästig ? \\
+\textbf{C:} Sagen wir so: Wenn man siebengescheit sein will und ihnen erklären will, wie sie zu arbeiten haben und was da abgeht, dann werden sie das eher nicht so cool finden. Aber es hilft natürlich, wenn du die Grundlagen vom Programmieren verstehst. Du weißt dann eher warum welche Sachen passieren, obwohl du es ganz genau nie verstehen wirst. Du solltest auf jeden Fall einen Hang zu Computer und Technik haben, schließlich hast Du den ganzen Tag mit sehr technischen Dingen zu tun. Es hilf auch sehr, wenn man kleine Computerprobleme selber lösen kann und nicht immer gleich zur IT rennen muss. \\
+\textbf{H:} Möchtest Du den Lesern abschließend noch etwas mit auf den Weg geben? \\
+\textbf{C:} Wenn man vorhat, in der recht kleinen österreichischen Spielebranche einen Job zu finden, dann muss man auf jeden Fall sehr geduldig und ausdauernd sein. Nie das Ziel aus den Augen verlieren, immer weiter an sich selbst arbeiten und sich nicht davon entmutigen lassen, wenn man nicht gleich was findet. Es kann oft viele Jahre dauern bis man sein Ziel erreicht.  \\
+\textbf{H:} Dein privater Blog? \\
+\textbf{C:} Mein privater Blog ist \\ \href{http://www.humepage.at}{\textit{www.humepage.at [2]}}
+und als \textbf{GameDev} Blog habe ich noch \\ \href{http://projectdev.humepage.at/}{\textit{projectdev.humepage.at [6]}}. \\
+\textbf{H:} Danke für das Interview ! \\
+\textbf{C:} Sehr gerne! \\
+
+\subsection*{Fachbegriffe:}
+~~~\href{https://de.wikipedia.org/wiki/Quality_Assurance}{\textbf{Q.A}}: steht für Quality Assurance,  Qualitätssicherung.
+
+\href{https://de.wikipedia.org/wiki/Programmfehler}{\textbf{Bug}}: englisch für Wanze, Käfer: steht für einen Programmierfehler, da einer der ersten dokumentierten Computerfehler durch ein totes Insekt in einem Rechner ausgelöst wurde. Den (langwierigen) Vorgang der Fehlerbeseitigung nennt man debuggen.
+ 
+\textbf{GameDev}: Abkürzung für Game Developer, Spiele-Entwickler bzw. Programmierer.
+
+\subsection*{Download, Feedback:}
+\footnotesize{
+Download: Ordner \texttt{spieletester} \Mundus\ \href{http://spielend-programmieren.at/risjournal/001}{spielend-programmieren.at/risjournal/001}\\
+Startseite:\\
+\href{http://spielend-programmieren.at/de:ris:001:start}{spielend-programmieren.at/de:ris:001:start}\\ 
+\Letter\: horst.jens@spielend-programmieren.at\\
+\Letter\: ch.haumer@gmail.com\\}
+\normalsize 
+
+\subsection*{Podcast}
+\begin{wrapfigure}{l}{2cm}
+%\begin{center}
+\includegraphics[width=2cm]{nomad/biertaucherlogo.png}
+\end{wrapfigure}
+%\end{center}
+Das Interview wurde am 13. Dezember 2013 im Museumsquartier Wien im Rahmen einer \href{http://subotron.com/}{\textit{Subotron [5]}} Veranstaltung aufgezeichnet und ist im Originalton im \href{http://spielend-programmieren.at/de:podcast:biertaucher:2013:135}{Biertaucherpodcast 135: \texttt{goo.gl/HJNlEc}} zu hören.
+
+\subsection*{Lizenz, Quellen:}
+\begin{wrapfigure}{l}{2.0cm}
+\includegraphics[width=2cm]{spieletester/ccbysa88x31.png}
+\end{wrapfigure}
+Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie \url{http://creativecommons.org/licenses/by-sa/4.0/deed.de}.
+
+
+\textbf{Quellen}: \\
+{[}1{]} \href{http://spielend-programmieren.at}{spielend-programmieren.at} \\
+{[}2{]} \href{http://www.humepage.at}{www.humepage.at} \\
+{[}3{]} \href{https://www.sproing.at/}{sproing.at} \\
+{[}4{]} \href{http://projectdev.humepage.at/}{projectdev.humepage.at} \\
+{[}5{]} \href{http://subotron.com/}{subotron.com} \\
+%{[}6{]} \href{http://spielend-programmieren.at/de:podcast:biertaucher:2013:135}{goo.gl/HJNlEc} \\
+
+
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{horst2011mitdoppeltux.jpg}
+%\begin{center}
+%\footnotesize{Horst JENS}
+%\end{center}
+%\end{wrapfigure}
+%Dieses Interview mit Spieletester Dipl. Ing. Christian HAUMER wurde am 13. Dezember 2013 im Museumsquartier Wien %von Horst JENS aufgenommen. Die Originalaufnahme finden Sie verlinkt unter \\ %\url{http://spielend-programmieren.at/de:ris:001:start}
+
+
+
+
+
+
+\end{multicols} % End the three-column layout for a large picture
+\SepRule
+%-----------------------------------------------------------
+\end{document}
