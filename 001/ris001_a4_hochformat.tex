@@ -137,19 +137,24 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 %	OTHER NEWS
 %----------------------------------------------------------------------------------------
 %-----------------------------------------------------------
+%
 %-----------------------------------------------------------
 %RIS-Journal Titel (Titelgrafik hier einfügen)
+%start splitting here
+%---------------------------------------------------------
 \begin{center}
 %\includegraphics[width=0.9\linewidth]{austrianguy/austrianguy.png}
-\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie, creative-commons lizensierte Journal zu den Themen Open-Source, Spiele Programmierung, Open Education. Preis: Zahlen Sie so viel Sie wollen (siehe Bitcoin- und Flattr QR-Code).
+\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie, creative-commons lizensierte Journal zu den Themen Open-Source, Spiele Programmierung, Open Education. \textbf{Preis:} Zahlen Sie so viel Sie wollen (siehe Bitcoin- und Flattr-QR-Code).
 \includegraphics[width=\linewidth]{titelbild.png}
 \end{center}
+%---------------------------------------------------------
 \newpage
 \begin{multicols}{3}
 \NewsItem{}
 \input{inhalt/inhalt} % TODO bessere Kurzbeschreibung, Layout
 \end{multicols}
 \SepRule % weil auf selber Seite
+%---------------------------------------------------------
 \begin{multicols}{3}
 \NewsItem{}
 \input{impressum/impressum}
@@ -159,12 +164,8 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 \newpage
 \begin{multicols}{3}
 \NewsItem{}
-\input{editoral/editoral} %spellecheck, Schule, hardware, Linux, Gramlich
-%\includegraphics[width=0.8\linewidth]{editoral-freiesoftware.png}
+\input{editorial/editorial} %spellecheck, Schule, hardware, Linux, Gramlich
 \end{multicols}
-%\begin{center}
-%\includegraphics[width=0.8\linewidth]{editoral-freiesoftware.png}
-%\end{center}
 %\SepRule ??
 %-----------------------------------------------------------
 \newpage % braucht neue Seite weil sonst macht er vorletzte Seite fast leer
@@ -203,11 +204,6 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 \end{multicols}
 \SepRule % im pdf 2 seprules vor austrianguy ??
 %-----------------------------------------------------------
-%\begin{center}
-%\includegraphics[width=14cm]{austrianguy.png} \\
-%\footnotesize{Bildrechte: \href{https://creativecommons.org/licenses/by-sa/4.0/deed.en}{cc-by-sa} by \href{https://commons.wikimedia.org/wiki/User:David_Liuzzo}{David Liuzzo[3],}\href{https://commons.wikimedia.org/wiki/File:EU_location_AUT.png}{[4],} public domain: \href{http://openclipart.org/detail/175351/playstation-controller-by-matthewhenninger-175351}{[5],}\href{http://openclipart.org/detail/21847/comic-characters:-bearded-guy-by-nicubunu}{[6],}\href{http://openclipart.org/detail/7885/blue-world-map-by-neocreo}{[7],}\href{http://openclipart.org/detail/12612/flag-of-austria-by-anonymous}{[8]}}
-%\end{center}
-%\SepRule{}
 %\newpage
 \begin{multicols}{3} 
 \NewsItem{}
@@ -262,12 +258,6 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 \NewsItem{}
 \input{olpcnewyear/olpcnewyear} %spellchecked, zahlen schöner ausrichten / fett machen
 \end{multicols}
-% lama einfügen zentriert auf ganze Seite
-%
-%\begin{center}
-%\includegraphics[width=0.6\linewidth]{olpcnewyear/olpclama.jpg}\\
-%\footnotesize{Christoph Derndofer (im Bild links) in Peru mit XO Laptop. cc-by-sa, [2]}
-%\end{center}
 %\SepRule{}
 %-----------------------------------------------------------
 \newpage
@@ -303,11 +293,6 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 \NewsItem{}
 \input{powdertoy/powdertoy} %spellchecked
 \end{multicols}
-\SepRule
-%\newpage
-\begin{multicols}{2}
-\input{powdertoy/powdertoypictures}
-\end{multicols}
 %\SepRule
 %-----------------------------------------------------------
 \newpage  % 2 Spaltig
@@ -317,52 +302,20 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 \end{multicols}
 %\SepRule
 %-----------------------------------------------------------
-%\begin{multicols}{3}
-%\NewsItem{}
-%\input{kalender/kalender}
-%\end{multicols}
-%\SepRule
-%-----------------------------------------------------------
 \begin{multicols}{3}
 \NewsItem{}
 \input{scratch/scratch}
-%%\end{multicols}
-%%\SepRule
-%%\begin{multicols}{2}
-
-%\begin{center}
-%\includegraphics[width=0.7\linewidth]{scratch/fballcode.png}\\
-%\footnotesize{Ballcode}
-%\end{center}
-
-%\begin{minipage}{0.35\linewidth}  
-%\begin{center}
-%\includegraphics[width=\linewidth]{scratch/fpfeilcode.png}
-%%\footnotesize{Pfeilcode (lin}
-%Abbildungen: Pfeilcode (links), Batcode (rechts)
-%\end{center}
-%\end{minipage}
-%\begin{minipage}{0.6\linewidth}
-%\begin{center}
-%\includegraphics[width=\linewidth]{scratch/fbatcode.png}
-%%\footnotesize{Batcode}
-%\end{center}    
-%\end{minipage}
-%\end{multicols}
-
-%\begin{multicols}{1}
-
-%\end{multicols}
-%\SepRule
+%\end{multicols} Multicols werden in Scratch beendet (vor minipage)
 %-----------------------------------------------------------
 \newpage
 \begin{multicols}{3}
 \NewsItem{}
 \input{kalender/kalender}
 \end{multicols}
-\SepRule
-
-
+%\SepRule
+%-----------------------------------------------------------
+\end{document} 
+%-----------------------------------------------------------
 %\newpage
 %\begin{multicols}{3}
 %\NewsItem{}
@@ -370,7 +323,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 %\end{multicols}
 %\SepRule
 
-\end{document} 
+
 
 
 
