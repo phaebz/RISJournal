@@ -1,5 +1,7 @@
 *.privat
 *.pdf
+*.epub
+*.html
 *.acn
 *.acr
 *.alg
