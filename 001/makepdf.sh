@@ -1,6 +1,6 @@
+pdflatex editorial_a4_hochformat.tex
 pdflatex molecularmatters_a4_hochformat.tex
 pdflatex c3inspire_a4_hochformat.tex
-pdflatex inhalt_a4_hochformat.tex
 pdflatex scratch_a4_hochformat.tex
 pdflatex nomad_a4_hochformat.tex
 pdflatex olpcnewyear_a4_hochformat.tex
