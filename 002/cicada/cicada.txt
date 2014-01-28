@@ -1,0 +1,7 @@
+Cicada 3301
+
+“Hello. We are looking for highly intelligent individuals. To find them, we have devised a test.” Auf ein Bild mit jenen Worten stießen in der Nacht auf den 5. Jänner 2012 die User des Internet-Forums 4chan, welches sofort alle Aufmerksamkeit dort auf sich zog. Mit dem Hinweis, dass in diesem Bild eine Nachricht versteckt sei, stürzten sich Hobby-Codeknacker auf das Bild und wurden fündig. Am Ende der Bilddatei war eine Textzeile mit lesbaren Zeichen angefügt, mit Hinweis auf “TIBERIVS CLAVDIVS CAESAR” und damit auf die bekannte Caesar-Verschlüsselung. Aus der verschlüsselten Textzeile ergab sich ein Link auf ein neues Bild, doch das Ergebnis war enttäuschend: “Just decoys this way. Looks like you can’t guess how to get the message out.” Aber an Aufgeben dachte niemand, im Gegenteil: erst jetzt wurde es spannend.
+
+Oh Knight, what has brought thee hither?
+
+Schon bald entdeckten die Rätselnden, dass die Nachricht im Bild mithilfe von Steganographie versteckt wurde. Steganographie bezeichnet das Verstecken von Informationen in einem Medium, ein Bild in diesem Fall. Verwendet wurde in diesem Fall die Software Outguess, die Farbwerte einzelner Pixel ändert, um Informationen zu speichern. Und tatsächlich: mithilfe von Outguess kam eine Nachricht ans Licht, erneut ein Rätsel und ein Link. Über Maya-Ziffern, Vigenere-Chiffre, Buchcodes und einem Ausschnitt von “The Lady of the Fountain” aus der Artussage führten schließlich auf weitere Rätsel.
