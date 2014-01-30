@@ -4,12 +4,17 @@ Computerspiel
 
 von Benjamin Dechant
 
-Battle for Wesnoth ist ein frei lizenziertes, runden-basierendes Computerspiel, in dem man das fiktive Land Wesnoth vor diversen Gefahren schützen muss. Hier zeige ich euch alles, was für den Spieleinstieg zu wissen vorteilhaft wäre.
+Battle for Wesnoth ist ein frei lizenziertes, runden-basierendes Computerspiel, in dem man das fiktive Land
+Wesnoth vor diversen Gefahren schützen muss. Hier zeige ich euch alles, was für den Spieleinstieg zu wissen
+vorteilhaft wäre.
 
 
 Installierung:
 
-Installieren kann man das Spiel ganz leicht, indem man auf http://www.wesnoth.org/ im Internet geht, dort ist oben ein gelbes Kasterl, in dem ziemlich viel steht. Um euch das lesen dort zu ersparen (eigentlich müsst ihr hier mehr lesen, aber was soll´s) sag ich euch, dass dort ungefähr in der Mitte „Download Wesnoth 1.10.8“ steht. Darunter sind die verschiedenen Betriebssysteme aufgelistet, von denen ihr dann auf eures klickt. Dann wird der Ladevorgang sofort gestartet und ihr kommt in ein neues Fenster, in dem einige Informationen stehen.
+Installieren kann man das Spiel ganz leicht, indem man auf http://www.wesnoth.org/ im Internet geht, dort
+ist oben ein gelbes Kasterl, in dem ziemlich viel steht. Um euch das lesen dort zu ersparen (eigentlich müsst
+ihr hier mehr lesen, aber was soll´s) sag ich euch, dass dort ungefähr in der Mitte „Download Wesnoth 1.10.8“
+steht. Darunter sind die verschiedenen Betriebssysteme aufgelistet, von denen ihr dann auf eures klickt. Dann wird der Ladevorgang sofort gestartet und ihr kommt in ein neues Fenster, in dem einige Informationen stehen.
 
  Wenn ihr bis da hin mitgekommen seit, habt ihr jetzt Battle for Wesnoth, wenn nicht, dann eben nicht.
 
