@@ -23,36 +23,49 @@ Spieleinstieg:
 
 Jetzt habt ihr also das Spiel Battle for Wesnoth, schade das ihr noch nicht wisst, wie man es spielt.
 
- Fürs erste geht ihr auf Windows auf Start und sucht dort einfach nach dem Spiel, oder ihr habt Linux und geht dort zu „Spiele“, wo das Spiel sofort hin installiert wird. Für andere Betriebssysteme weiß ich den Weg nicht, es wird aber wahrscheinlich ziemlich ähnlich sein. Wenn ihr so weit seid könnt ihr Battle for Wesnoth einfach öffnen, woraufhin dieses Fenster  geöffnet wird:
+ Fürs erste geht ihr auf Windows auf Start und sucht dort einfach nach dem Spiel, oder ihr habt Linux und geht dort zu „Spiele“
+, wo das Spiel sofort hin installiert wird. Für andere Betriebssysteme weiß ich den Weg nicht, es wird aber wahrscheinlich 
+ziemlich ähnlich sein. Wenn ihr so weit seid könnt ihr Battle for Wesnoth einfach öffnen, woraufhin dieses Fenster  geöffnet 
+wird:
 {wesnoth_1}
  jetzt werde ich euch dort die einzelnen Punkte erklären:
 
 1)Tipps
 Links unten ist ein Fenster mit Tipps zum Spiel, wie zum Beispiel, dass Untote gegen arkane Angriffe besonders anfällig seien. (Ich kapier selbst nicht ganz, was ein arkaner Angriff sein soll)
 
- man kann sich die Tipps durchlesen, ist aber ein eher fader Zeitvertrieb. Allerdings kommt man von dort über den „Hilfe“ Button zur – na ratet mal - Hilfe.
+ man kann sich die Tipps durchlesen, ist aber ein eher fader Zeitvertrieb. Allerdings kommt man von dort über den „Hilfe“ 
+ Button zur – na ratet mal - Hilfe.
 
 2)Einführung
 Die Einführung ist eine Kampagne (siehe unten), in der das Spiel vorgestellt wird.
 {wesnoth_2}
- Darin wird jeder Schritt, den man machen muss erklärt und anschließend darf man zur Belohnung ein paar Orks vermöbeln, was ja ganz lustig ist. Ansonsten ist es sehr ratsam, die Einleitung durchzuspielen, da darin Dinge erklärt werden, die ich hier nicht alle anführen kann.
+ Darin wird jeder Schritt, den man machen muss erklärt und anschließend darf man zur Belohnung ein paar Orks vermöbeln, was ja 
+ ganz lustig ist. Ansonsten ist es sehr ratsam, die Einleitung durchzuspielen, da darin Dinge erklärt werden, die ich hier 
+ nicht alle anführen kann.
 
 3)Kampagne
 
-hier kann man eine Kampagne starten. Von Kampagnen gibt es eine große Auswahl, und in allen muss man Wesnoth vor einer anderen Gefahr schützen.
+hier kann man eine Kampagne starten. Von Kampagnen gibt es eine große Auswahl, und in allen muss man Wesnoth vor einer anderen 
+Gefahr schützen.
 {wesnoth_3}
- Wenn ihr jetzt doppelt auf eine Kampagne drückt, deren Beschreibung euch gefällt, wird sie gestartet. Wenn die Kampagne geladen wurde, kommt eine kleine Einführung in die Geschehnisse, die ihr überspringen könnt. Und dann, viel spass.
+ Wenn ihr jetzt doppelt auf eine Kampagne drückt, deren Beschreibung euch gefällt, wird sie gestartet. Wenn die Kampagne 
+ geladen wurde, kommt eine kleine Einführung in die Geschehnisse, die ihr überspringen könnt. Und dann, viel spass.
 
 4)Mehrspieler
 
-Hier könnt ihr Mehrspielerkampagnen starten. Dazu wählt ihr Mehrspieler aus, wählt, ob ihr auf einem offiziellen Server, auf einem ausgewählten Server, in einem lokalen Spiel spielen wollt, oder ob ihr eine eigene Netzwerkverbindung knüpfen wollt.
+Hier könnt ihr Mehrspielerkampagnen starten. Dazu wählt ihr Mehrspieler aus, wählt, ob ihr auf einem offiziellen Server, auf 
+einem ausgewählten Server, in einem lokalen Spiel spielen wollt, oder ob ihr eine eigene Netzwerkverbindung knüpfen wollt.
 
- Bei den offiziellen Servern kommt ihr in ein Menü, in dem alle derzeit laufenden Server angezeigt sind. Bei den Servern steht rechts die Anzahl der Spieler, die in dem Server sind. Ihr könnt aber nur bei den Servern mit grünen Spielerzahlen einsteigen. Alle anderen sind schon voll! Ihr könnt natürlich auch rechts oben eine eigene Partie eröffnen.
+ Bei den offiziellen Servern kommt ihr in ein Menü, in dem alle derzeit laufenden Server angezeigt sind. Bei den Servern steht 
+ rechts die Anzahl der Spieler, die in dem Server sind. Ihr könnt aber nur bei den Servern mit grünen Spielerzahlen einsteigen. 
+ Alle anderen sind schon voll! Ihr könnt natürlich auch rechts oben eine eigene Partie eröffnen.
 {wesnoth_4}
 
- Unter „Mit einem Server verbinden“ könnt ihr auch auf alternative Server gehen, aber dort gibt es meisten weniger verschiedene Spiele.
+ Unter „Mit einem Server verbinden“ könnt ihr auch auf alternative Server gehen, aber dort gibt es meisten weniger verschiedene 
+ Spiele.
 
- Dann könnt ihr auch eine Netzwerkpartie eröffnen, damit eröffnet ihr einen neuen Alternativen Server. (also ist es reichlich unnötig)
+ Dann könnt ihr auch eine Netzwerkpartie eröffnen, damit eröffnet ihr einen neuen Alternativen Server. (also ist es reichlich 
+ unnötig)
 
 Das Letzte ist das lokale Spiel, da könnt ihr eine Partie nur mit Freunden spielen.
 
@@ -69,13 +82,16 @@ Diese sind von begeisterten Battle-for-Wesnoth-Spilern, die zusätzlich auch noc
 
 7)Karteneditor
 
-Der Karteneditor ist eine Art Erweiterung für sich, mit ihm könnt ihr eure eigenen Karten zeichnen, in denen ihr dann spielen könnt.
+Der Karteneditor ist eine Art Erweiterung für sich, mit ihm könnt ihr eure eigenen Karten zeichnen, in denen ihr dann spielen 
+könnt.
 {wesnoth_6}
 
-Der Karteneditor funktioniert ganz einfach: rechts sind die Landschaften, die man auswählen kann und links oben ist das Menü um zu speichern, neu zu laden und zu löschen. (dieses Menü gibt es übrigens auch bei den Kampagnen)
+Der Karteneditor funktioniert ganz einfach: rechts sind die Landschaften, die man auswählen kann und links oben ist das Menü 
+um zu speichern, neu zu laden und zu löschen. (dieses Menü gibt es übrigens auch bei den Kampagnen)
 
 8)Einstellungen
 
-Die zwei Punkte darunter sind die Spracheinstellungen, in denen man (was sonst) die Sprach ändern kann, und die Einstellungen, in denen man zum Beispiel die Grafikoptionen ändern kann.
+Die zwei Punkte darunter sind die Spracheinstellungen, in denen man (was sonst) die Sprach ändern kann, und die Einstellungen, 
+in denen man zum Beispiel die Grafikoptionen ändern kann.
 
 Das wäre alles, was ihr für den Einstieg in Battle for Wesnoth wissen solltet. Des weiteren könnt ihr wie schon gesagt bei den Tipps auf Hilfe gehen, wo alles genauer erklärt wird.
