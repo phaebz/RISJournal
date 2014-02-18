@@ -80,7 +80,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 % Define separators
 \newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
 \newcommand{\SepRule}{\noindent	% Creates a shorter separator rule
-\begin{center}
+\begin{figure}
 \rule{250pt}{1pt} % Page width and rule width
 \end{center}
 }
@@ -131,7 +131,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 
 
 %\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
-%\begin{multicols}{3} % Begin the three-column layout
+% % Begin the three-column layout
 
 %----------------------------------------------------------------------------------------
 %	OTHER NEWS
@@ -140,7 +140,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 %
 %-----------------------------------------------------------
 %RIS-Journal Titel (Titelgrafik hier einfügen)
-\begin{multicols}{3}
+
 \NewsItem{}
 \section*{Computer-Unterricht in Vietnam}
 \label{vietnam}
@@ -148,10 +148,10 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 
 \textbf{Neil arbeitet in den USA bei Google. In diesem \href{http://neil.fraser.name/news/2013/03/16/}{textit{Blogposting vom 16. M\"arz 2013 [1]}} berichtet er über seine Reise nach Vietnam und vergleicht den Computer-Science Unterricht in Vietnam mit jenem der USA. Anlässlich seines Besuches programmierte Neil die Lernsoftware \href{http://blockly-demo.appspot.com/static/apps/maze/en.html?level=1}{\textit{Blocky Maze [3]}}.} 
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{vietnam/vietnam_neil_fraser.jpg} \\
-\footnotesize{Neil Fraser. Bildrechte: Neil Fraser}
-\end{center}
+\caption{Neil Fraser. Bildrechte: Neil Fraser}
+\end{figure}
 
 Übersetzung aus dem Amerikanischen von \href{http://spielend-programmieren.at}{\textit{Horst JENS [10]}}  mit freundlicher Genehmigung des Autors. Die Bildrechte der Fotos waren nicht mit vernünftigem Aufwand abzuklären, aber alle Fotos wurden von Neil Fraser freundlichst zur Verfügung gestellt. \\
 
@@ -163,10 +163,10 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 
 
 \textit{Computer Science} Unterricht startet in der 2. Klasse (sencond grade)\footnote{Im Amerikanischen werden die Klassen fortlaufend gez\"ahlt. First Grade entspricht der ersten Klasse Volksschule, Fifth Grade entspricht der 1. Klasse Hauptschule / Gymnasium}. Die Kinder beginnen mit den Grundlagen -- inklusive dem korrekten Umgang mit \href{http://de.wikipedia.org/wiki/Diskette}{\textbf{Disketten}}.
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{vietnam/vietnam_disketten.jpg}
-\footnotesize{Unterrichtsmaterial über Disketten. Bildrechte: Volksrepublik Vietnam}
-\end{center}
+\caption{Unterrichtsmaterial über Disketten. Bildrechte: Volksrepublik Vietnam}
+\end{figure}
 In der 3. Klasse lernen die Schüler Microsoft Windows zu benutzen. Vietnam ist zu 100 Prozent eine Windows XP Monokultur. Wahrscheinlich haben alle Windows-Lizenzen im Land die selbe Seriennummer. Verständlich, wenn man bedenkt dass eine Windows Lizenz soviel kostet wie ein Monatsgehalt.
 
 Tippen (10-Finger-System) wird gelehrt mittels Microsoft Word. Ganz Vietnam verwendet englischsprachige Software in Schulen, was das Tippen lernen für die Kinder in diesem Alter erschwert.
@@ -177,27 +177,27 @@ Ein Vergleich mit den USA ist hier angebracht: Einige Besuche in San Francisco's
 
 Zu sagen dass ich beeindruckt war vom Computer Science Unterricht und Lehrplan in Vietnam's Grundschulen ist eine Untertreibung. Ich fragte was ich tun könne um zu helfen. Unerwarteterweise war die Antwort: "Software". Education-Software existiert in vietnamesischer Sprache überhaupt nicht, und es gibt auch kein Geld um sie zu kaufen, selbst wenn sie existieren würde.  Ich verbrachte den Rest meines Urlaubs damit, Software zu schreiben. Das Resultat ist \href{https://code.google.com/p/blockly/}{\textit{Blocky Maze [2]}}, welches in verschiedenen Sprachen läuft. Hier ein Link zur \href{http://blockly-demo.appspot.com/static/apps/maze/en.html?level=1}{Online-Demo-Version von \textit{Blocky Maze [3]}}. Blocky-Maze ist ein Selbst-Lern-Programm mit einer Reihe von Tutorials um Programmieren zu lernen. Verwendet werden Schleifen (loops) und Bedingungen (conditionals) sowie im Level 10 auch Listen, Variablen und Prozeduren. Ich musste alles auf eine CD brennen denn die Schule konnte sich keinen zuverlässigen Internetzugang leisten.
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{vietnam/vietnam_blocky.png}
-\footnotesize{Blocky Maze, ein mehrsprachiges Programmierlernspiel. Bildrechte: Volksrepublik Vietnam}
-\end{center}
+\caption{Blocky Maze, ein mehrsprachiges Programmierlernspiel. Bildrechte: Volksrepublik Vietnam}
+\end{figure}
 
 Die Übergabe der Software zwei Wochen später war ein surreales Erlebnis: Im Büro des Schuldirektors zu sitzen ist als Erwachsener genauso furchterregend wie als Schulkind. Von der Wand sah der allgegenwärtige \href{http://goo.gl/fZATT3}{\textit{Ho Chi Minh}} auf mich herab. Vor der Schule begannen 1.500 Kinder ihre Morgengymnastik, zum Teil bestehend aus dem \href{http://www.youtube.com/watch?v=4xmV5uHWNag}{\textit{Chicken dance [4]}}.
 
 Der Computer Science Lehrer war hoch erfreut und versprach mir Blocky schon am nächsten Tag im Unterricht einzusetzen. Wegen fehlendem Budget konnte sich die Schule keinen zweiten Computer Science Lehrer leisten, und nur die Hälfte der Kinder bekam Computer Science Unterricht. Ich fragte nach wieviel ein Computer Science Lehrer im Monat verdient: 100 Dollar. Daraufhin ging zum nächsten Bankomat und kaufte der Schule einen zweiten Computer Science Lehrer für ein Jahr.
 
 Es stellte sich heraus dass man ziemlich populär wird wenn man Software und einen Lehrer spendet:
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{vietnam/vietnam_happy.jpg}
-\footnotesize{happy Neil, happy students. Bildrechte: Volksrepublik Vietnam}
-\end{center}
+\caption{happy Neil, happy students. Bildrechte: Volksrepublik Vietnam}
+\end{figure}
 
 Wenn 5-grader in Vietnam mindestens genauso gut "performen" wie 11-grader in den USA, wie gut sind dann die 11-grader in Vietnam ? Ich ging in eine CS-Klasse in einer High School, auch diesmal ohne Vorankündigung. Die Klasse arbeitete an einem Test:
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{vietnam/vietnam_test.jpg}
-\footnotesize{Computer Science Test. Bildrechte: Volksrepublik Vietnam}
-\end{center}
+\caption{Computer Science Test. Bildrechte: Volksrepublik Vietnam}
+\end{figure}
 
 Gegeben war eine Data File der ein Labyrinth mit diagonalen Wänden beschreibt. Aufgabe war es die Nummer der umschlossenen Flächen zu zählen und den Flächeninhalt der größten umschlossenen Fläche auszurechnen.
 
@@ -296,7 +296,7 @@ Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weiterga
 {[}10{]}: \href{http://spielend-programmieren.at}{spielend-programmieren.at} \\
 {[}11{]}: \href{https://neil.fraser.name/news/2013/04/15/}{neil.fraser.name/news/2013/04/15/} \\
 {[}12{]}: \href{https://neil.fraser.name/news/2013/12/31/}{neil.fraser.name/news/2013/12/31/} \\
-\end{multicols}
+
 \SepRule
 %-----------------------------------------------------------
 \end{document}

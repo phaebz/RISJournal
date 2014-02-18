@@ -20,7 +20,7 @@
 %	PACKAGES AND DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt,a4paper,ngerman,twoside]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
+\documentclass[10pt,a4paper,ngerman,twoside,twocolumn]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
 
 %\setlength\topmargin{-80mm} % Top margin
 \setlength\topmargin{-48pt} % Top margin
@@ -114,6 +114,11 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 \hfill von \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
 \par \normalfont}		
 
+% Centering of all float environments
+\makeatletter
+\g@addto@macro\@floatboxreset\centering
+\makeatother
+
 %----------------------------------------------------------------------------------------
 %	TITLE
 %----------------------------------------------------------------------------------------
@@ -131,7 +136,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 
 
 %\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
-%\begin{multicols}{3} % Begin the three-column layout
+% % Begin the three-column layout
 
 %----------------------------------------------------------------------------------------
 %	OTHER NEWS
@@ -149,178 +154,140 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 \end{center}
 %---------------------------------------------------------
 \newpage
-\begin{multicols}{3}
 \NewsItem{}
 \input{inhalt/inhalt} % TODO bessere Kurzbeschreibung, Layout
-\end{multicols}
 \SepRule % weil auf selber Seite
 %---------------------------------------------------------
-\begin{multicols}{3}
 \NewsItem{}
 \input{impressum/impressum}
-\end{multicols}
 %\SepRule
 %---------------------------------------------------------
 \newpage
-\begin{multicols}{3}
 \NewsItem{}
 \input{editorial/editorial} %spellecheck, Schule, hardware, Linux, Gramlich
-\end{multicols}
 %\SepRule ??
 %-----------------------------------------------------------
 \newpage % braucht neue Seite weil sonst macht er vorletzte Seite fast leer
-\begin{multicols}{3}
 \NewsItem{}
 \input{chemnitz/chemnitz} %spellecheck, Schule, hardware, Linux, Gramlich
-\end{multicols}
 %\SepRule
 %-----------------------------------------------------------
 \newpage % notwendig wegen dem hohen jonas bild
-\begin{multicols}{3}
 \NewsItem{}
 \input{nomad/nomad} % Lifestyle, Gramlich
-\end{multicols}
 \SepRule
 %-----------------------------------------------------------
 %\newpage  % nachher löschen !
-\begin{multicols}{3}
 \NewsItem{}
 \input{trillions/trillions} %spellchecked, zahlen schöner ausrichten / fett machen
-\end{multicols}
 \SepRule{}
 %-----------------------------------------------------------
 %\newpage %  notwendig, sonst layout schiach
-\begin{multicols}{3}
 \NewsItem{}
 \input{spieletester/spieletester} %spellcheck, 2,6 Seiten: Game, Beruf, Tech, Gender
-\end{multicols} % End the three-column layout for a large picture
 \SepRule
 %-----------------------------------------------------------
 %\newpage
-\begin{multicols}{3} 
 \NewsItem{}
 \input{molecularmatters/molecularmatters} %
 % hat referenz zu austrianguy
-\end{multicols}
 \SepRule % im pdf 2 seprules vor austrianguy ??
 %-----------------------------------------------------------
 %\newpage
-\begin{multicols}{3} 
 \NewsItem{}
 \input{austrianguy/austrianguy} % spellcheck soll nach molecularmatters kommen, 3 Seiten ohne Bild, mit Bild 4 Seiten: Game, Beruf, Tech
-\end{multicols}
 \SepRule
 %-----------------------------------------------------------
 %\newpage
-\begin{multicols}{3}
 \NewsItem{}
 \input{counterstrike/counterstrike} %spellcheck, game, job
-\end{multicols}
 %\SepRule{}
 %-----------------------------------------------------------
 \newpage
-\begin{multicols}{3}
 \NewsItem{}
 \input{redditrant/redditrant} %spellcheck game, job
-\end{multicols}
 \SepRule
 %-----------------------------------------------------------
 %\newpage
-\begin{multicols}{3}  
 \NewsItem{}
 \input{smartschool/smartschool} % spellcheck, 1,2 Seiten: Schule, Tech
-\end{multicols} %bbb
 \SepRule
 %-----------------------------------------------------------
 %\newpage{} % notwendig
-\begin{multicols}{3}
 \NewsItem{}
 \input{c3inspire/c3inspire} %spellcheck schule, job, open-source
-\end{multicols}
 %\SepRule{}
 %-----------------------------------------------------------
 \newpage
-\begin{multicols}{3}
 \NewsItem{}
 \input{westcliff/westcliff} %spellcheck schule, international
-\end{multicols}
 %\SepRule
 %-----------------------------------------------------------
 \newpage
-\begin{multicols}{3}
 \NewsItem{}
 \input{vietnam/vietnam} %spellcheck schule, international
-\end{multicols}
 \SepRule
 %-----------------------------------------------------------
 %\newpage  % nachher löschen !
-\begin{multicols}{3}
 \NewsItem{}
 \input{olpcnewyear/olpcnewyear} %spellchecked, zahlen schöner ausrichten / fett machen
-\end{multicols}
 %\SepRule{}
 %-----------------------------------------------------------
 \newpage
-\begin{multicols}{3}
 \NewsItem{}
 \input{floor/floor} %spellchecked
-\end{multicols}
 %\SepRule
 %-----------------------------------------------------------
 \newpage  % nachher löschen !
-\begin{multicols}{3}
 \NewsItem{}
 \input{laura/laura} %spellchecked
-\end{multicols}
 \SepRule
 %-----------------------------------------------------------
 %\newpage % fdroid hat langes bild, braucht eigene Seite
-\begin{multicols}{3}
 \NewsItem{}
 \input{fdroid/fdroid} %spellchecked, software, linux
-\end{multicols}
 \SepRule
 %-----------------------------------------------------------
 %\newpage
-\begin{multicols}{3}
+
 \NewsItem{}
 \input{bristlebot/bristlebot} %spellchecked
-\end{multicols}
+
 \SepRule
 %-----------------------------------------------------------
 %\newpage  % 2 Spaltig 
-\begin{multicols}{3}
+
 \NewsItem{}
 \input{powdertoy/powdertoy} %spellchecked
-\end{multicols}
+
 %\SepRule
 %-----------------------------------------------------------
 \newpage  % 2 Spaltig
 \begin{multicols}{2}
 \NewsItem{}
 \input{powdertoytutorial/powdertoytutorial} %spellchecked
-\end{multicols}
+
 %\SepRule
 %-----------------------------------------------------------
-\begin{multicols}{3}
+
 \NewsItem{}
 \input{scratch/scratch}
-%\end{multicols} Multicols werden in Scratch beendet (vor minipage)
+% Multicols werden in Scratch beendet (vor minipage)
 %-----------------------------------------------------------
 \newpage
-\begin{multicols}{3}
+
 \NewsItem{}
 \input{kalender/kalender}
-\end{multicols}
+
 %\SepRule
 %-----------------------------------------------------------
 \end{document} 
 %-----------------------------------------------------------
 %\newpage
-%\begin{multicols}{3}
+%
 %\NewsItem{}
 %\input{powder}
-%\end{multicols}
+%
 %\SepRule
 
 
@@ -348,9 +315,9 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 
 %Fusce placerat ultricies massa sed tristique. Aenean mattis nulla id eros adipiscing, vel pulvinar augue vehicula. Cras ultricies non turpis sit amet tincidunt. Quisque mollis vitae felis eu feugiat. Sed nec vehicula dolor. Nulla egestas vehicula nisl sed vehicula. Etiam ipsum dolor, aliquam eget sapien mollis, tempus elementum mi. Vivamus a auctor sem. In fringilla nunc at imperdiet rhoncus. Integer sagittis iaculis libero, at ultricies neque laoreet ac.
 
-%\begin{center}
+%\begin{figure}
 %\includegraphics[width=0.8\linewidth]{elephant.jpg} % Example of an in-line image
-%\end{center}
+%\end{figure}
 
 %Integer id congue eros. Phasellus venenatis pulvinar nisl, sed ultrices arcu vulputate non. Mauris at congue arcu, eget sollicitudin purus. Phasellus ullamcorper erat sed leo molestie, non ultrices enim aliquam. Donec cursus, arcu vitae ultricies euismod, massa ante ornare nunc, et porttitor erat augue iaculis nisl. Mauris ornare neque nisl, non pretium dolor adipiscing nec. Nulla nibh est, aliquam sed sollicitudin vel, imperdiet ut ante.
 
@@ -373,9 +340,9 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 
 %Fusce placerat ultricies massa sed tristique. Aenean mattis nulla id eros adipiscing, vel pulvinar augue vehicula. Cras ultricies non turpis sit amet tincidunt. Quisque mollis vitae felis eu feugiat. Sed nec vehicula dolor. Nulla egestas vehicula nisl sed vehicula. Etiam ipsum dolor, aliquam eget sapien mollis, tempus elementum mi. Vivamus a auctor sem. In fringilla nunc at imperdiet rhoncus. Integer sagittis iaculis libero, at ultricies neque laoreet ac.
 
-%\begin{center}
+%\begin{figure}
 %\includegraphics[width=0.8\linewidth]{frog.jpg} % Example of an in-line image
-%\end{center}
+%\end{figure}
 
 %Integer id congue eros. Phasellus venenatis pulvinar nisl, sed ultrices arcu vulputate non. Mauris at congue arcu, eget sollicitudin purus. Phasellus ullamcorper erat sed leo molestie, non ultrices enim aliquam. Donec cursus, arcu vitae ultricies euismod, massa ante ornare nunc, et porttitor erat augue iaculis nisl. Mauris ornare neque nisl, non pretium dolor adipiscing nec. Nulla nibh est, aliquam sed sollicitudin vel, imperdiet ut ante.
 
@@ -387,7 +354,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 %\SepRule
 %\vspace{-0.5cm}
 
-%\begin{center}
+%\begin{figure}
 %\begin{minipage}[h]{0.75\linewidth}
 %\begin{wrapfigure}{l}{0.41\textwidth}
 %\includegraphics[width=0.42\textwidth]{frog.jpg}
@@ -403,7 +370,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 %}
 %\par\hfill --- John Smith
 %\end{minipage}
-%\end{center}
+%\end{figure}
 
 %\vspace{0.5cm}
 %\SepRule % Small horizontal rule after the main news item
