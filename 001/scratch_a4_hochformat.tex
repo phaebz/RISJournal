@@ -131,7 +131,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 
 
 %\setlength{\columnsep}{16pt} % Uncomment to manually change the white space between columns
-%\begin{multicols}{3} % Begin the three-column layout
+% % Begin the three-column layout
 
 %----------------------------------------------------------------------------------------
 %	OTHER NEWS
@@ -140,7 +140,7 @@ R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \tex
 %
 %-----------------------------------------------------------
 %RIS-Journal Titel (Titelgrafik hier einfügen)
-\begin{multicols}{3}
+
 \NewsItem{}
 \section*{Scratch 2 Tutorial}
 \label{scratch}
@@ -163,17 +163,17 @@ Scratch wird mit einigen Grafiken und Soundeffekten ausgeliefert, welche löblic
 
 Der erste Schritt um mit Scratch zu arbeiten besteht darin sich auf der Scratch Homepage [1] (kostenlos) zu registrieren und einen Scratch Account anzulegen. Sodann kann mittels \textit{Create} Link der Scratch Programmiereditor aufgerufen werden. Man sieht das Scratch Maskottchen, eine orange Katze. We empfiehlt sich zu diesem Zeitpunkt das Scratch Projekt zu benennen (anstatt 'Untitled' im Feld oben einen eigenen Namen hineintippen, z.B. 'Wurfdemo') sowie die Spracheinstellung auf Englisch umzustellen (kleines Weltkugel Icon direkt rechts vom 'Scratch' Schriftzug oben links). Der Grund dafür ist dass in fast allen Programmiersprachen englische Befehlsnamen verwendet werden und man sich (uns seinen Schülern) nichts gutes damit tut 'Wenn sonst' anstatt das international gebräuchliche 'If - Else' lernen zu lassen. Die Spracheinstellungen lassen sich jederzeit ändern.
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fstart.png}
-\end{center}
+\end{figure}
 
 \subsection*{Vier Sprites}
 
 Die orange Katze kann man gleich löschen und erstellt stattdessen vier eigene Sprites: Eine Fledermaus (bat), einen Pfeil (nach rechts schauend) ein Wurfgeschoss (Basketball) sowie einen dicken grünen Strich (Wiese). Die ersten drei Sprites habe ich (mit Hilfe des kleinen 'New Sprite' Icons, aus dem Scratch Katalog übernommen, die Wiese hab ich mit Hilfe des Scratch Editors selbst gezeichnet (Vektormodus). Im Prinzip kann man alle Sprites selber zeichnen oder eigene Grafiken uploaden: Zu Beachten ist dabei dass man die Rechte an den Grafiken haben sollte (sonst gibt es legale Probleme sobald man das Scratch Spiel veröffentlicht) und dass das Wurfgeschoss absichtlich rund gewählt wurde: Bei einem runden Flugobjekt (Ball, Kanonenkugel) fällt es weniger auf wenn sich das Flugobjet nicht in Flugrichtung dreht.
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fsprites.png}
-\end{center}
+\end{figure}
 
 Noch sind alle 4 Sprites starr und unbewegt, ihnen fehlen Anweisungen (Script). Zuerst kümmern wir uns um ein paar globale Variablen:
 \newpage
@@ -182,16 +182,16 @@ Noch sind alle 4 Sprites starr und unbewegt, ihnen fehlen Anweisungen (Script). 
 \begin{wrapfigure}{l}{3.0cm}
 \includegraphics[width=3cm]{scratch/makevar.png}
 \end{wrapfigure}
-%\begin{center}
-%\end{center}
+%\begin{figure}
+%\end{figure}
 Eine Variable kann man sich wie eine Sparbüchse vorstellen: Ein Behälter mit einem Namen (z.B. Klassenkassa) in dem ein sich über die Zeit ändernder Betrag drin ist. Globale Variablen bedeuten bei Scratch dass alle Sprites diese Variablen sehen (und verändern) dürfen. Für dieses Beispiel werden folgende globale Variablen benötigt: Gravitation (gravity), Winkel, Kraft, Punkte und Level. Die Namen der Variablen sind beliebig wählbar. Allerdings sollte das Zielpublikum bedenken: Wenn man mit seinem Scratch-Projekt weltweit herzeigen (share) will sind englische Namen (oder noch besser: selbst-erklärende Grafiken) besser geeignet als deutsche Namen. Man erzeugt eine Variable durch klick auf den orangen \textbf{data} Knopf in der Bildschirmmitte und danach durch Klick auf die weiße 'Make a Variable' Schaltfäche.
 
 
 \begin{wrapfigure}{l}{3.0cm}
 \includegraphics[width=3cm]{scratch/fsliders.png}
 \end{wrapfigure}
-%\begin{center}
-%\end{center}
+%\begin{figure}
+%\end{figure}
 Bei Erzeugung einer globalen Variable muss der schwarze Optionskreis 'for all Sprites' gesetzt sein. Hat man die vier Variablen erzeugt so sieht man sie angezeigt als
 orange, verschiebbare Beschriftung im Spielfeld links. Ob eine Variable überhaupt angezeigt wird kann mit einem Häkchen in der Bildschirmmitte beim Variablennamen festlegen. Die ersten drei Variablen sollen per Maus einstellbare Werte haben (Sliders): Dazu auf mit der rechten (!) Maustaste auf die Variablen-Beschriftungen klicken und erst 'Slider' und dann 'Set Slider min and max' anklicken (wie gewohnt mit der linken Maustaste). Bei Gravity habe ich -20.00 bis 0.00 gewählt (die 2 Nullen hinter dem \textbf{Dezimalpunkt} sind wichtig!), für Winkel Werte zwischen 0.00 und 90.00 und für Kraft Werte zwischen 0.00 und 100.00 - Punkte und Level bekommen keine Slider sondern dienen rein zur Anzeige der Variablenwerte.
 
@@ -201,9 +201,9 @@ orange, verschiebbare Beschriftung im Spielfeld links. Ob eine Variable überhau
 
 Nun zu den Scripts für die einzelnen Sprites: Am unkompliziertesten ist das Wiesen-Sprite: Es tut gar nichts und lieft einfach nur herum. Sein Daseinszweck besteht -neben hübsch ausschauen- darin den Basketball bei Berührung erkennen zu lassen dass sein Flug vorbei ist. Mit dem Vergrößer / Verkleiner Icon (oben rechts) 
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fschrumpfer.png}
-\end{center}
+\end{figure}
 
 kann die Größe eines Sprites verändert werden. Die Wiese sollte den ganzen unteren Bildschirmrand ausfüllen. Wie jedes Sprite kann sie per \textit{Drag and Drop} (linke Maustaste gedrückt halten) verschoben werden.
 
@@ -211,18 +211,18 @@ kann die Größe eines Sprites verändert werden. Die Wiese sollte den ganzen un
 
 Relativ einfach zu programmieren ist das Skript für den (nach rechts schauenden) Pfeil. Er symbolisiert Abwurfwinkel und Abwurfgeschwindigkeit. Diese beiden \textit{globale Variablen} lassen sich sowohl per Maus als auch per Tastatur (Pfeiltasten) verändern, wenn man folgendes Skript richtig nachbaut: Das Pfeilsprite anklicken und danach folgende Befehle zusammenklicken (siehe auch vergrößerte Abbildung \textbf{Pfeilcode} am Ende dieses Artikels):
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fpfeilcode.png}
-\footnotesize{pfeilcode}
-\end{center}
+\caption{pfeilcode}
+\end{figure}
 
 Erklärung: Falls Sie dieses Tutorial auf einem Schwarzweissdrucker ausgedruckt haben überlegen Sie sich einen Farbausdruck oder werfen Sie einen Blick auf die (bunte) online Version dieses Artikels. Die braunen, halbrunden 'Buckel' finden Sie unter dem Menüpunkt \textit{Events}. Die orangen \textit{set} (setze) und \textit{change} (verändere) Befehle finden Sie unter \textit{data}. Die gelbe \textit{forever} Schleife findet man unter \textit{Control}, den blauen \textit{point in direction} Befehl unter \textit{Motion} und den violeten \textit{set size} Befehl unter \textit{Looks}. Die grünen Minus und Plus Operatoren findet man unter -erraten- \textit{Operators}. Auch wenn man nicht versteht was die Befehle im Einzelnen tun kann man sie (sogar ohne Lesekenntnisse) nachbasteln. 
 
 Hier die Erklärung: Die grüne Fahne (rechts oben im Spielfeld) startet das Spiel. Danach werden mit den 'set' Befehlen die Startwerte für die globale Variablen gesetzt - der letzte Spieler hat sie möglicherweise hoffnungslos verstellt. Die wie ein Schraubstock aussehende \textit{forever} Schleife wiederholt (loop) endlos die von ihr 'eingezwickten' Befehle: Das Pfeil-Sprite dreht sich in Richtung des angegebenen Winkels (Die Berechnung (90 - Winkel) ist erforderlich da Scratch2 den Winkel 0 nach oben zeigen lässt und nicht nach rechts. Per Klick auf das blaue \textbf{i} Symbol beim Pfeilsprite kann folgende Detail-Ansicht geöffnet werden: 
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/farrow.png}
-\end{center}
+\end{figure}
 
 Dort den \textit{Rotation style} auf 360 Grad (linkes Icon) einstellen.
 
@@ -245,10 +245,10 @@ Wie man sieht bleiben die globalen Variablen sichtbar wenn man das Fledermaus Sp
 
 Das Skript ist etwas aufwendiger zu programmieren (siehe auch vergrößerte Abbildung \textbf{Batcode} am Ende dieses Artikels):
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fbatcode.png}
-\footnotesize{Abbildung Batcode}
-\end{center}
+\caption{Abbildung Batcode}
+\end{figure}
 
 Den blauen \textit{if on edge, bounce} Befehl habe ich nur als Erklärung dazugetan, er kann auch weggelassen werden. Da er nicht an einen 'Buckel' angedockt ist wird er sowieso nicht ausgeführt. Zur Erklärung: Der Code unter der grünen Fahne setzt zu Spielstart die globalen Variablen Level und Punkte auf den Wert Null macht das Fledermaus-Sprite unsichtbar. Kurz zuvor wird aber noch ein sichtbarer \textit{Klon} des Fledermaus-Sprites erzeugt. 
 
@@ -277,10 +277,10 @@ Würde man noch eine Varibale für Delta-Z sowie eine für die Z-Position erzeug
 
 Der Code für den Ball benuuzt die dunkel-violette \textit{More Blocks} Funktionalität von Scratch2 um ein Subprogramm zu realisieren 
 (siehe auch vergrößerte Abbildung \textbf{Ballcode} am Ende dieses Artikels):
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fballcode.png}
-\footnotesize{Abbildung Ballcode}
-\end{center}
+\caption{Abbildung Ballcode}
+\end{figure}
 
 Die \textit{Ball ins Eck} Subroutine wird von drei verschiedenen Stellen aufgerufen und stellt den Ball wieder in die Ecke links unten, knapp über die Wiese.
 
@@ -290,10 +290,10 @@ Geschickte Spieler können den Ball zwischen mehreren Fledermäusen reflektieren
 
 Der grüne \textit{Pendown} Befehl sorgt dafür dass der Ball eine (treppenförmige) Flugbahn zeichnet, der grüne \textit{clear} Befehl löscht diese Spur wieder weg. Beide Befehle befinden sich im grünen \textit{Pen} Menü.
 
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/final.png}
-\footnotesize{Fledermaus wurde im Flug getroffen reflektiert den Basketball}
-\end{center}
+\caption{Fledermaus wurde im Flug getroffen reflektiert den Basketball}
+\end{figure}
 
 
 \subsection*{Fachbegriffe}
@@ -331,26 +331,26 @@ Startseite: \href{http://spielend-programmieren.at/de:ris:001}{spielend-programm
 {[}6{]} \href{http://spielend-programmieren.at/en:tutorials:centralperspective}{goo.gl/ClnYs0} \\
 
 %\SepRule
-%\begin{multicols}{2}
-\end{multicols} % !!!!!!!!!!!!!!!!!!!!!!!!
-\begin{center}
+%
+ % !!!!!!!!!!!!!!!!!!!!!!!!
+\begin{figure}
 \includegraphics[width=0.7\linewidth]{scratch/fballcode.png}\\
-\footnotesize{Ballcode}
-\end{center}
+\caption{Ballcode}
+\end{figure}
 
 \begin{minipage}{0.35\linewidth}  
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fpfeilcode.png}
-%\footnotesize{Pfeilcode (lin}
+%\caption{Pfeilcode (lin}
 Abbildungen: Pfeilcode (links), Batcode (rechts)
-\end{center}
+\end{figure}
 \end{minipage}
 \begin{minipage}{0.6\linewidth}
-\begin{center}
+\begin{figure}
 \includegraphics[width=\linewidth]{scratch/fbatcode.png}
-%\footnotesize{Batcode}
-\end{center}    
+%\caption{Batcode}
+\end{figure}    
 \end{minipage}
-%\end{multicols} Multicols werden in Scratch beendet (vor minipage)
+% Multicols werden in Scratch beendet (vor minipage)
 %-----------------------------------------------------------
 \end{document}
