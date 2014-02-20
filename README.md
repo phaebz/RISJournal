@@ -10,4 +10,3 @@ Homepage for pdf and other downloads:
 http://spielend-programmieren.at/de:ris:start
 
 
-[LaTeX-Tipps]
