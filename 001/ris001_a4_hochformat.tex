@@ -58,22 +58,30 @@
 
 %-----------------------------------------------------------
 % Header and footer
-\lfoot{\footnotesize % Left footer containing newsletter contact information
+\fancyfoot[LE]{Seite \thepage}
+\fancyfoot[RE]{\footnotesize % Left footer containing newsletter contact information
 %\begin{wrapfigure}{l}{2.0cm}
 %\includegraphics[width=2cm]{ccbysa88x31.png} 
 %\end{wrapfigure}
 R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
 \Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
 %\Telefon\ (000) 111-1111 \quad
-\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}
-}
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}} % Empty center footer
 
-\cfoot{} % Empty center footer
+\cfoot{}
 
-\rfoot{\footnotesize ~\\ Seite \thepage} % Right footer - page counter
-
+\fancyfoot[RO]{Seite \thepage}
+\fancyfoot[LO]{\footnotesize % Left footer containing newsletter contact information
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{ccbysa88x31.png} 
+%\end{wrapfigure}
+R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
+\Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
+%\Telefon\ (000) 111-1111 \quad
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}} % Empty center footer
 \renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
 \renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+
 %-----------------------------------------------------------
 
 %-----------------------------------------------------------
