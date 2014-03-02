@@ -1,0 +1,69 @@
+\documentclass[
+    pdftex,
+    fontsize=11pt,
+    a4paper
+   ]{article}
+
+\usepackage[a4paper,includeall,bindingoffset=0cm,margin=2cm,
+            marginparsep=0cm,marginparwidth=0cm, top=1.5cm]{geometry}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+
+\usepackage{marvosym}
+
+\usepackage{hyperref}
+
+\usepackage{fancyhdr}
+
+%-----------------------------------------------------------
+% Header and footer
+
+\thispagestyle{fancy}
+
+\rfoot{Seite \thepage}
+\cfoot{}
+\lfoot{\footnotesize % Left footer containing newsletter contact information
+%\begin{wrapfigure}{l}{2.0cm}
+%\includegraphics[width=2cm]{ccbysa88x31.png} 
+%\end{wrapfigure}
+R.I.S. Journal Ausgabe 001, Jänner 2014: \textbf{R}emix, \textbf{I}mprove, \textbf{S}hare. Das freie, creativ-commons lizensierte Journal.  \\
+\Mundus\ Download und andere Formate: \href{http://spielend-programmieren.at/de:ris:start}{\texttt{spielend-programmieren.at/de:ris:start}} \quad
+%\Telefon\ (000) 111-1111 \quad
+\Letter\ \href{mailto:horst.jens@spielend-programmieren.at}{horst.jens@spielend-programmieren.at}}
+
+\renewcommand{\headrulewidth}{0.0pt} % No horizontal rule for the header
+\renewcommand{\footrulewidth}{0.4pt} % Horizontal rule separating the footer from the document
+
+\newcommand{\NewsletterName}[1]{ % Newsletter title
+\begin{center}
+\Huge \usefont{T1}{fvs}{b}{n} % Use the Bera Sans Bold font
+#1
+\end{center}	
+\par \normalsize \normalfont}
+
+\newcommand{\JournalIssue}[1]{ % Date and issue number at the top of the newsletter
+%\hfill \textsc{\mydate \today, No #1} % Right-aligned date and issue number
+\hfill \textsc{Jänner 2014, Ausgabe 001}
+\par \normalsize \normalfont}
+
+\newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creates a horizontal rule
+
+\begin{document}
+
+\JournalIssue{1} % Issue number
+\NewsletterName{R.I.S. Journal} % Newsletter title
+%\begin{center}
+%\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie Journal für Open Source Education
+%\end{center}
+\noindent\HorRule{3pt} \\[-0.75\baselineskip] % Thick horizontal rule
+\HorRule{1pt} % Thin horizontal rule
+
+\begin{center}
+%\includegraphics[width=0.9\linewidth]{austrianguy/austrianguy.png}
+\textbf{R}emix \textbf{I}mprove \textbf{S}hare - das freie, creative-commons lizensierte Journal zu den Themen Open-Source, Spiele Programmierung, Open Education. \textbf{Preis:} Zahlen Sie so viel Sie wollen (siehe Editorial).
+\includegraphics[width=\linewidth]{titelbild.png}
+\end{center}
+
+\end{document}
