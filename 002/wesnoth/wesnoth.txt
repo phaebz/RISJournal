@@ -86,6 +86,8 @@ Der Karteneditor ist eine Art Erweiterung für sich, mit ihm könnt ihr eure eig
 könnt.
 {wesnoth_6}
 
+
+
 Der Karteneditor funktioniert ganz einfach: rechts sind die Landschaften, die man auswählen kann und links oben ist das Menü 
 um zu speichern, neu zu laden und zu löschen. (dieses Menü gibt es übrigens auch bei den Kampagnen)
 
@@ -95,3 +97,101 @@ Die zwei Punkte darunter sind die Spracheinstellungen, in denen man (was sonst) 
 in denen man zum Beispiel die Grafikoptionen ändern kann.
 
 Das wäre alles, was ihr für den Einstieg in Battle for Wesnoth wissen solltet. Des weiteren könnt ihr wie schon gesagt bei den Tipps auf Hilfe gehen, wo alles genauer erklärt wird.
+
+
+
+
+
+The Battle for Wesnoth – spielen
+
+
+
+
+Ich habe euch jetzt gezeigt, was es bei The-Battle-for-Wesnoth so alles gibt. Nun zeige ich euch, wie man auf einer Karte spielt. Dafür habe ich im Karteneditor schnell eine Karte zusammengebastelt.
+
+Öffnen einer Karte oder spielen einer Kampagne:
+
+Als erstes brauchen wir mal eine Karte. Am einfachsten ist es, wenn ihr im Hauptmenü auf Kampagne drückt und dann einfach eine vorgegebene Kampagne spielt.
+ Wenn euch das aber zu langweilig ist, könnt ihr eine eigene Karte mit dem Karteneditor zeichnen. Diese könnt ihr dann, nachdem ihr sie gespeichert habt, über diesen Weg aufrufen: Hauptmenü – Mehrspieler – Lokales Spiel – Dann kommt ihr in ein Menü mit einer endlos langen Liste von Karten, davon sollte eure die oberste sein.
+
+Spielanfang:
+
+Am Anfang des Spiels kommt bei den Kampagnen eine Einführung und dann ein Gespräch zwischen den verschiedenen Anführern. Das Ganze kann man aber Überspringen, es ist nicht besonders wichtig für das Spiel.
+ Beim Karteneditor darf man sich das alles ausdenken, da kommen am Anfang nur die Einstellungen für das Spiel. Diese kann man verändern, oder lassen wie sie sind, das bleibt ganz euch überlassen.
+
+Spiel:
+
+Ich habe für dieses Spiel jetzt eine eigene Karte gemacht um den Spielverlauf zu verkürzen.
+
+Runde 1:
+
+{wesnoth_2.1}
+
+In Runde 1 passiert nie wirklich viel, da man in dieser Runde in den meisten Kampagnen und allen selbstgemachten Spielen noch über keine Einheiten verfügt. Es ist also ratsam als erstes einmal Einheiten auszubilden. Da ich mir eingestellt habe, dass ich sehr viel Geld habe und mir auch eine große Burg gezeichnet habe, habe ich mir, wie auf dem Bild zu erkennen ist, auch einige Einheiten machen können, die aber noch keinen Zug haben.
+ Mein Gegner (der Computer) macht das selbe, nur halt mit weniger Platz und Geld. Außerdem nimmt er mit seinem Anführer ein Dorf in seiner Nähe ein, um eine positive Bilanz zu behalten.
+{wesnoth_2.2}
+
+Runde 2:
+
+In Runde zwei mache ich das, was mein Gegner schon in Runde 1 gemacht hat, nämlich meine Einheiten in die Dörfer rund um meine Burg schicken um die, am Anfang der Runde noch sehr negative Bilanz zu erhöhen. Dabei schicke ich zwei meiner Einheiten in die strategisch unwichtige Wüste, wo sie die Dörfer dort unten für mich einnehmen.
+
+{wesnoth_2.3}
+
+Runde 3:
+
+Jetzt fangt der Kampf langsam an zu beginnen. Mein Gegner ist mit einer Einheit am Rand des Flusses angekommen, der durch die Mitte der Karte fließt. Damit mein Gegner nicht auf die blöde Idee kommen könnte seine Truppen über den Fluss zu schicken versammle ich möglichst viele Truppen an meiner Seite der Furt (bräunliches Wasser). Ansonsten schicke ich nur meine Einheiten in der Wüste weiter in selbige.
+
+{wesnoth_2.4}
+
+Runde 4:
+
+Nun kommt der erste Kampf! Ich schicke meinen Wassermannjäger Proa (Einheiten haben auch Namen) in den Kampf mit Orkmeuchler Vorg. Vorg steht im Wasser, wodurch er als Orkmeuchler im Nachteil ist. Wohingegen Wassermenschen im Wasser eine Trefferchance von 60% haben (der beste Wert überhaupt ist 70%). außerdem versammle ich wie mein Gegner noch mehr Truppen am Ufer.
+
+{wesnoth_2.5}
+
+Runde 5:
+
+Zwei Runden lang spielen mein Gegner und ich jetzt schon Kalter Krieg an unseren jeweiligen Flussufern. Nachdem der Computer zwei schnelle Einheiten ausgeschickt hat um die weiter entfernten Dörfer einzunehmen, greife ich an.
+ Ich habe schon eine ziemliche Armee an meinem Flussufer versammelt und mein Gegner konnte es sich nicht leisten mehr als  vier Einheiten aufzustellen.
+ Ich attackiere den Orkschützen im Nahkampf, da er im Fernkampf viel stärker ist. Außerdem lasse ich meinen Wassermenschen weiterhin sich mit Vorg duellieren.
+
+{wesnoth_2.6}
+
+Runde 6:
+
+{wesnoth_2.7}
+
+Der Computer umzingelt einen meiner Elfenkämpfer zur Hälfte und vergiftet ihn mit seinen Orkmeuchlern. Auch Vorg wird aus dem Wasser abgezogen und greift mit den Anderen seiner Art meine Einheit an. Doch durch meine Überzahl kann ich die Gegner auch schwer verletzen.
+
+Runde 7:
+
+In dieser Runde dezimiere ich die feindlichen Einheiten, die schon schwer verletzt sind so drastisch, dass nur noch ein Orkmeuchler übrig bleibt und auch der hat nur noch ganz wenig Leben.
+ Neues an diesem Zug: Ich habe einer Einheit einen Auftrag gegeben, der länger als eine Runde dauert. Wenn ich mit der Maus über diese Einheit fahre, erscheint der Weg, den sie noch zurücklegen muss auf der Karte (siehe Bild).
+
+{wesnoth_2.8}
+
+Runde 8:
+
+{wesnoth_2.9}
+
+Da alle feindlichen Einheiten am Fluss nun besiegt sind ziehe ich mit meinen Truppen weiter zum Lager des Computers. Als Gegner habe ich nur noch den Anführer der Orks und die zwei schnellen Einheiten, die er zu den weiter entfernten Dörfern geschickt hat.
+ Da ich aber noch viel Geld habe bilde ich zur Sicherheit noch eine kleine Armee aus.
+
+Runde 9 und 10:
+
+{wesnoth_2.10}
+
+In Runde 9 kämpfe ich nur noch halbherzig gegen die schnellen feindlichen Einheiten und konzentriere meine Angriffe auf den Anführer der Orks, da mich das schneller zum Sieg führt.
+ In Runde zehn zeigt sich dies, denn in dieser Runde schaffen es meine Einheiten den Computer zu besiegen und ich habe gewonnen.
+
+{wesnoth_2.11}
+
+Anmerkungen:
+
+Ich habe dieses Spiel darauf ausgerichtet, das ich Gewinne, normalerweise sind die Karten schwieriger zu spielen. Außerdem habe ich auch ein paar Fehler gemacht, zum Beispiel hätte ich nicht zulassen können, dass eine meiner Einheiten zur Hälfte umzingelt wird, indem ich eine ungefähre Sechseckformation in Richtung der feindlichen Einheiten gemacht hätte.
+ Wenn ihr euch eine eigene Karte macht würde ich euch raten sie etwas schwieriger zu machen, da das Spiel sonst zu langweilig wird.
+
+
+
+
+
