@@ -5,9 +5,7 @@ Computerspiel
 von Benjamin Dechant
 
 Battle for Wesnoth ist ein frei lizenziertes, runden-basierendes Computerspiel, in dem man das fiktive Land
-Wesnoth vor diversen Gefahren schützen muss. Hier zeige ich euch alles, was für den Spieleinstieg zu wissen
-vorteilhaft wäre.
-
+Wesnoth vor diversen Gefahren schützen muss. 
 
 Installierung:
 
@@ -15,39 +13,39 @@ Installieren kann man das Spiel ganz leicht, indem man es von http://www.wesnoth
 steht. Darunter sind die verschiedenen Betriebssysteme aufgelistet, wählen Sie das für Sie passende. 
 Danach wird der Ladevorgang gestartet und Sie sehen ein neues Fenster:
 
- Wenn ihr bis da hin mitgekommen seit, habt ihr jetzt Battle for Wesnoth, wenn nicht, dann eben nicht.
 
 Spieleinstieg:
 
-Jetzt habt ihr also das Spiel Battle for Wesnoth, schade das ihr noch nicht wisst, wie man es spielt.
+Jetzt haben Sie also das Spiel Battle for Wesnoth installiert und erfolgreich gestartet:
 
- Fürs erste geht ihr auf Windows auf Start und sucht dort einfach nach dem Spiel, oder ihr habt Linux und geht dort zu „Spiele“
-, wo das Spiel sofort hin installiert wird. Für andere Betriebssysteme weiß ich den Weg nicht, es wird aber wahrscheinlich 
-ziemlich ähnlich sein. Wenn ihr so weit seid könnt ihr Battle for Wesnoth einfach öffnen, woraufhin dieses Fenster  geöffnet 
-wird:
+
 {wesnoth_1 Das Hauptmenü}
- jetzt werde ich euch dort die einzelnen Punkte erklären:
+
+
+
+ Erklärung der einzelnen Menüpunkte:
 
 1)Tipps
-Links unten ist ein Fenster mit Tipps zum Spiel, wie zum Beispiel, dass Untote gegen arkane Angriffe besonders anfällig seien. (Ich kapier selbst nicht ganz, was ein arkaner Angriff sein soll)
+Links unten ist ein Fenster mit bei jedem Spielstart wechselnden Tipps zum Spiel, wie zum Beispiel, dass Untote gegen arkane Angriffe besonders anfällig seien. Hier versteckt sich der "Hilfe" Button.
 
- man kann sich die Tipps durchlesen, ist aber ein eher fader Zeitvertrieb. Allerdings kommt man von dort über den „Hilfe“ 
- Button zur – na ratet mal - Hilfe.
-
+ 
 2)Einführung
-Die Einführung ist eine Kampagne (siehe unten), in der das Spiel vorgestellt wird.
-{wesnoth_2}
- Darin wird jeder Schritt, den man machen muss erklärt und anschließend darf man zur Belohnung ein paar Orks vermöbeln, was ja 
- ganz lustig ist. Ansonsten ist es sehr ratsam, die Einleitung durchzuspielen, da darin Dinge erklärt werden, die ich hier 
- nicht alle anführen kann.
+Die Einführung ist eine anfängerfreundliche Kampagne (siehe unten), in der das Spiel vorgestellt wird.
+{wesnoth_2 Einführungskampagne}
+ Darin wird jeder Schritt, den man machen muss erklärt und anschließend darf man zur Belohnung ein paar Orks vermöbeln. Es ist sehr ratsam, die Einleitung durchzuspielen, da darin verschiedenste Details der Spielmechianik  erklärt werden.
 
 3)Kampagne
 
-hier kann man eine Kampagne starten. Von Kampagnen gibt es eine große Auswahl, und in allen muss man Wesnoth vor einer anderen 
-Gefahr schützen.
+hier kann man eine Kampagne starten. Von Kampagnen gibt es eine große Auswahl, und in allen muss man Wesnoth vor einer anderen Gefahr schützen.
 {wesnoth_3}
- Wenn ihr jetzt doppelt auf eine Kampagne drückt, deren Beschreibung euch gefällt, wird sie gestartet. Wenn die Kampagne 
- geladen wurde, kommt eine kleine Einführung in die Geschehnisse, die ihr überspringen könnt. Und dann, viel spass.
+ 
+ 
+ 
+ 
+ 
+ -->
+ 
+ Wenn ihr jetzt doppelt auf eine Kampagne drückt, deren Beschreibung euch gefällt, wird sie gestartet. Wenn die Kampagne  geladen wurde, kommt eine kleine Einführung in die Geschehnisse, die ihr überspringen könnt. 
 
 4)Mehrspieler
 
@@ -62,21 +60,21 @@ einem ausgewählten Server, in einem lokalen Spiel spielen wollt, oder ob ihr ei
  Unter „Mit einem Server verbinden“ könnt ihr auch auf alternative Server gehen, aber dort gibt es meisten weniger verschiedene 
  Spiele.
 
- Dann könnt ihr auch eine Netzwerkpartie eröffnen, damit eröffnet ihr einen neuen Alternativen Server. (also ist es reichlich 
- unnötig)
+ Dann könnt ihr auch eine Netzwerkpartie eröffnen, z.B. für LAN-Parties
 
-Das Letzte ist das lokale Spiel, da könnt ihr eine Partie nur mit Freunden spielen.
+
+Das unterste Menüpunkt im Mehrspielerbildschirm heisst "lokales Spiel", da könnt ihr eine Partie nur mit Freunden am auf einem einzigen Computer spielen.Hotseat Modus 
 
 5)Laden
 
-Hier kann man eine Einzelspielerkampagne, die vorher abgespeichert wurde weiterspielen.
+Hier kann man eine Einzelspielerkampagne, die vorher abgespeichert wurde, weiterspielen.
 
 6)Erweiterungen
 
 Hier können verschiedene Erweiterungen, wie neue Kampagnen, Mehrspielerkarten usw. Heruntergeladen werden.
 {wesnoth_5}
 
-Diese sind von begeisterten Battle-for-Wesnoth-Spilern, die zusätzlich auch noch programmieren können geschrieben worden.
+Diese sind von begeisterten Battle-for-Wesnoth-Spielern, (Moddern und Mappern) geschrieben worden.
 
 7)Karteneditor
 
@@ -91,10 +89,9 @@ um zu speichern, neu zu laden und zu löschen. (dieses Menü gibt es übrigens a
 
 8)Einstellungen
 
-Die zwei Punkte darunter sind die Spracheinstellungen, in denen man (was sonst) die Sprach ändern kann, und die Einstellungen, 
+Die zwei Punkte darunter sind die Spracheinstellungen, in denen man  die Sprache ändern kann, und die Einstellungen, 
 in denen man zum Beispiel die Grafikoptionen ändern kann.
 
-Das wäre alles, was ihr für den Einstieg in Battle for Wesnoth wissen solltet. Des weiteren könnt ihr wie schon gesagt bei den Tipps auf Hilfe gehen, wo alles genauer erklärt wird.
 
 
 
@@ -107,9 +104,11 @@ The Battle for Wesnoth – spielen
 
 Ich habe euch jetzt gezeigt, was es bei The-Battle-for-Wesnoth so alles gibt. Nun zeige ich euch, wie man auf einer Karte spielt. Dafür habe ich im Karteneditor schnell eine Karte zusammengebastelt.
 
+
 Öffnen einer Karte oder spielen einer Kampagne:
 
-Als erstes brauchen wir mal eine Karte. Am einfachsten ist es, wenn ihr im Hauptmenü auf Kampagne drückt und dann einfach eine vorgegebene Kampagne spielt.
+
+Als erstes brauchen wir eine Karte. Am einfachsten ist es, wenn ihr im Hauptmenü auf Kampagne drückt und dann einfach eine vorgegebene Kampagne spielt.
  Wenn euch das aber zu langweilig ist, könnt ihr eine eigene Karte mit dem Karteneditor zeichnen. Diese könnt ihr dann, nachdem ihr sie gespeichert habt, über diesen Weg aufrufen: Hauptmenü – Mehrspieler – Lokales Spiel – Dann kommt ihr in ein Menü mit einer endlos langen Liste von Karten, davon sollte eure die oberste sein.
 
 Spielanfang:
