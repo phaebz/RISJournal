@@ -22,25 +22,16 @@
 
 \documentclass[10pt,a4paper,ngerman,twoside,twocolumn]{article} % Paper type (a4paper, usletter or legal) and font size (10, 11 or 12)
 
-% \setlength\topmargin{-80mm} % Top margin
-% \setlength\topmargin{-1cm} % Top margin
-% \setlength\headsep{0pt} % Top margin
-% \setlength\headheight{0pt} % Header height
-% \setlength\textwidth{7.0in} % Text width
-% \setlength\textheight{9.5in} % Text height
-% \setlength\oddsidemargin{2cm} % Left margin
-% \setlength\evensidemargin{2cm} % Left margin (even pages) - only relevant with 'twoside' article option
-% \setlength\inner{4cm}
-% \setlenfth\outer{2cm}
-\usepackage[outermargin=6cm,
-			innermargin = 2.5cm,
+\usepackage[outer=6.5cm,
+			inner=2cm,
 			top=2cm,
-            marginparwidth=7mm,     % + <- Width of your marginpar
-            marginparsep=1mm,       % + <- Gap between text block and marginpar
-            twoside
+            marginparwidth=5.5cm,     % + <- Width of your marginpar
+            marginparsep=0.5cm,       % + <- Gap between text block and marginpar
+            twoside=true
 			]{geometry}
-\usepackage{mparhack}
-% \reversemarginpar
+\usepackage[fulladjust]{marginnote}
+% \usepackage{marginfix}
+\usepackage{ragged2e}
 
 % \geometry{bindingoffset=20mm}
 % \setlength\bindingoffset{2cm}
@@ -123,6 +114,9 @@
 \newcommand{\NewsAuthor}[1]{ % Author name under the item title
   \hfill von \textsc{#1} \vspace{20pt} % Right-aligned author name in small caps with space after it
   \par \normalfont}
+
+\newcommand{\mymargin}[1]{\marginnote{\RaggedRight #1}}
+% \newcommand{\mymargin}[1]{\marginpar{\RaggedRight #1}}
 
 % Centering of all float environments
 \makeatletter
